@@ -27,6 +27,6 @@ jobs:
         run: |
           uv run pytest tests/ -v --tb=short
         env:
-          # Set env vars for tests
-          LITELLM_MODEL: gemini/gemini-2.0-flash-exp
-          LITELLM_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          # Set env vars for tests - use GOOGLE_API_KEY since config.py looks for this
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.0-flash-exp
