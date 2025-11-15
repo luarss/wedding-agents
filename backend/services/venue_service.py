@@ -135,16 +135,25 @@ class VenueService:
         # Base cost
         base_cost = price_per_table * tables_needed
 
-        # Singapore surcharges from config
-        gst = base_cost * config.GST_RATE
-        service_charge = base_cost * config.SERVICE_CHARGE_RATE
+        # Check pricing type (nett vs plus_plus)
+        pricing_type = pricing.get('pricing_type', 'plus_plus')  # Default to plus_plus for safety
 
-        total_cost = base_cost + gst + service_charge
+        if pricing_type == 'nett':
+            # Nett pricing: GST and service charge already included
+            gst = 0
+            service_charge = 0
+            total_cost = base_cost
+        else:
+            # Plus-plus pricing: add GST and service charge on top
+            gst = base_cost * config.GST_RATE
+            service_charge = base_cost * config.SERVICE_CHARGE_RATE
+            total_cost = base_cost + gst + service_charge
 
         return {
             'guest_count': guest_count,
             'tables_needed': tables_needed,
             'price_per_table': price_per_table,
+            'pricing_type': pricing_type,
             'base_cost': round(base_cost, 2),
             'gst': round(gst, 2),
             'service_charge': round(service_charge, 2),

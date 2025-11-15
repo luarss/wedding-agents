@@ -9,7 +9,8 @@
         "weekday_price": 1200,
         "weekend_price": 1600,
         "min_spend": 18000,
-        "min_tables": 10
+        "min_tables": 10,
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 10,
@@ -76,7 +77,8 @@
         "weekday_price": 2000,
         "weekend_price": 2400,
         "min_spend": 30000,
-        "min_tables": 12
+        "min_tables": 12,
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 12,
@@ -143,7 +145,8 @@
         "weekday_price": 1888,
         "weekend_price": 2188,
         "min_spend": 28000,
-        "min_tables": 15
+        "min_tables": 15,
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 15,
@@ -210,7 +213,8 @@
         "weekday_price": 988,
         "weekend_price": 1288,
         "min_spend": 15000,
-        "min_tables": 15
+        "min_tables": 15,
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 15,
@@ -277,7 +281,8 @@
         "weekday_price": 1380,
         "weekend_price": 1680,
         "min_spend": 25000,
-        "min_tables": 18
+        "min_tables": 18,
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 18,
