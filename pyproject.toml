@@ -22,6 +22,7 @@ packages = ["backend"]
 
 [dependency-groups]
 dev = [
+    "pandas>=2.3.3",
     "pytest>=9.0.1",
     "ruff>=0.14.5",
 ]
@@ -49,7 +50,7 @@ select = [
     "TCH",    # flake8-type-checking
     "RUF",    # Ruff-specific rules
 ]
-ignore = []
+ignore = ["N806",]
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]

@@ -2480,8 +2480,14 @@ dependencies = [
     { name = "smolagents", extra = ["litellm", "telemetry"] },
 ]
 
+[package.optional-dependencies]
+dev = [
+    { name = "ruff" },
+]
+
 [package.dev-dependencies]
 dev = [
+    { name = "pandas" },
     { name = "pytest" },
     { name = "ruff" },
 ]
@@ -2493,11 +2499,14 @@ requires-dist = [
     { name = "opentelemetry-exporter-otlp", specifier = ">=1.28.2" },
     { name = "opentelemetry-sdk", specifier = ">=1.28.2" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.14.1" },
     { name = "smolagents", extras = ["litellm", "telemetry"], specifier = ">=1.22.0" },
 ]
+provides-extras = ["dev"]
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "pandas", specifier = ">=2.3.3" },
     { name = "pytest", specifier = ">=9.0.1" },
     { name = "ruff", specifier = ">=0.14.5" },
 ]
