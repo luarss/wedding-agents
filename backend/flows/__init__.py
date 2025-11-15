@@ -1,10 +1,9 @@
 """
-Wedding Venue Comparison Crew
+Wedding Venue Comparison Flow
 
-This module contains the CrewAI setup for wedding venue comparison,
-including agents, tasks, and tools.
+This module contains the smolagents setup for wedding venue comparison.
 """
 
-from .venue_comparison.crew import VenueComparisonCrew, run_venue_comparison
+from .venue_comparison.crew import run_venue_comparison
 
-__all__ = ['VenueComparisonCrew', 'run_venue_comparison']
+__all__ = ['run_venue_comparison']
