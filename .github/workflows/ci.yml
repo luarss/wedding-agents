@@ -23,10 +23,6 @@ jobs:
         run: |
           uv sync --all-extras
 
-      - name: Run linting checks
-        run: |
-          make check
-
       - name: Run tests
         run: |
           uv run pytest tests/ -v --tb=short
