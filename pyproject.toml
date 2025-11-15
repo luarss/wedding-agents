@@ -15,3 +15,23 @@ dependencies = [
 
 [tool.hatch.build.targets.wheel]
 packages = ["backend"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+]
+markers = [
+    "integration: Integration tests that may take longer to run",
+    "unit: Fast unit tests",
+]
