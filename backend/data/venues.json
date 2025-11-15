@@ -1,0 +1,339 @@
+{
+  "venues": [
+    {
+      "id": "venue-001",
+      "name": "Grand Copthorne Waterfront Hotel",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 1400,
+        "weekday_price": 1200,
+        "weekend_price": 1600,
+        "min_spend": 18000,
+        "min_tables": 10
+      },
+      "capacity": {
+        "min_tables": 10,
+        "max_capacity": 650,
+        "max_rounds": 65,
+        "comfortable_capacity": 600
+      },
+      "location": {
+        "address": "392 Havelock Road, Singapore 169663",
+        "postal": "169663",
+        "zone": "Central",
+        "district": "Tiong Bahru/Outram",
+        "nearest_mrt": "Tiong Bahru MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": ["EW"],
+        "parking_lots": 200,
+        "parking_cost": "$2-3/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": true,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "waterfront_view": true
+      },
+      "packages": [
+        {
+          "name": "Weekday Lunch",
+          "price_per_table": 1200,
+          "min_spend": 12000,
+          "features": ["6-course Chinese menu", "Complimentary champagne toast", "Basic AV setup", "Waterfront venue"]
+        },
+        {
+          "name": "Weekend Dinner",
+          "price_per_table": 1600,
+          "min_spend": 20000,
+          "features": ["8-course premium menu", "Premium wine pairing", "Enhanced AV setup", "Extended venue hours", "Waterfront venue"]
+        }
+      ],
+      "description": "Elegant waterfront hotel with stunning Singapore River views. Large ballrooms suitable for grand celebrations with multiple dining options.",
+      "reviews_summary": "Praised for spacious venues and waterfront location. Food quality consistently good. Staff helpful and professional.",
+      "rating": 4.5,
+      "review_count": 156,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "11pm"
+      },
+      "contact": {
+        "email": "events@grandcopthorne.com",
+        "phone": "+65 6233 1100",
+        "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront-hotel-singapore/"
+      }
+    },
+    {
+      "id": "venue-002",
+      "name": "Fairmont Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 2200,
+        "weekday_price": 2000,
+        "weekend_price": 2400,
+        "min_spend": 30000,
+        "min_tables": 12
+      },
+      "capacity": {
+        "min_tables": 12,
+        "max_capacity": 1500,
+        "max_rounds": 150,
+        "comfortable_capacity": 1200
+      },
+      "location": {
+        "address": "80 Bras Basah Road, Singapore 189560",
+        "postal": "189560",
+        "zone": "Central",
+        "district": "City Hall/Bugis",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": ["NS", "EW"],
+        "parking_lots": 400,
+        "parking_cost": "$3/hr weekday, $5/hr weekend"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "multiple_ballrooms": true
+      },
+      "packages": [
+        {
+          "name": "Grand Ballroom - Weekday",
+          "price_per_table": 2000,
+          "min_spend": 30000,
+          "features": ["8-course Chinese menu", "Champagne reception", "Premium AV", "Complimentary suite upgrade"]
+        },
+        {
+          "name": "Grand Ballroom - Weekend",
+          "price_per_table": 2400,
+          "min_spend": 40000,
+          "features": ["10-course premium menu", "Premium champagne", "Full AV package", "Red carpet entrance", "Extended cocktail hour"]
+        }
+      ],
+      "description": "Prestigious 5-star hotel in the heart of the city with one of Singapore's largest pillar-free ballrooms. Perfect for grand, luxurious celebrations.",
+      "reviews_summary": "Known for excellent service and stunning ballrooms. Food quality is exceptional. Convenient location near MRT. Premium pricing but worth it for special occasions.",
+      "rating": 4.8,
+      "review_count": 243,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_restrictions",
+        "corkage": "not_allowed",
+        "noise_curfew": "12am"
+      },
+      "contact": {
+        "email": "singapore.weddings@fairmont.com",
+        "phone": "+65 6339 7777",
+        "website": "https://www.fairmont-singapore.com"
+      }
+    },
+    {
+      "id": "venue-003",
+      "name": "Amara Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 1900,
+        "weekday_price": 1888,
+        "weekend_price": 2188,
+        "min_spend": 28000,
+        "min_tables": 15
+      },
+      "capacity": {
+        "min_tables": 15,
+        "max_capacity": 400,
+        "max_rounds": 40,
+        "comfortable_capacity": 380
+      },
+      "location": {
+        "address": "165 Tanjong Pagar Road, Singapore 088539",
+        "postal": "088539",
+        "zone": "Central",
+        "district": "Tanjong Pagar/CBD",
+        "nearest_mrt": "Tanjong Pagar MRT",
+        "mrt_distance": "2 min walk",
+        "mrt_lines": ["EW"],
+        "parking_lots": 180,
+        "parking_cost": "$2/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": false,
+        "hotel_rooms_available": true
+      },
+      "packages": [
+        {
+          "name": "Weekday Package",
+          "price_per_table": 1888,
+          "min_spend": 28000,
+          "features": ["7-course Chinese banquet", "Complimentary tea ceremony setup", "Basic AV equipment", "Complimentary parking for bridal party"]
+        },
+        {
+          "name": "Weekend Package",
+          "price_per_table": 2188,
+          "min_spend": 35000,
+          "features": ["8-course premium banquet", "Welcome champagne", "Enhanced AV setup", "Red carpet setup", "Extended venue access"]
+        }
+      ],
+      "description": "Well-established hotel in Tanjong Pagar with excellent accessibility. Known for reliable service and quality food. Popular choice for mid-range budgets.",
+      "reviews_summary": "Consistently praised for convenient MRT location and attentive service. Food quality is good with generous portions. Good value for money in Central area.",
+      "rating": 4.3,
+      "review_count": 189,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed",
+        "corkage": "$50_per_bottle",
+        "noise_curfew": "11pm"
+      },
+      "contact": {
+        "email": "weddings@amarasingapore.com",
+        "phone": "+65 6879 2555",
+        "website": "https://singapore.amarahotels.com"
+      }
+    },
+    {
+      "id": "venue-004",
+      "name": "Genting Hotel Jurong",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 1100,
+        "weekday_price": 988,
+        "weekend_price": 1288,
+        "min_spend": 15000,
+        "min_tables": 15
+      },
+      "capacity": {
+        "min_tables": 15,
+        "max_capacity": 330,
+        "max_rounds": 33,
+        "comfortable_capacity": 300
+      },
+      "location": {
+        "address": "2 Town Hall Link, Singapore 608516",
+        "postal": "608516",
+        "zone": "West",
+        "district": "Jurong East",
+        "nearest_mrt": "Jurong East MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": ["NS", "EW"],
+        "parking_lots": 250,
+        "parking_cost": "Free for guests"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": false,
+        "free_parking": true
+      },
+      "packages": [
+        {
+          "name": "Weekday Lunch",
+          "price_per_table": 988,
+          "min_spend": 15000,
+          "features": ["6-course Chinese menu", "Complimentary tea ceremony", "Basic AV", "Free parking"]
+        },
+        {
+          "name": "Weekend Dinner",
+          "price_per_table": 1288,
+          "min_spend": 20000,
+          "features": ["8-course menu", "Welcome drinks", "Enhanced AV", "Free parking", "Extended hours"]
+        }
+      ],
+      "description": "Affordable hotel in the west with modern facilities. Great option for couples with many guests from the western region. Excellent value for money.",
+      "reviews_summary": "Popular for budget-conscious couples. Good food quality and spacious ballroom. Free parking is a big plus. Staff are helpful and accommodating.",
+      "rating": 4.2,
+      "review_count": 134,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed",
+        "corkage": "$30_per_bottle",
+        "noise_curfew": "11pm"
+      },
+      "contact": {
+        "email": "events.jurong@gentinghotel.com",
+        "phone": "+65 6655 8888",
+        "website": "https://www.rwsentosa.com/en/hotels/genting-hotel-jurong"
+      }
+    },
+    {
+      "id": "venue-005",
+      "name": "Crowne Plaza Changi Airport",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 1500,
+        "weekday_price": 1380,
+        "weekend_price": 1680,
+        "min_spend": 25000,
+        "min_tables": 18
+      },
+      "capacity": {
+        "min_tables": 18,
+        "max_capacity": 300,
+        "max_rounds": 30,
+        "comfortable_capacity": 280
+      },
+      "location": {
+        "address": "75 Airport Boulevard, Singapore 819664",
+        "postal": "819664",
+        "zone": "East",
+        "district": "Changi Airport",
+        "nearest_mrt": "Changi Airport MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": ["EW"],
+        "parking_lots": 300,
+        "parking_cost": "$2/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "airport_connected": true
+      },
+      "packages": [
+        {
+          "name": "Weekday Package",
+          "price_per_table": 1380,
+          "min_spend": 25000,
+          "features": ["7-course menu", "Champagne toast", "Standard AV", "Complimentary airport parking"]
+        },
+        {
+          "name": "Weekend Package",
+          "price_per_table": 1680,
+          "min_spend": 30000,
+          "features": ["8-course premium menu", "Premium champagne", "Full AV package", "Red carpet", "Extended hours"]
+        }
+      ],
+      "description": "Unique airport hotel location with excellent accessibility for international guests. Modern facilities and reliable service. Great for guests flying in from overseas.",
+      "reviews_summary": "Perfect for guests traveling from abroad. Direct MRT access is very convenient. Professional service and good food. Some find the location far from city center.",
+      "rating": 4.4,
+      "review_count": 178,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "11pm"
+      },
+      "contact": {
+        "email": "meetings.cpsin@ihg.com",
+        "phone": "+65 6823 5300",
+        "website": "https://www.crowneplaza.com/singapore"
+      }
+    }
+  ]
+}
