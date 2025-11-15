@@ -4,7 +4,7 @@ Orchestrates 3 agents to provide comprehensive venue comparison
 """
 
 from crewai import Agent, Crew, Task, Process
-from crewai.project import CrewBase, agent, task
+from crewai.project import CrewBase, agent, task, crew
 
 from backend.config import config
 from backend.services.venue_service import VenueService
@@ -72,8 +72,8 @@ def calculate_cost_tool(venue_id: str, guest_count: int, package_name: str = Non
 @CrewBase
 class VenueComparisonCrew():
     """Venue Comparison Crew for Wedding Planning"""
-    agents_config = 'backend/flows/venue_comparison/agents.yaml'
-    tasks_config = 'backend/flows/venue_comparison/tasks.yaml'
+    agents_config = 'agents.yaml'
+    tasks_config = 'tasks.yaml'
 
     @agent
     def venue_researcher(self) -> Agent:

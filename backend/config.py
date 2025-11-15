@@ -13,6 +13,16 @@ load_dotenv()
 class Config:
     """Application configuration"""
 
+    # Project paths
+    PROJECT_ROOT = Path(__file__).parent.parent
+    BACKEND_DIR = Path(__file__).parent
+    DATA_DIR = BACKEND_DIR / "data"
+    VENUES_FILE = DATA_DIR / "venues.json"
+
+    # Singapore-specific pricing
+    GST_RATE: float = 0.09  # 9% GST
+    SERVICE_CHARGE_RATE: float = 0.10  # 10% service charge
+
     # LLM Provider Configuration
     LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "gemini")
 
@@ -23,7 +33,7 @@ class Config:
     # Gemini Configuration
     GEMINI_API_KEY: Optional[str] = os.getenv("GEMINI_API_KEY")
     GOOGLE_API_KEY: Optional[str] = os.getenv("GOOGLE_API_KEY")
-    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
     # CrewAI Configuration
     CREW_VERBOSE: bool = os.getenv("CREW_VERBOSE", "true").lower() == "true"
