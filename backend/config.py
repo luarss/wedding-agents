@@ -4,7 +4,7 @@ Centralized configuration for the wedding agent
 
 import os
 from pathlib import Path
-from typing import Optional
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -27,12 +27,12 @@ class Config:
     LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "gemini")
 
     # OpenAI Configuration
-    OPENAI_API_KEY: Optional[str] = os.getenv("OPENAI_API_KEY")
+    OPENAI_API_KEY: str | None = os.getenv("OPENAI_API_KEY")
     OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4o")
 
     # Gemini Configuration
-    GEMINI_API_KEY: Optional[str] = os.getenv("GEMINI_API_KEY")
-    GOOGLE_API_KEY: Optional[str] = os.getenv("GOOGLE_API_KEY")
+    GEMINI_API_KEY: str | None = os.getenv("GEMINI_API_KEY")
+    GOOGLE_API_KEY: str | None = os.getenv("GOOGLE_API_KEY")
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
     # Agent Configuration
@@ -40,9 +40,9 @@ class Config:
 
     # Langfuse Configuration
     LANGFUSE_ENABLED: bool = os.getenv("LANGFUSE_ENABLED", "false").lower() == "true"
-    LANGFUSE_PUBLIC_KEY: Optional[str] = os.getenv("LANGFUSE_PUBLIC_KEY")
-    LANGFUSE_SECRET_KEY: Optional[str] = os.getenv("LANGFUSE_SECRET_KEY")
-    LANGFUSE_BASE_URL: Optional[str] = os.getenv("LANGFUSE_BASE_URL")  # Optional: for self-hosted
+    LANGFUSE_PUBLIC_KEY: str | None = os.getenv("LANGFUSE_PUBLIC_KEY")
+    LANGFUSE_SECRET_KEY: str | None = os.getenv("LANGFUSE_SECRET_KEY")
+    LANGFUSE_BASE_URL: str | None = os.getenv("LANGFUSE_BASE_URL")  # Optional: for self-hosted
 
     @classmethod
     def get_llm_model(cls) -> str:
@@ -60,7 +60,7 @@ class Config:
         return cls.get_llm_model()
 
     @classmethod
-    def get_llm_api_key(cls) -> Optional[str]:
+    def get_llm_api_key(cls) -> str | None:
         """Get the API key for the configured LLM provider"""
         if cls.LLM_PROVIDER == "gemini":
             return cls.GEMINI_API_KEY or cls.GOOGLE_API_KEY

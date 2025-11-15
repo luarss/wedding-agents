@@ -3,6 +3,7 @@ Integration tests for the Venue Comparison Flow (smolagents)
 """
 
 import pytest
+
 from backend.flows import run_venue_comparison
 
 
@@ -15,7 +16,7 @@ def test_venue_comparison_valid():
         total_budget=35000,
         location_preference="Central",
         style_preference="Modern, good MRT access",
-        wedding_date="2025-11-15"
+        wedding_date="2025-11-15",
     )
 
     # Basic assertions
@@ -25,40 +26,35 @@ def test_venue_comparison_valid():
 
     # Check that the result contains venue-related content
     result_lower = result.lower()
-    assert any(keyword in result_lower for keyword in ["venue", "hotel", "wedding"]), \
+    assert any(keyword in result_lower for keyword in ["venue", "hotel", "wedding"]), (
         "Result should mention venues or hotels"
+    )
 
 
 @pytest.mark.integration
 def test_venue_comparison_tools_used():
     """Test that the agent uses the custom tools (search_venues, calculate_venue_cost)"""
 
-    result = run_venue_comparison(
-        guest_count=150,
-        total_budget=30000,
-        location_preference="East"
-    )
+    result = run_venue_comparison(guest_count=150, total_budget=30000, location_preference="East")
 
     # The result should contain cost information (indicates calculate_venue_cost was used)
     result_lower = result.lower()
-    assert any(keyword in result_lower for keyword in ["cost", "price", "budget", "$", "s$"]), \
+    assert any(keyword in result_lower for keyword in ["cost", "price", "budget", "$", "s$"]), (
         "Result should contain cost information"
+    )
 
 
 @pytest.mark.integration
 def test_venue_comparison_budget_conscious():
     """Test venue comparison with lower budget"""
 
-    result = run_venue_comparison(
-        guest_count=200,
-        total_budget=25000,
-        location_preference="West"
-    )
+    result = run_venue_comparison(guest_count=200, total_budget=25000, location_preference="West")
 
     assert result is not None
     assert len(result) > 0
 
     # Should still provide meaningful results even with lower budget
     result_lower = result.lower()
-    assert any(keyword in result_lower for keyword in ["venue", "budget", "recommendation"]), \
+    assert any(keyword in result_lower for keyword in ["venue", "budget", "recommendation"]), (
         "Result should provide budget-conscious recommendations"
+    )

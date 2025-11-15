@@ -4,11 +4,12 @@ Simplified single-agent approach with custom tools
 """
 
 import json
-from smolagents import CodeAgent, Tool, LiteLLMModel
+from typing import ClassVar
+
+from smolagents import CodeAgent, LiteLLMModel, Tool
 
 from backend.config import config
 from backend.services.venue_service import VenueService
-from backend.observability import observability  # Initialize Langfuse instrumentation
 
 
 class SearchVenuesTool(Tool):
@@ -17,31 +18,21 @@ class SearchVenuesTool(Tool):
     Search for wedding venues in Singapore that match the requirements.
     Returns a list of venues with details about capacity, pricing, location, and amenities.
     """
-    inputs = {
-        "guest_count": {
-            "type": "integer",
-            "description": "Number of guests attending the wedding"
-        },
-        "total_budget": {
-            "type": "integer",
-            "description": "Total budget for the venue in Singapore Dollars"
-        },
+    inputs: ClassVar[dict] = {
+        "guest_count": {"type": "integer", "description": "Number of guests attending the wedding"},
+        "total_budget": {"type": "integer", "description": "Total budget for the venue in Singapore Dollars"},
         "location_zone": {
             "type": "string",
             "description": "Optional location preference: Central, East, West, or North. Can be None.",
-            "nullable": True
-        }
+            "nullable": True,
+        },
     }
     output_type = "string"
 
-    def forward(self, guest_count: int, total_budget: int, location_zone: str = None):
+    def forward(self, guest_count: int, total_budget: int, location_zone: str | None = None):
         """Search for matching venues"""
         service = VenueService()
-        venues = service.search(
-            guest_count=guest_count,
-            total_budget=total_budget,
-            location_zone=location_zone
-        )
+        venues = service.search(guest_count=guest_count, total_budget=total_budget, location_zone=location_zone)
         return json.dumps(venues, indent=2)
 
 
@@ -51,24 +42,18 @@ class CalculateCostTool(Tool):
     Calculate the total cost for a specific venue including Singapore surcharges (9% GST and 10% service charge).
     Provides detailed breakdown of base cost, GST, service charge, and total cost.
     """
-    inputs = {
-        "venue_id": {
-            "type": "string",
-            "description": "Venue ID (e.g., 'venue-001')"
-        },
-        "guest_count": {
-            "type": "integer",
-            "description": "Number of guests"
-        },
+    inputs: ClassVar[dict] = {
+        "venue_id": {"type": "string", "description": "Venue ID (e.g., 'venue-001')"},
+        "guest_count": {"type": "integer", "description": "Number of guests"},
         "package_name": {
             "type": "string",
             "description": "Optional package name (e.g., 'Weekend Dinner'). Can be None.",
-            "nullable": True
-        }
+            "nullable": True,
+        },
     }
     output_type = "string"
 
-    def forward(self, venue_id: str, guest_count: int, package_name: str = None):
+    def forward(self, venue_id: str, guest_count: int, package_name: str | None = None):
         """Calculate cost breakdown for a venue"""
         service = VenueService()
         venue = service.get_venue_by_id(venue_id)
@@ -76,15 +61,11 @@ class CalculateCostTool(Tool):
         if not venue:
             return json.dumps({"error": f"Venue {venue_id} not found"})
 
-        cost_breakdown = service.calculate_total_cost(
-            venue=venue,
-            guest_count=guest_count,
-            package_name=package_name
-        )
+        cost_breakdown = service.calculate_total_cost(venue=venue, guest_count=guest_count, package_name=package_name)
 
         # Add venue context
-        cost_breakdown['venue_name'] = venue['name']
-        cost_breakdown['venue_id'] = venue_id
+        cost_breakdown["venue_name"] = venue["name"]
+        cost_breakdown["venue_id"] = venue_id
 
         return json.dumps(cost_breakdown, indent=2)
 
@@ -94,8 +75,8 @@ def run_venue_comparison(
     total_budget: int,
     location_preference: str = "No strong preference",
     style_preference: str = "No specific preference",
-    wedding_date: str = None,
-    additional_context: str = ""
+    wedding_date: str | None = None,
+    additional_context: str = "",
 ) -> str:
     """Run venue comparison using smolagents CodeAgent"""
 
@@ -103,22 +84,13 @@ def run_venue_comparison(
     tables_needed = (guest_count + 9) // 10
 
     # Initialize the LLM model
-    model = LiteLLMModel(
-        model_id=config.get_llm_model_id(),
-        api_key=config.get_llm_api_key(),
-        temperature=0.7
-    )
+    model = LiteLLMModel(model_id=config.get_llm_model_id(), api_key=config.get_llm_api_key(), temperature=0.7)
 
     # Initialize tools
     tools = [SearchVenuesTool(), CalculateCostTool()]
 
     # Create the agent
-    agent = CodeAgent(
-        tools=tools,
-        model=model,
-        max_steps=15,
-        verbosity_level=2 if config.AGENT_VERBOSE else 0
-    )
+    agent = CodeAgent(tools=tools, model=model, max_steps=15, verbosity_level=2 if config.AGENT_VERBOSE else 0)
 
     # Create comprehensive task prompt
     task_prompt = f"""
@@ -139,7 +111,8 @@ Follow these steps to provide a comprehensive venue comparison:
    - Consider the location preference if specified
    - Look for venues with appropriate capacity
 
-2. **Calculate Real Costs**: For each promising venue (select top 3-5), use calculate_venue_cost to get accurate pricing:
+2. **Calculate Real Costs**: For each promising venue (select top 3-5), use calculate_venue_cost to get
+   accurate pricing:
    - Remember Singapore pricing includes 9% GST and 10% service charge ("plus plus")
    - Some venues have "nett" pricing (already inclusive)
    - Calculate for the exact guest count
@@ -184,4 +157,3 @@ Provide a detailed, actionable report that helps the couple make an informed dec
     print("\n✅ Venue comparison complete!\n")
 
     return str(result)
-

@@ -3,15 +3,17 @@ Observability integration for tracking token usage and costs
 """
 
 from typing import Optional
+
 from langfuse import Langfuse
+
 from backend.config import config
 
 
 class ObservabilityManager:
     """Manages observability integrations like Langfuse"""
 
-    _instance: Optional['ObservabilityManager'] = None
-    _langfuse: Optional[Langfuse] = None
+    _instance: Optional["ObservabilityManager"] = None
+    _langfuse: Langfuse | None = None
 
     def __new__(cls):
         if cls._instance is None:
@@ -19,7 +21,7 @@ class ObservabilityManager:
         return cls._instance
 
     def __init__(self):
-        if not hasattr(self, '_initialized'):
+        if not hasattr(self, "_initialized"):
             self._initialized = True
             self._setup_langfuse()
             self._setup_agent_instrumentation()
@@ -40,7 +42,7 @@ class ObservabilityManager:
                     langfuse_kwargs["secret_key"] = config.LANGFUSE_SECRET_KEY
 
                 self._langfuse = Langfuse(**langfuse_kwargs)
-                print(f"✅ Langfuse initialized")
+                print("✅ Langfuse initialized")
             except Exception as e:
                 print(f"⚠️  Failed to initialize Langfuse: {e}")
 
@@ -52,14 +54,14 @@ class ObservabilityManager:
 
                 # Instrument smolagents to capture detailed telemetry
                 SmolagentsInstrumentor().instrument()
-                print(f"✅ smolagents instrumentation initialized for token tracking")
+                print("✅ smolagents instrumentation initialized for token tracking")
             except ImportError:
                 print("⚠️  openinference-instrumentation-smolagents not installed. Token tracking unavailable.")
             except Exception as e:
                 print(f"⚠️  Failed to initialize smolagents instrumentation: {e}")
 
     @property
-    def langfuse(self) -> Optional[Langfuse]:
+    def langfuse(self) -> Langfuse | None:
         """Get Langfuse client if enabled"""
         return self._langfuse
 
