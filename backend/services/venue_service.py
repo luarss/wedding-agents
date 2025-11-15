@@ -4,16 +4,16 @@ No vector DB, no pandas - just pure Python filtering
 """
 
 import json
-from pathlib import Path
 from typing import List, Dict, Optional
+from backend.config import config
 
 
 class VenueService:
     """Simple venue data loader - no vector DB"""
 
     def __init__(self):
-        # Path to venues.json
-        self.data_file = Path(__file__).parent.parent / 'data' / 'venues.json'
+        # Path to venues.json from config
+        self.data_file = config.VENUES_FILE
 
     def load_all_venues(self) -> List[Dict]:
         """Load all venues from JSON"""
@@ -135,9 +135,9 @@ class VenueService:
         # Base cost
         base_cost = price_per_table * tables_needed
 
-        # Singapore surcharges
-        gst = base_cost * 0.09  # 9% GST
-        service_charge = base_cost * 0.10  # 10% service charge
+        # Singapore surcharges from config
+        gst = base_cost * config.GST_RATE
+        service_charge = base_cost * config.SERVICE_CHARGE_RATE
 
         total_cost = base_cost + gst + service_charge
 
