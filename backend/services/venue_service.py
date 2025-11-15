@@ -28,12 +28,7 @@ class VenueService:
         location_zone: str | None = None,
         max_price_per_table: int | None = None,
     ) -> list[dict]:
-        """
-        Filter venues by capacity, budget, and optional location
-
-        Returns:
-            List of matching venues sorted by rating
-        """
+        """Filter venues by capacity, budget, and optional location"""
         venues = self.load_all_venues()
 
         # Calculate tables needed (10 guests per table, round up)
@@ -93,12 +88,14 @@ class VenueService:
         return None
 
     def calculate_total_cost(self, venue: dict, guest_count: int, package_name: str | None = None) -> dict:
-        """
-        Calculate total cost for a venue
+        """Calculate total cost for a venue"""
+        # Input validation - fail fast
+        if venue is None or not isinstance(venue, dict):
+            raise ValueError(f"venue must be a dict, got {type(venue).__name__}: {venue}")
 
-        Returns:
-            Dict with cost breakdown
-        """
+        if not isinstance(guest_count, int) or guest_count <= 0:
+            raise ValueError(f"guest_count must be an integer > 0, got {guest_count}")
+
         tables_needed = (guest_count + 9) // 10
 
         pricing = venue.get("pricing", {})
