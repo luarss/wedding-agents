@@ -31,12 +31,6 @@ class VenueService:
         """
         Filter venues by capacity, budget, and optional location
 
-        Args:
-            guest_count: Total number of guests
-            total_budget: Total budget for venue
-            location_zone: Optional zone filter (Central, East, West, North)
-            max_price_per_table: Optional max price per table override
-
         Returns:
             List of matching venues sorted by rating
         """
@@ -101,11 +95,6 @@ class VenueService:
     def calculate_total_cost(self, venue: dict, guest_count: int, package_name: str | None = None) -> dict:
         """
         Calculate total cost for a venue
-
-        Args:
-            venue: Venue dict
-            guest_count: Number of guests
-            package_name: Optional specific package name
 
         Returns:
             Dict with cost breakdown
