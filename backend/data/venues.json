@@ -1368,12 +1368,12 @@
     {
       "id": "venue-changi-cove-hotel",
       "name": "Changi Cove Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1288,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1381,15 +1381,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "351 Cranwell Road, Singapore 509866",
+        "postal": "509866",
+        "zone": "East",
+        "nearest_mrt": "Tanah Merah MRT",
+        "mrt_distance": "10 min drive",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6922 6108",
+        "email": "cc.enquiry@changicove.com",
+        "website": "https://conferencecentre.changicove.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338509",
+      "last_updated": "2025-11-18T16:18:36.721761",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1452,12 +1461,12 @@
     {
       "id": "venue-chijmes-hall-singapore",
       "name": "CHIJMES Hall Singapore",
-      "venue_type": "",
+      "venue_type": "unique",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2100,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1465,21 +1474,31 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "30 Victoria Street, Singapore 187996",
+        "postal": "187996",
+        "zone": "Central",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6336 5320",
+        "email": "chijmes@watabe-wedding.com.sg",
+        "website": "https://www.watabe-wedding.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338552",
+      "last_updated": "2025-11-18T16:18:36.721741",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-chui-huay-lim-teochew-cuisine",
       "name": "Chui Huay Lim Teochew Cuisine",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1492,15 +1511,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "190 Keng Lee Road, #01-03, Singapore 308409",
+        "postal": "308409",
+        "zone": "East",
+        "nearest_mrt": "Bartley MRT",
+        "mrt_distance": "10 min drive",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9625 0489",
+        "email": "events@jumbogroup.com.sg",
+        "website": "https://www.jumbogroup.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338567",
+      "last_updated": "2025-11-18T16:18:36.721763",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1569,12 +1597,12 @@
     {
       "id": "venue-conrad-singapore-marina-bay",
       "name": "Conrad Singapore Marina Bay",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1582,15 +1610,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "2 Temasek Boulevard, Singapore 038982",
+        "postal": "038982",
+        "zone": "Central",
+        "nearest_mrt": "Promenade MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "CC",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://www.hilton.com/en/hotels/sincici-conrad-singapore-marina-bay"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338605",
+      "last_updated": "2025-11-18T16:18:36.721753",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1695,7 +1731,7 @@
     {
       "id": "venue-crystal-jade-prestige",
       "name": "Crystal Jade Prestige",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1708,15 +1744,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "8A Marina Boulevard, #02-01, Singapore 018984",
+        "postal": "018984",
+        "zone": "Central",
+        "nearest_mrt": "Downtown MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6509 9493",
+        "email": "corporatesales@crystaljade.com",
+        "website": "https://www.crystaljade.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338779",
+      "last_updated": "2025-11-18T16:18:36.721757",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1776,12 +1821,12 @@
     {
       "id": "venue-dusit-thani-laguna-singapore",
       "name": "Dusit Thani Laguna Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1638,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1789,15 +1834,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "11 Laguna Golf Green, Singapore 488047",
+        "postal": "488047",
+        "zone": "East",
+        "nearest_mrt": "Katong Park MRT",
+        "mrt_distance": "15 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6431 5138",
+        "email": "weddingsdtls@dusit.com",
+        "website": "https://www.dusit.com/dusitthani-laguna-singapore"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338823",
+      "last_updated": "2025-11-18T16:18:36.721756",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3676,7 +3730,7 @@
     {
       "id": "venue-one-farrer-hotel",
       "name": "One Farrer Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3689,15 +3743,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Farrer Park Station Road, Singapore 217562",
+        "postal": "217562",
+        "zone": "Central",
+        "nearest_mrt": "Farrer Park MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": [
+          "NE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6363 0101",
+        "email": "events@onefarrer.com",
+        "website": "https://www.onefarrer.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339773",
+      "last_updated": "2025-11-18T16:18:36.721775",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3757,12 +3820,12 @@
     {
       "id": "venue-orchid-country-club",
       "name": "Orchid Country Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1788,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3770,15 +3833,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Orchid Club Road, Singapore 769162",
+        "postal": "769162",
+        "zone": "North",
+        "nearest_mrt": "Khatib MRT",
+        "mrt_distance": "15 min drive",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6750 2166",
+        "email": "wedding@orchidclub.com",
+        "website": "https://www.orchidclub.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339815",
+      "last_updated": "2025-11-18T16:18:36.721759",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4045,12 +4117,12 @@
     {
       "id": "venue-parkroyal-on-beach-road",
       "name": "PARKROYAL on Beach Road",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4058,15 +4130,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "PARKROYAL on Beach Road: 7500 Beach Road, Singapore 199591",
-        "postal": "",
-        "zone": ""
+        "address": "7500 Beach Road, Singapore 199591",
+        "postal": "199591",
+        "zone": "Central",
+        "nearest_mrt": "Nicoll Highway MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6505 5697",
+        "email": "celebrate.prsin@parkroyalhotels.com",
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-beach-road"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339971",
+      "last_updated": "2025-11-18T16:18:36.721764",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4936,12 +5017,12 @@
     {
       "id": "venue-resorts-world-sentosa-equarius-hotel",
       "name": "Resorts World Sentosa, Equarius Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4949,15 +5030,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "8 Sentosa Gateway, Singapore 098269",
+        "postal": "098269",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa Express to RWS",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "weddings@RWSentosa.com",
+        "website": "https://www.rwsentosa.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340499",
+      "last_updated": "2025-11-18T16:18:36.721772",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5152,12 +5242,12 @@
     {
       "id": "venue-sentosa-golf-club",
       "name": "Sentosa Golf Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1500,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5165,15 +5255,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "27 Bukit Manis Road, Singapore 099892",
+        "postal": "099892",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa bus/taxi",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6373 7155",
+        "email": "events@sentosagolf.com",
+        "website": "https://sentosagolf.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340599",
+      "last_updated": "2025-11-18T16:18:36.721766",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5287,7 +5387,7 @@
     {
       "id": "venue-shangri-la-rasa-sentosa-singapore",
       "name": "Shangri-La Rasa Sentosa, Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5300,15 +5400,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "101 Siloso Road, Sentosa, Singapore 098970",
+        "postal": "098970",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa Express",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6371 2963",
+        "email": "weddings.slrss@shangri-la.com",
+        "website": "https://www.shangri-la.com/singapore/rasasentosaresort"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340699",
+      "last_updated": "2025-11-18T16:18:36.721767",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5449,12 +5559,12 @@
     {
       "id": "venue-singapore-marriott-tang-plaza-hotel",
       "name": "Singapore Marriott Tang Plaza Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1688,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5462,15 +5572,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "320 Orchard Road, Singapore 238865",
+        "postal": "238865",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6831 4768",
+        "email": "mhrs.sindt.sales@marriotthotels.com",
+        "website": "https://www.marriott.com/en-us/hotels/sindt-singapore-marriott-tang-plaza-hotel"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340775",
+      "last_updated": "2025-11-18T16:18:36.721778",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5611,12 +5730,12 @@
     {
       "id": "venue-sofitel-singapore-sentosa-resort--spa",
       "name": "Sofitel Singapore Sentosa Resort & Spa",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1888,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5624,15 +5743,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "2 Bukit Manis Road, Sentosa, Singapore 099891",
+        "postal": "099891",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa bus",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "H9474-SL@sofitel.com",
+        "website": "https://sofitel.accor.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340852",
+      "last_updated": "2025-11-18T16:18:36.721769",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6782,12 +6910,12 @@
     {
       "id": "venue-w-singapore---sentosa-cove",
       "name": "W Singapore - Sentosa Cove",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2080,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6795,15 +6923,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "21 Ocean Way, Singapore 098374",
+        "postal": "098374",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Taxi to Sentosa Cove",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6808 7236",
+        "email": "IDo.Singapore@whotels.com",
+        "website": "https://www.marriott.com/en-us/hotels/sinwh-w-singapore-sentosa-cove"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341410",
+      "last_updated": "2025-11-18T16:18:36.721770",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7602,7 +7740,7 @@
     {
       "id": "venue-shangri-la-rasa-sentosa",
       "name": "Shangri-La Rasa Sentosa",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 237,
         "min_spend": 0,
@@ -7615,15 +7753,25 @@
         "max_rounds": 36
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "101 Siloso Road, Sentosa, Singapore 098970",
+        "postal": "098970",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa Express",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6371 2963",
+        "email": "weddings.slrss@shangri-la.com",
+        "website": "https://www.shangri-la.com/singapore/rasasentosaresort"
+      },
       "rating": 4.066666666666666,
       "review_count": 36,
-      "last_updated": "2025-11-18T15:45:26.263238",
+      "last_updated": "2025-11-18T16:18:36.721767",
       "data_source": "Bridely"
     },
     {
@@ -8142,7 +8290,7 @@
     {
       "id": "venue-village-hotel-bugis",
       "name": "Village Hotel Bugis",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 99,
         "min_spend": 0,
@@ -8155,15 +8303,25 @@
         "max_rounds": 20
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "390 Victoria Street, Singapore 188061",
+        "postal": "188061",
+        "zone": "Central",
+        "nearest_mrt": "Bugis MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "EW",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6512 2232",
+        "email": "wedding@fareast.com.sg",
+        "website": "https://www.villagehotels.asia"
+      },
       "rating": 3.9666666666666663,
       "review_count": 23,
-      "last_updated": "2025-11-18T15:45:26.263941",
+      "last_updated": "2025-11-18T16:18:36.721776",
       "data_source": "Bridely"
     },
     {
