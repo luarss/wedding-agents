@@ -1265,7 +1265,7 @@
     {
       "id": "venue-blackpearl-restaurant-venue",
       "name": "Blackpearl Restaurant Venue",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1278,16 +1278,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "333 North Bridge Road, #07-11/12 Odeon 333, Singapore 188721",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "City Hall",
+        "mrt_distance": "0.3 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6022 1022",
+        "email": "fnbmarketing@gaiaco.ltd",
+        "website": "https://theblackpearl.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338468",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-18T16:44:06.085243",
+      "data_source": "BlissfulBrides",
+      "notes": "The Black Pearl - Cantonese fine dining restaurant"
     },
     {
       "id": "venue-bounty-restaurant-venue",
@@ -2962,29 +2969,31 @@
     {
       "id": "venue-imperial-treasure--chinese-swimming-club",
       "name": "Imperial Treasure @ Chinese Swimming Club",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 180,
       "location": {
-        "address": "",
+        "address": "Chinese Swimming Club, 21 Amber Road, Singapore 439950",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Katong Park",
+        "mrt_distance": "1.0 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8611 1004",
+        "website": "https://www.fulinmen.com.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339290",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-18T16:44:06.085243",
+      "data_source": "BlissfulBrides",
+      "notes": "Actually Fu Lin Men at Chinese Swimming Club, not Imperial Treasure"
     },
     {
       "id": "venue-indoor-bar",
@@ -3649,7 +3658,7 @@
     {
       "id": "venue-montigo-resorts-nongsa",
       "name": "Montigo Resorts, Nongsa",
-      "venue_type": "",
+      "venue_type": "resort",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3662,42 +3671,47 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Jl. Hang Lekiu, Nongsa, Batam, Riau Islands 29465, Indonesia",
         "postal": "",
-        "zone": ""
+        "zone": "N/A",
+        "notes": "Resort in Batam, Indonesia (30 min from Singapore)"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://nongsa.montigoresorts.com/weddings"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339659",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-mount-faber-peak",
       "name": "Mount Faber Peak",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1280,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 200,
       "location": {
-        "address": "",
+        "address": "109 Mount Faber Road, Singapore 099203",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Harbourfront",
+        "mrt_distance": "1.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6377 9688",
+        "email": "events@onefabergroup.com",
+        "website": "https://mountfaberdining.com/pages/weddings"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339670",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3739,28 +3753,30 @@
     {
       "id": "venue-ntuc-club-downtown-east",
       "name": "NTUC Club, Downtown East",
-      "venue_type": "",
+      "venue_type": "banquet_hall",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 320,
       "location": {
-        "address": "",
+        "address": "1 Pasir Ris Close, Singapore 519599",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Pasir Ris",
+        "mrt_distance": "0.8 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9021 2844",
+        "email": "banquets@downtowneast.com.sg",
+        "website": "https://www.downtowneast.com.sg/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339698",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3802,61 +3818,63 @@
     {
       "id": "venue-oasia-hotel-novena-singapore",
       "name": "Oasia Hotel Novena Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 120,
       "location": {
-        "address": "",
+        "address": "8 Sinaran Drive, Singapore 307470",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Novena",
+        "mrt_distance": "0.4 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://www.oasiahotels.com/en/weddings"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339720",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-oasia-resort-sentosa",
       "name": "Oasia Resort Sentosa",
-      "venue_type": "",
+      "venue_type": "resort",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1888,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 300,
       "location": {
-        "address": "",
+        "address": "23 Beach View, Palawan Ridge, Sentosa Island, Singapore 098679",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Harbourfront",
+        "mrt_distance": "3.0 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6512 2202",
+        "email": "events.sentosa@fareast.com",
+        "website": "https://www.oasiahotels.com/en/weddings"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339737",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-oceanfront-villa",
       "name": "Oceanfront Villa",
-      "venue_type": "",
+      "venue_type": "resort",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3869,16 +3887,19 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Sentosa Island, Singapore",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Harbourfront",
+        "mrt_distance": "3.0 km"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339748",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-18T16:44:06.085243",
+      "data_source": "BlissfulBrides",
+      "notes": "Generic oceanfront venue name - may refer to various Sentosa resorts"
     },
     {
       "id": "venue-oculus",
@@ -3946,55 +3967,57 @@
     {
       "id": "venue-one15-marina-sentosa-cove-singapore",
       "name": "ONE\u00b015 Marina Sentosa Cove Singapore",
-      "venue_type": "",
+      "venue_type": "marina",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 360,
       "location": {
-        "address": "",
+        "address": "11 Cove Drive, Sentosa Cove, Singapore 098497",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Harbourfront",
+        "mrt_distance": "4.0 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://one15marina.com/weddings-meetings/weddings/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339787",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-orchard-hotel-singapore",
       "name": "Orchard Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 1000,
       "location": {
-        "address": "",
+        "address": "442 Orchard Road, Singapore 238879",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Orchard",
+        "mrt_distance": "0.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9186 1076",
+        "email": "weddings@millenniumhotels.com.sg",
+        "website": "https://www.millenniumhotels.com/en/weddings/asia/singapore/orchard-hotel-singapore/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339802",
+      "last_updated": "2025-11-18T16:44:06.085243",
       "data_source": "BlissfulBrides"
     },
     {
