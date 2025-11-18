@@ -711,7 +711,7 @@
           "features": [
             "Floor-to-ceiling LED wall",
             "Dynamic backdrop options",
-            "Stylish contemporary décor",
+            "Stylish contemporary d\u00e9cor",
             "Up to 180 guests"
           ],
           "course_count": 8,
@@ -802,7 +802,7 @@
             "250-500 guest capacity",
             "Elegant ballroom setting",
             "Professional event management",
-            "Customizable décor"
+            "Customizable d\u00e9cor"
           ],
           "course_count": 8,
           "menu_type": "Mixed"
@@ -961,12 +961,12 @@
     {
       "id": "venue-ah-yat-seafood-restaurant",
       "name": "Ah Yat Seafood Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -974,15 +974,21 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "200 Turf Club Road, #03-01/02 Main Grandstand Turf City, Singapore 287994",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "King Albert Park",
+        "mrt_distance": "1.2 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6883 2112",
+        "email": "angela_mar@ahyat.com.sg",
+        "website": "https://ahyatrestaurant.com.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338187",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1144,7 +1150,7 @@
     {
       "id": "venue-ballroom",
       "name": "Ballroom",
-      "venue_type": "",
+      "venue_type": "banquet_hall",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1157,42 +1163,49 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "86 East Coast Road, #02-01/02, Katong Square, Singapore 428788",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Paya Lebar",
+        "mrt_distance": "2.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9091 2072",
+        "email": "sales@ballroom.sg",
+        "website": "https://www.ballroom.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338415",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-ban-heng-restaurant--orchid-country-club",
       "name": "Ban Heng Restaurant @ Orchid Country Club",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 758,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 490,
       "location": {
-        "address": "",
+        "address": "1 Orchid Club Road, #02-35 Social Club House, Singapore 769162",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Khatib",
+        "mrt_distance": "2.0 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8399 8430",
+        "website": "https://www.banheng.com.sg/orchid-country-club/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338429",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1434,7 +1447,7 @@
     {
       "id": "venue-chapel-lawn",
       "name": "Chapel Lawn",
-      "venue_type": "",
+      "venue_type": "outdoor_venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1447,15 +1460,17 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Capella Singapore, 1 The Knolls, Sentosa Island, Singapore 098297",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Harbourfront",
+        "mrt_distance": "2.5 km"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338539",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1792,8 +1807,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-dien-hồng-ballroom",
-      "name": "Diên Hồng Ballroom",
+      "id": "venue-dien-h\u1ed3ng-ballroom",
+      "name": "Die\u0302n H\u1ed3ng Ballroom",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -1909,8 +1924,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-fairmont-singapore--swissôtel-the-stamford",
-      "name": "Fairmont Singapore & Swissôtel The Stamford",
+      "id": "venue-fairmont-singapore--swiss\u00f4tel-the-stamford",
+      "name": "Fairmont Singapore & Swiss\u00f4tel The Stamford",
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 1908,
@@ -2050,7 +2065,7 @@
     {
       "id": "venue-fu-lin-men",
       "name": "Fu Lin Men",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2063,15 +2078,20 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "#02-03, Temasek Club, 31 Rifle Range Road, Singapore 588406",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Buona Vista",
+        "mrt_distance": "1.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6235 5026",
+        "website": "https://www.fulinmen.com.sg/"
+      },
       "rating": 4.8,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338927",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2183,7 +2203,7 @@
     {
       "id": "venue-fu-lin-men-grandeur",
       "name": "Fu Lin Men Grandeur",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2196,15 +2216,21 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "#03-00, Novotel Singapore on Kitchener, 181 Kitchener Road, Singapore 208533",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Lavender",
+        "mrt_distance": "0.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8852 9986",
+        "email": "nsk@fulinmen.com.sg",
+        "website": "https://www.fulinmen.com.sg/fu-lin-men-grandeur"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338966",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2643,28 +2669,30 @@
     {
       "id": "venue-hilton-singapore",
       "name": "Hilton Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 800,
       "location": {
-        "address": "",
+        "address": "333 Orchard Road, Singapore 238867",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Orchard",
+        "mrt_distance": "0.3 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6737 4411",
+        "email": "sinorhi.weddings@hilton.com",
+        "website": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard/weddings/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339171",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2706,28 +2734,30 @@
     {
       "id": "venue-holiday-inn-express---suites-singapore-novena",
       "name": "Holiday Inn Express - Suites Singapore Novena",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 200,
       "location": {
-        "address": "",
+        "address": "201 Balestier Road, Singapore 329926",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Novena",
+        "mrt_distance": "0.8 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6355 9988",
+        "email": "contact@hiexsnovena.com",
+        "website": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/singapore/sinov/hoteldetail"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339201",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2843,7 +2873,7 @@
     {
       "id": "venue-hotel-re--pearls-hill",
       "name": "Hotel RE! @ Pearl's Hill",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2856,15 +2886,21 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "175A Chin Swee Road, Singapore 169879",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Outram Park",
+        "mrt_distance": "0.8 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6827 8288",
+        "email": "jason.tan@hotelre.com.sg",
+        "website": "https://hotelre.com.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339252",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2897,28 +2933,30 @@
     {
       "id": "venue-ifly-singapore-sky-garden",
       "name": "iFly Singapore Sky Garden",
-      "venue_type": "",
+      "venue_type": "outdoor_venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 150,
       "location": {
-        "address": "",
+        "address": "43 Siloso Beach Walk, iFly Singapore, Singapore 099010",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Beach Station (Sentosa)",
+        "mrt_distance": "0.1 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6571 0002",
+        "email": "events@iflysingapore.com",
+        "website": "https://skygardensentosa.com/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339277",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3004,7 +3042,7 @@
     },
     {
       "id": "venue-intercontinental-singapore",
-      "name": "InterContinental® Singapore",
+      "name": "InterContinental\u00ae Singapore",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -3381,7 +3419,7 @@
     },
     {
       "id": "venue-lingzhi-vegetarian-velocity--novena-square",
-      "name": "LingZhi Vegetarian (Velocity – Novena Square)",
+      "name": "LingZhi Vegetarian (Velocity \u2013 Novena Square)",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -3561,7 +3599,7 @@
     },
     {
       "id": "venue-minh-tam---hoa-tam---ngoa-nguyet-lake---khai-tam-gate",
-      "name": "Minh Tâm - Hoa Tâm - Ngọa Nguyệt Lake - Khai Tâm Gate",
+      "name": "Minh Ta\u0302m - Hoa Ta\u0302m - Ngo\u0323a Nguye\u0323\u0302t Lake - Khai Ta\u0302m Gate",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -3885,7 +3923,7 @@
     },
     {
       "id": "venue-one15-marina-sentosa-cove-singapore",
-      "name": "ONE°15 Marina Sentosa Cove Singapore",
+      "name": "ONE\u00b015 Marina Sentosa Cove Singapore",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -5823,28 +5861,30 @@
     {
       "id": "venue-sky-garden-sentosa",
       "name": "Sky Garden Sentosa",
-      "venue_type": "",
+      "venue_type": "outdoor_venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 150,
       "location": {
-        "address": "",
+        "address": "43 Siloso Beach Walk, iFly Singapore, Singapore 099010",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Beach Station (Sentosa)",
+        "mrt_distance": "0.1 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6571 0002",
+        "email": "events@iflysingapore.com",
+        "website": "https://skygardensentosa.com/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340820",
+      "last_updated": "2025-11-18T16:35:44.718563",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6019,8 +6059,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-swissôtel-merchant-court-singapore",
-      "name": "Swissôtel Merchant Court Singapore",
+      "id": "venue-swiss\u00f4tel-merchant-court-singapore",
+      "name": "Swiss\u00f4tel Merchant Court Singapore",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -6489,7 +6529,7 @@
     },
     {
       "id": "venue-the-westin-singapore--cook--brew",
-      "name": "The Westin Singapore – Cook & Brew",
+      "name": "The Westin Singapore \u2013 Cook & Brew",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -7182,8 +7222,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-yàn-宴",
-      "name": "YÀN 宴",
+      "id": "venue-y\u00e0n-\u5bb4",
+      "name": "Y\u00c0N \u5bb4",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -7452,8 +7492,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-ya-ge-雅閣-at-orchid-hotel",
-      "name": "Ya Ge 雅閣 at Orchid Hotel",
+      "id": "venue-ya-ge-\u96c5\u95a3-at-orchid-hotel",
+      "name": "Ya Ge \u96c5\u95a3 at Orchid Hotel",
       "venue_type": "",
       "pricing": {
         "price_per_table": 68,
@@ -7850,8 +7890,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-straits-chinese-nonya-restaurant-土生坊正宗娘惹餐馆-1953",
-      "name": "Straits Chinese Nonya Restaurant 土生坊正宗娘惹餐馆 (1953)",
+      "id": "venue-straits-chinese-nonya-restaurant-\u571f\u751f\u574a\u6b63\u5b97\u5a18\u60f9\u9910\u9986-1953",
+      "name": "Straits Chinese Nonya Restaurant \u571f\u751f\u574a\u6b63\u5b97\u5a18\u60f9\u9910\u9986 (1953)",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -8292,8 +8332,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-chui-huay-lim-teochew-cuisine-醉花林品潮轩",
-      "name": "Chui Huay Lim Teochew Cuisine 醉花林品潮轩",
+      "id": "venue-chui-huay-lim-teochew-cuisine-\u9189\u82b1\u6797\u54c1\u6f6e\u8f69",
+      "name": "Chui Huay Lim Teochew Cuisine \u9189\u82b1\u6797\u54c1\u6f6e\u8f69",
       "venue_type": "",
       "pricing": {
         "price_per_table": 100,
@@ -9068,7 +9108,7 @@
     },
     {
       "id": "venue-one15-marina-sentosa-cove",
-      "name": "ONE°15 Marina Sentosa Cove",
+      "name": "ONE\u00b015 Marina Sentosa Cove",
       "venue_type": "",
       "pricing": {
         "price_per_table": 178,
@@ -9283,8 +9323,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-café-melba-at-goodman-arts-centre",
-      "name": "Café Melba at Goodman Arts Centre",
+      "id": "venue-caf\u00e9-melba-at-goodman-arts-centre",
+      "name": "Caf\u00e9 Melba at Goodman Arts Centre",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -9904,8 +9944,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-privé-grill",
-      "name": "Privé Grill",
+      "id": "venue-priv\u00e9-grill",
+      "name": "Priv\u00e9 Grill",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -10579,8 +10619,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-indocafé---peranakan-dining",
-      "name": "INDOCAFÉ - Peranakan Dining",
+      "id": "venue-indocaf\u00e9---peranakan-dining",
+      "name": "INDOCAF\u00c9 - Peranakan Dining",
       "venue_type": "",
       "pricing": {
         "price_per_table": 118,
