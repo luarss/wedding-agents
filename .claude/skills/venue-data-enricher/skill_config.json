@@ -1,0 +1,30 @@
+{
+  "name": "venue-data-enricher",
+  "displayName": "Venue Data Enricher",
+  "description": "Automatically enrich Singapore wedding venue data by filling missing critical fields using web search",
+  "version": "1.0.0",
+  "author": "Wedding Agent Team",
+  "tags": ["data-enrichment", "web-search", "venues", "singapore-weddings"],
+  "triggers": [
+    "enrich venue data",
+    "update venue data",
+    "populate missing venue fields",
+    "fill venue gaps"
+  ],
+  "requiredTools": [
+    "WebSearch",
+    "Read",
+    "Edit",
+    "Write"
+  ],
+  "optionalTools": [
+    "Bash"
+  ],
+  "category": "data-automation",
+  "settings": {
+    "maxVenuesPerSession": 10,
+    "alwaysCreateBackup": true,
+    "validateJSON": true,
+    "minDataQuality": "critical_fields_only"
+  }
+}
