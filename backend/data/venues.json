@@ -1911,12 +1911,12 @@
     {
       "id": "venue-fairmont-singapore--swissôtel-the-stamford",
       "name": "Fairmont Singapore & Swissôtel The Stamford",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1908,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1924,21 +1924,31 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "80 Bras Basah Road, Singapore 189560",
+        "postal": "189560",
+        "zone": "Central",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6431 5530",
+        "email": "weddings.singapore@fairmont.com",
+        "website": "https://www.swissotel-singapore-stamford.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338866",
+      "last_updated": "2025-11-18T16:23:08.973265",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-flutes",
       "name": "Flutes",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1951,21 +1961,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Guoco Midtown House, Singapore",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://flutes.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338876",
+      "last_updated": "2025-11-18T16:23:08.973289",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-forlino",
       "name": "Forlino",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1978,15 +1990,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Fullerton Road, #02-06, One Fullerton, Singapore 049213",
+        "postal": "049213",
+        "zone": "Central",
+        "nearest_mrt": "Raffles Place MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9650 3728",
+        "email": "reservations@forlino.com",
+        "website": "https://www.dhm.com.sg/forlino"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338888",
+      "last_updated": "2025-11-18T16:23:08.973288",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2055,7 +2077,7 @@
     {
       "id": "venue-fu-lin-men-chinese-swimming-club",
       "name": "Fu Lin Men (Chinese Swimming Club)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2068,21 +2090,30 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "21 Amber Road, Level 3, Singapore 439870",
+        "postal": "439870",
+        "zone": "East",
+        "nearest_mrt": "Marine Parade",
+        "mrt_distance": "15 min drive",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6282 0810",
+        "email": "nsk@fulinmen.com.sg",
+        "website": "https://www.fulinmen.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338937",
+      "last_updated": "2025-11-18T16:23:08.973282",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-national-service-resort--country-club",
       "name": "Fu Lin Men (National Service Resort & Country Club)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2095,21 +2126,29 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "50 Neo Tiew Lane 3, #02-06, Singapore 718828",
+        "postal": "718828",
+        "zone": "North",
+        "nearest_mrt": "Kranji MRT",
+        "mrt_distance": "15 min drive",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6543 5082",
+        "website": "https://www.fulinmen.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338948",
+      "last_updated": "2025-11-18T16:23:08.973280",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-temasek-club",
       "name": "Fu Lin Men (Temasek Club)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2122,15 +2161,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "31 Rifle Range Road, #02-03, Singapore 588406",
+        "postal": "588406",
+        "zone": "Central",
+        "nearest_mrt": "King Albert Park MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6235 5026",
+        "website": "https://www.fulinmen.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338958",
+      "last_updated": "2025-11-18T16:23:08.973276",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2163,7 +2210,7 @@
     {
       "id": "venue-furama-city-centre-singapore",
       "name": "Furama City Centre, Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2176,15 +2223,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "60 Eu Tong Sen Street, Singapore 059804",
+        "postal": "059804",
+        "zone": "Central",
+        "nearest_mrt": "Chinatown MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NE",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6533 3888",
+        "email": "banquet.citycentre@furama.com",
+        "website": "https://www.furama.com/citycentre"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338979",
+      "last_updated": "2025-11-18T16:23:08.973274",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2361,12 +2418,12 @@
     {
       "id": "venue-grand-copthorne-waterfront-hotel-singapore",
       "name": "Grand Copthorne Waterfront Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2374,15 +2431,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "392 Havelock Road, Singapore 169663",
+        "postal": "169663",
+        "zone": "Central",
+        "nearest_mrt": "Havelock MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6233 1199",
+        "email": "weddings.gcw@millenniumhotels.com",
+        "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339107",
+      "last_updated": "2025-11-18T16:23:08.973284",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2460,12 +2526,12 @@
     {
       "id": "venue-grand-park-city-hall",
       "name": "Grand Park City Hall",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1880,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2473,15 +2539,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "10 Coleman Street, Singapore 179809",
+        "postal": "179809",
+        "zone": "Central",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "catering.gpch@parkhotelgroup.com",
+        "website": "https://www.parkhotelgroup.com/grand-park-city-hall"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339140",
+      "last_updated": "2025-11-18T16:23:08.973309",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2631,12 +2706,12 @@
     {
       "id": "venue-holiday-inn-singapore-atrium",
       "name": "Holiday Inn Singapore Atrium",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 938,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2644,15 +2719,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "317 Outram Road, Singapore 169075",
+        "postal": "169075",
+        "zone": "Central",
+        "nearest_mrt": "Havelock MRT",
+        "mrt_distance": "6 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 3138 2531",
+        "email": "weddings.sinhi@ihg.com",
+        "website": "https://singaporeatrium.holidayinn.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339216",
+      "last_updated": "2025-11-18T16:23:08.973303",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2975,12 +3059,12 @@
     {
       "id": "venue-jen-singapore-tanglin-by-shangri-la",
       "name": "JEN Singapore Tanglin by Shangri-La",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1388,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2988,15 +3072,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1A Cuscaden Road, Singapore 249716",
+        "postal": "249716",
+        "zone": "Central",
+        "nearest_mrt": "Orchard Boulevard MRT",
+        "mrt_distance": "2 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6831 4303",
+        "email": "weddings.hjts@shangri-la.com",
+        "website": "https://www.shangri-la.com/en/hotels/jen/singapore/tanglin"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339412",
+      "last_updated": "2025-11-18T16:23:08.973304",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3999,12 +4092,12 @@
     {
       "id": "venue-park-hotel-alexandra",
       "name": "Park Hotel Alexandra",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4012,15 +4105,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "323 Alexandra Road, Singapore 159972",
+        "postal": "159972",
+        "zone": "Central",
+        "nearest_mrt": "Redhill MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6828 8888",
+        "email": "events@momentushotels.com",
+        "website": "https://www.momentushotels.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339903",
+      "last_updated": "2025-11-18T16:23:08.973310",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5424,12 +5526,12 @@
     {
       "id": "venue-sheraton-towers-singapore",
       "name": "Sheraton Towers Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2038,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5437,15 +5539,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "39 Scotts Road, Singapore 228230",
+        "postal": "228230",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6839 5832",
+        "email": "weddings@sheratonsingapore.com",
+        "website": "https://www.marriott.com/en-us/hotels/sinsi-sheraton-towers-singapore"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340714",
+      "last_updated": "2025-11-18T16:23:08.973300",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6974,12 +7085,12 @@
     {
       "id": "venue-york-hotel-singapore",
       "name": "York Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1258,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6987,15 +7098,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "21 Mount Elizabeth, Singapore 228516",
+        "postal": "228516",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6830 1121",
+        "email": "events@yorkhotel.com.sg",
+        "website": "https://www.yorkhotel.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341431",
+      "last_updated": "2025-11-18T16:23:08.973298",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7605,9 +7725,9 @@
     {
       "id": "venue-fairmont-singapore-and-swissotel-the-stamford",
       "name": "Fairmont Singapore and Swissotel The Stamford",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 219,
+        "price_per_table": 1908,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus"
@@ -7618,15 +7738,25 @@
         "max_rounds": 150
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "80 Bras Basah Road, Singapore 189560",
+        "postal": "189560",
+        "zone": "Central",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6431 5530",
+        "email": "weddings.singapore@fairmont.com",
+        "website": "https://www.swissotel-singapore-stamford.com"
+      },
       "rating": 3.9333333333333336,
       "review_count": 40,
-      "last_updated": "2025-11-18T15:45:26.263054",
+      "last_updated": "2025-11-18T16:23:08.973265",
       "data_source": "Bridely"
     },
     {
