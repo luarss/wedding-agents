@@ -3043,61 +3043,65 @@
     {
       "id": "venue-intercontinental-singapore",
       "name": "InterContinental\u00ae Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2380,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 320,
       "location": {
-        "address": "",
+        "address": "80 Middle Road, Singapore 188966",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Bugis",
+        "mrt_distance": "0.2 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6825 1811",
+        "email": "sinhb.weddings@ihg.com",
+        "website": "https://singapore.intercontinental.com/weddings-at-intercontinental-singapore"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339372",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-jade--the-fullerton-hotel-singapore",
       "name": "Jade @ The Fullerton Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1899,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 200,
       "location": {
-        "address": "",
+        "address": "The Fullerton Hotel Singapore, 1 Fullerton Square, Singapore 049178",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Raffles Place",
+        "mrt_distance": "0.3 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 3129 8330",
+        "email": "jade@fullertonhotels.com",
+        "website": "https://www.fullertonhotels.com/fullerton-hotel-singapore/dining/restaurants-and-bars/jade"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339383",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-jamies-italian-singapore",
       "name": "Jamie's Italian Singapore",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3110,16 +3114,22 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "1 HarbourFront Walk, #01-150/151 VivoCity, Singapore 098585",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront",
+        "mrt_distance": "0.1 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6655 7676",
+        "email": "sales@jamiesitalian.sg"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339401",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-18T16:38:56.640106",
+      "data_source": "BlissfulBrides",
+      "notes": "Restaurant chain that has closed many global locations - verify operational status"
     },
     {
       "id": "venue-jen-singapore-tanglin-by-shangri-la",
@@ -3275,55 +3285,56 @@
     {
       "id": "venue-lawn",
       "name": "Lawn",
-      "venue_type": "",
+      "venue_type": "outdoor_venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 600,
       "location": {
-        "address": "",
+        "address": "Raffles Hotel Singapore, 1 Beach Road, Singapore 189673",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "City Hall",
+        "mrt_distance": "0.5 km"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339475",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-18T16:38:56.640106",
+      "data_source": "BlissfulBrides",
+      "notes": "The Lawn at Raffles Hotel"
     },
     {
       "id": "venue-lawrys-the-prime-rib-singapore",
       "name": "Lawry's The Prime Rib Singapore",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1900,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 160,
       "location": {
-        "address": "",
+        "address": "333A Orchard Road, #04-01/31 Mandarin Gallery, Singapore 238897",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Somerset",
+        "mrt_distance": "0.3 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6836 3333",
+        "email": "reservations@lawrys.com.sg",
+        "website": "https://lawrys.com.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339486",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3366,7 +3377,7 @@
     {
       "id": "venue-lijiang-restaurant-by-yunnan",
       "name": "Lijiang Restaurant by Yunnan",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3379,69 +3390,78 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Nanyang Technological University, Singapore",
         "postal": "",
-        "zone": ""
+        "zone": "West",
+        "nearest_mrt": "Pioneer",
+        "mrt_distance": "2.0 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "sales@lijiang.com.sg",
+        "website": "https://www.lijiang.com.sg/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339506",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-lingzhi-vegetarian-liat-towers",
       "name": "LingZhi Vegetarian (Liat Towers)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 150,
       "location": {
-        "address": "",
+        "address": "#05-01, Liat Towers, 541 Orchard Road, Singapore 238881",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Orchard",
+        "mrt_distance": "0.5 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6734 3788",
+        "email": "banquet@tunglok.com",
+        "website": "https://www.lingzhivegetarian.com/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339515",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-lingzhi-vegetarian-velocity--novena-square",
       "name": "LingZhi Vegetarian (Velocity \u2013 Novena Square)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 533,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 120,
       "location": {
-        "address": "",
+        "address": "238 Thomson Road, #03-09/10, Velocity@Novena Square, Singapore 307683",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Novena",
+        "mrt_distance": "0.1 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6538 2992",
+        "email": "banquet@tunglok.com",
+        "website": "https://www.lingzhivegetarian.com/"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339527",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3536,28 +3556,30 @@
     {
       "id": "venue-mandarin-oriental-singapore",
       "name": "Mandarin Oriental, Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": ""
       },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
+      "capacity": 350,
       "location": {
-        "address": "",
+        "address": "5 Raffles Avenue, Marina Square, Singapore 039797",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Esplanade",
+        "mrt_distance": "0.4 km"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6885 3488",
+        "email": "mosin-weddings@mohg.com",
+        "website": "https://www.mandarinoriental.com/en/singapore/marina-bay/celebrate"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339581",
+      "last_updated": "2025-11-18T16:38:56.640106",
       "data_source": "BlissfulBrides"
     },
     {
