@@ -1533,7 +1533,7 @@
     {
       "id": "venue-concorde-hotel-singapore",
       "name": "Concorde Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1546,15 +1546,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "100 Orchard Road, Singapore 238840",
+        "postal": "238840",
+        "zone": "Central",
+        "nearest_mrt": "Somerset MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6739 8355",
+        "email": "events@concorde.com.sg",
+        "website": "https://singapore.concordehotelsresorts.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338587",
+      "last_updated": "2025-11-18T15:58:46.989222",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1587,7 +1596,7 @@
     {
       "id": "venue-conrad-singapore-orchard",
       "name": "Conrad Singapore Orchard",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1600,21 +1609,30 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Cuscaden Road, Singapore 249715",
+        "postal": "249715",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6725 3333",
+        "email": "Sinod.cb@conradhotels.com",
+        "website": "https://www.hilton.com/en/hotels/sinodci-conrad-singapore-orchard"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338659",
+      "last_updated": "2025-11-18T15:58:46.989208",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-copthorne-kings-hotel",
       "name": "Copthorne King's Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1627,15 +1645,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "403 Havelock Road, Singapore 169632",
+        "postal": "169632",
+        "zone": "Central",
+        "nearest_mrt": "Havelock MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6318 3116",
+        "email": "banquet.kings@millenniumhotels.com.sg",
+        "website": "https://www.millenniumhotels.com/en/singapore/copthorne-kings-hotel/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338675",
+      "last_updated": "2025-11-18T15:58:46.989224",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1911,12 +1938,12 @@
     {
       "id": "venue-four-points-by-sheraton-singapore-riverview",
       "name": "Four Points by Sheraton Singapore, Riverview",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1338,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1924,15 +1951,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "382 Havelock Road, Singapore 169629",
+        "postal": "169629",
+        "zone": "Central",
+        "nearest_mrt": "Tiong Bahru MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6349 4840",
+        "email": "sinfp.weddings@fourpoints.com",
+        "website": "https://www.marriott.com/en-us/hotels/sinfp-four-points-singapore-riverview"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338903",
+      "last_updated": "2025-11-18T15:58:46.989236",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2181,7 +2217,7 @@
     {
       "id": "venue-goodwood-park-hotel",
       "name": "Goodwood Park Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2194,15 +2230,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "22 Scotts Road, Singapore 228221",
+        "postal": "228221",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6730 1821",
+        "email": "weddings@goodwoodparkhotel.com",
+        "website": "https://www.goodwoodparkhotel.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339067",
+      "last_updated": "2025-11-18T15:58:46.989216",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2289,12 +2334,12 @@
     {
       "id": "venue-grand-hyatt-singapore",
       "name": "Grand Hyatt Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1788,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2302,15 +2347,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "10 Scotts Road, Singapore 228211",
+        "postal": "228211",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6416 7373",
+        "email": "weddings.sg@hyatt.com",
+        "website": "https://www.hyatt.com/grand-hyatt/sinrs-grand-hyatt-singapore"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339116",
+      "last_updated": "2025-11-18T15:58:46.989218",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2451,12 +2505,12 @@
     {
       "id": "venue-hilton-singapore-orchard",
       "name": "Hilton Singapore Orchard",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2464,15 +2518,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "581 Orchard Road, Singapore 238883",
+        "postal": "238883",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6737 4411",
+        "email": "sinorhi.weddings@hilton.com",
+        "website": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339185",
+      "last_updated": "2025-11-18T15:58:46.989220",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2532,12 +2595,12 @@
     {
       "id": "venue-holiday-inn-singapore-orchard-city-centre",
       "name": "Holiday Inn Singapore Orchard City Centre",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 725,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -2545,15 +2608,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "11 Cavenagh Road, Singapore 229616",
+        "postal": "229616",
+        "zone": "Central",
+        "nearest_mrt": "Somerset MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6733 8333",
+        "email": "info.hisinorchard@ihg.com",
+        "website": "https://singaporeorchard.holidayinn.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339235",
+      "last_updated": "2025-11-18T15:58:46.989234",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3720,7 +3792,7 @@
     {
       "id": "venue-pan-pacific-singapore",
       "name": "Pan Pacific Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3733,15 +3805,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "7 Raffles Boulevard, Marina Square, Singapore 039595",
+        "postal": "039595",
+        "zone": "Central",
+        "nearest_mrt": "Promenade MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "CC",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339864",
+      "last_updated": "2025-11-18T15:58:46.989242",
       "data_source": "BlissfulBrides"
     },
     {
