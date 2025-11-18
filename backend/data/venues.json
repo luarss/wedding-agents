@@ -2370,7 +2370,7 @@
     {
       "id": "venue-grand-mercure-singapore-roxy",
       "name": "Grand Mercure Singapore Roxy",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2383,15 +2383,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "50 East Coast Road, Roxy Square, Singapore 428769",
+        "postal": "428769",
+        "zone": "East",
+        "nearest_mrt": "Eunos MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6344 8000",
+        "email": "H3610-FO16@accor.com",
+        "website": "https://www.grandmercureroxy.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339126",
+      "last_updated": "2025-11-18T16:02:10.224255",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2631,7 +2640,7 @@
     {
       "id": "venue-hotel-fort-canning",
       "name": "Hotel Fort Canning",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2644,15 +2653,26 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "11 Canning Walk, Singapore 178881",
+        "postal": "178881",
+        "zone": "Central",
+        "nearest_mrt": "Dhoby Ghaut MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6559 6783",
+        "email": "weddings@hfcsingapore.com",
+        "website": "https://hfcsingapore.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339244",
+      "last_updated": "2025-11-18T16:02:10.224241",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2928,7 +2948,7 @@
     {
       "id": "venue-jw-marriott-singapore-south-beach",
       "name": "JW Marriott Singapore South Beach",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2941,15 +2961,22 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "30 Beach Road, Singapore 189763",
+        "postal": "189763",
+        "zone": "Central",
+        "nearest_mrt": "Esplanade MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "website": "https://www.marriott.com/en-us/hotels/sinjw-jw-marriott-hotel-singapore-south-beach"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339425",
+      "last_updated": "2025-11-18T16:02:10.224249",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3090,7 +3117,7 @@
     {
       "id": "venue-le-meridien-singapore-sentosa-fomerly-movenpick",
       "name": "Le Meridien Singapore, Sentosa (fomerly Movenpick)",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3103,15 +3130,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "23 Beach View, Sentosa, Singapore 098679",
+        "postal": "098679",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "Sentosa Express to Imbiah",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6818 3303",
+        "email": "weddings.singaporesentosa@lemeridien.com",
+        "website": "https://www.marriott.com/en-us/hotels/sinlm-le-meridien-singapore-sentosa"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339497",
+      "last_updated": "2025-11-18T16:02:10.224257",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3198,7 +3235,7 @@
     {
       "id": "venue-m-hotel-singapore",
       "name": "M Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -3211,15 +3248,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "81 Anson Road, Singapore 079908",
+        "postal": "079908",
+        "zone": "Central",
+        "nearest_mrt": "Tanjong Pagar MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "banquet.mhotelsingapore@millenniumhotels.com.sg",
+        "website": "https://www.millenniumhotels.com/en/singapore/m-hotel-singapore/"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339538",
+      "last_updated": "2025-11-18T16:02:10.224252",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3306,12 +3351,12 @@
     {
       "id": "venue-mercure-singapore-bugis",
       "name": "Mercure Singapore Bugis",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1388,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3319,15 +3364,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "122 Middle Road, Singapore 188973",
+        "postal": "188973",
+        "zone": "Central",
+        "nearest_mrt": "Bugis MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "EW",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6521 6088",
+        "email": "H0D7@accor.com",
+        "website": "https://www.mercure-singapore-bugis.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339620",
+      "last_updated": "2025-11-18T16:02:10.224261",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3414,12 +3469,12 @@
     {
       "id": "venue-novotel-singapore-on-stevens",
       "name": "Novotel Singapore on Stevens",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3427,15 +3482,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "28 Stevens Road, Singapore 257878",
+        "postal": "257878",
+        "zone": "Central",
+        "nearest_mrt": "Stevens MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6491 6106",
+        "email": "H9543-sc3@accor.com",
+        "website": "https://www.novotel-singapore-stevens.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339689",
+      "last_updated": "2025-11-18T16:02:10.224254",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3468,12 +3532,12 @@
     {
       "id": "venue-oasia-hotel-downtown",
       "name": "Oasia Hotel Downtown",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1380,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3481,15 +3545,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "100 Peck Seah Street, Singapore 079333",
+        "postal": "079333",
+        "zone": "Central",
+        "nearest_mrt": "Tanjong Pagar MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6812 6990",
+        "email": "sales.ohd@fareast.com",
+        "website": "https://www.oasiahotels.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339711",
+      "last_updated": "2025-11-18T16:02:10.224263",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3935,12 +4008,12 @@
     {
       "id": "venue-parkroyal-collection-pickering-singapore",
       "name": "PARKROYAL COLLECTION Pickering, Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1868,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3948,15 +4021,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "3 Upper Pickering Street, Singapore 058289",
+        "postal": "058289",
+        "zone": "Central",
+        "nearest_mrt": "Chinatown MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NE",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8328 3338",
+        "email": "singaporeweddings@panpacific.com",
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339950",
+      "last_updated": "2025-11-18T16:02:10.224266",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5825,12 +5908,12 @@
     {
       "id": "venue-the-fullerton-hotel-singapore",
       "name": "The Fullerton Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2674,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5838,15 +5921,25 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Fullerton Square, Singapore 049178",
+        "postal": "049178",
+        "zone": "Central",
+        "nearest_mrt": "Raffles Place MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6877 8968",
+        "email": "weddings@fullertonhotels.com",
+        "website": "https://www.fullertonhotels.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340994",
+      "last_updated": "2025-11-18T16:02:10.224265",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7121,9 +7214,9 @@
     {
       "id": "venue-parkroyal-collection-pickering",
       "name": "PARKROYAL COLLECTION Pickering",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 206,
+        "price_per_table": 1868,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus"
@@ -7134,15 +7227,25 @@
         "max_rounds": 40
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "3 Upper Pickering Street, Singapore 058289",
+        "postal": "058289",
+        "zone": "Central",
+        "nearest_mrt": "Chinatown MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NE",
+          "DT"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8328 3338",
+        "email": "singaporeweddings@panpacific.com",
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering"
+      },
       "rating": 4.033333333333333,
       "review_count": 83,
-      "last_updated": "2025-11-18T15:45:26.262427",
+      "last_updated": "2025-11-18T16:02:10.224266",
       "data_source": "Bridely"
     },
     {
