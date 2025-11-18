@@ -2247,7 +2247,7 @@
     {
       "id": "venue-furama-riverfront",
       "name": "Furama RiverFront",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2260,21 +2260,30 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "405 Havelock Road, Singapore 169633",
+        "postal": "169633",
+        "zone": "Central",
+        "nearest_mrt": "Tiong Bahru MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6739 6452",
+        "email": "banquet.riverfront@furama.com",
+        "website": "https://www.furama.com/riverfront"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338994",
+      "last_updated": "2025-11-18T16:28:53.291215",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-furama-riverfront-singapore",
       "name": "Furama RiverFront, Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2287,15 +2296,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "405 Havelock Road, Singapore 169633",
+        "postal": "169633",
+        "zone": "Central",
+        "nearest_mrt": "Tiong Bahru MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6739 6452",
+        "email": "banquet.riverfront@furama.com",
+        "website": "https://www.furama.com/riverfront"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339003",
+      "last_updated": "2025-11-18T16:28:53.291215",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2562,12 +2580,12 @@
     {
       "id": "venue-grand-shanghai",
       "name": "Grand Shanghai",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1668,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2575,15 +2593,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "390 Havelock Road, #01-01 King's Centre, Singapore 169662",
+        "postal": "169662",
+        "zone": "Central",
+        "nearest_mrt": "Tiong Bahru MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6836 6866",
+        "email": "restaurant@grandshanghai.com.sg",
+        "website": "https://www.grandshanghai.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339148",
+      "last_updated": "2025-11-18T16:28:53.291223",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5589,7 +5616,7 @@
     {
       "id": "venue-shisen-hanten",
       "name": "Shisen Hanten",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5602,15 +5629,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "333 Orchard Road, Mandarin Orchard Singapore, Singapore 238867",
+        "postal": "238867",
+        "zone": "Central",
+        "nearest_mrt": "Somerset MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6831 6262",
+        "email": "shisenhanten@ouerestaurants.com",
+        "website": "https://www.shisenhanten.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340733",
+      "last_updated": "2025-11-18T16:28:53.291251",
       "data_source": "BlissfulBrides"
     },
     {
@@ -8862,7 +8898,7 @@
     {
       "id": "venue-summer-palace",
       "name": "Summer Palace",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8875,15 +8911,24 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Cuscaden Road, Level 3, Conrad Singapore Orchard, Singapore 249715",
+        "postal": "249715",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6725 3333",
+        "email": "catering@regentsingapore.com.sg",
+        "website": "https://www.hilton.com/en/hotels/sinodci-conrad-singapore-orchard"
+      },
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264248",
+      "last_updated": "2025-11-18T16:28:53.291235",
       "data_source": "Bridely"
     },
     {
