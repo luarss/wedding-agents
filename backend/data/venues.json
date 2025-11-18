@@ -25,7 +25,9 @@
         "district": "Tiong Bahru/Outram",
         "nearest_mrt": "Tiong Bahru MRT",
         "mrt_distance": "8 min walk",
-        "mrt_lines": ["EW"],
+        "mrt_lines": [
+          "EW"
+        ],
         "parking_lots": 200,
         "parking_cost": "$2-3/hr"
       },
@@ -36,20 +38,37 @@
         "outdoor_area": true,
         "air_conditioning": true,
         "valet_parking": true,
-        "waterfront_view": true
+        "waterfront_view": true,
+        "projector": false,
+        "sound_system": false,
+        "led_wall": false,
+        "pillar_free": false,
+        "city_view": false,
+        "garden_view": false
       },
       "packages": [
         {
           "name": "Weekday Lunch",
           "price_per_table": 1200,
           "min_spend": 12000,
-          "features": ["6-course Chinese menu", "Complimentary champagne toast", "Basic AV setup", "Waterfront venue"]
+          "features": [
+            "6-course Chinese menu",
+            "Complimentary champagne toast",
+            "Basic AV setup",
+            "Waterfront venue"
+          ]
         },
         {
           "name": "Weekend Dinner",
           "price_per_table": 1600,
           "min_spend": 20000,
-          "features": ["8-course premium menu", "Premium wine pairing", "Enhanced AV setup", "Extended venue hours", "Waterfront venue"]
+          "features": [
+            "8-course premium menu",
+            "Premium wine pairing",
+            "Enhanced AV setup",
+            "Extended venue hours",
+            "Waterfront venue"
+          ]
         }
       ],
       "description": "Elegant waterfront hotel with stunning Singapore River views. Large ballrooms suitable for grand celebrations with multiple dining options.",
@@ -65,8 +84,10 @@
       "contact": {
         "email": "events@grandcopthorne.com",
         "phone": "+65 6233 1100",
-        "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront-hotel-singapore/"
-      }
+        "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront-hotel-singapore/",
+        "booking_url": ""
+      },
+      "last_updated": "2025-11-18T15:22:56.938156"
     },
     {
       "id": "venue-002",
@@ -93,7 +114,10 @@
         "district": "City Hall/Bugis",
         "nearest_mrt": "City Hall MRT",
         "mrt_distance": "3 min walk",
-        "mrt_lines": ["NS", "EW"],
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ],
         "parking_lots": 400,
         "parking_cost": "$3/hr weekday, $5/hr weekend"
       },
@@ -111,13 +135,24 @@
           "name": "Grand Ballroom - Weekday",
           "price_per_table": 2000,
           "min_spend": 30000,
-          "features": ["8-course Chinese menu", "Champagne reception", "Premium AV", "Complimentary suite upgrade"]
+          "features": [
+            "8-course Chinese menu",
+            "Champagne reception",
+            "Premium AV",
+            "Complimentary suite upgrade"
+          ]
         },
         {
           "name": "Grand Ballroom - Weekend",
           "price_per_table": 2400,
           "min_spend": 40000,
-          "features": ["10-course premium menu", "Premium champagne", "Full AV package", "Red carpet entrance", "Extended cocktail hour"]
+          "features": [
+            "10-course premium menu",
+            "Premium champagne",
+            "Full AV package",
+            "Red carpet entrance",
+            "Extended cocktail hour"
+          ]
         }
       ],
       "description": "Prestigious 5-star hotel in the heart of the city with one of Singapore's largest pillar-free ballrooms. Perfect for grand, luxurious celebrations.",
@@ -161,7 +196,9 @@
         "district": "Tanjong Pagar/CBD",
         "nearest_mrt": "Tanjong Pagar MRT",
         "mrt_distance": "2 min walk",
-        "mrt_lines": ["EW"],
+        "mrt_lines": [
+          "EW"
+        ],
         "parking_lots": 180,
         "parking_cost": "$2/hr"
       },
@@ -179,13 +216,24 @@
           "name": "Weekday Package",
           "price_per_table": 1888,
           "min_spend": 28000,
-          "features": ["7-course Chinese banquet", "Complimentary tea ceremony setup", "Basic AV equipment", "Complimentary parking for bridal party"]
+          "features": [
+            "7-course Chinese banquet",
+            "Complimentary tea ceremony setup",
+            "Basic AV equipment",
+            "Complimentary parking for bridal party"
+          ]
         },
         {
           "name": "Weekend Package",
           "price_per_table": 2188,
           "min_spend": 35000,
-          "features": ["8-course premium banquet", "Welcome champagne", "Enhanced AV setup", "Red carpet setup", "Extended venue access"]
+          "features": [
+            "8-course premium banquet",
+            "Welcome champagne",
+            "Enhanced AV setup",
+            "Red carpet setup",
+            "Extended venue access"
+          ]
         }
       ],
       "description": "Well-established hotel in Tanjong Pagar with excellent accessibility. Known for reliable service and quality food. Popular choice for mid-range budgets.",
@@ -229,7 +277,10 @@
         "district": "Jurong East",
         "nearest_mrt": "Jurong East MRT",
         "mrt_distance": "5 min walk",
-        "mrt_lines": ["NS", "EW"],
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ],
         "parking_lots": 250,
         "parking_cost": "Free for guests"
       },
@@ -247,13 +298,24 @@
           "name": "Weekday Lunch",
           "price_per_table": 988,
           "min_spend": 15000,
-          "features": ["6-course Chinese menu", "Complimentary tea ceremony", "Basic AV", "Free parking"]
+          "features": [
+            "6-course Chinese menu",
+            "Complimentary tea ceremony",
+            "Basic AV",
+            "Free parking"
+          ]
         },
         {
           "name": "Weekend Dinner",
           "price_per_table": 1288,
           "min_spend": 20000,
-          "features": ["8-course menu", "Welcome drinks", "Enhanced AV", "Free parking", "Extended hours"]
+          "features": [
+            "8-course menu",
+            "Welcome drinks",
+            "Enhanced AV",
+            "Free parking",
+            "Extended hours"
+          ]
         }
       ],
       "description": "Affordable hotel in the west with modern facilities. Great option for couples with many guests from the western region. Excellent value for money.",
@@ -297,7 +359,9 @@
         "district": "Changi Airport",
         "nearest_mrt": "Changi Airport MRT",
         "mrt_distance": "Direct connection",
-        "mrt_lines": ["EW"],
+        "mrt_lines": [
+          "EW"
+        ],
         "parking_lots": 300,
         "parking_cost": "$2/hr"
       },
@@ -315,13 +379,24 @@
           "name": "Weekday Package",
           "price_per_table": 1380,
           "min_spend": 25000,
-          "features": ["7-course menu", "Champagne toast", "Standard AV", "Complimentary airport parking"]
+          "features": [
+            "7-course menu",
+            "Champagne toast",
+            "Standard AV",
+            "Complimentary airport parking"
+          ]
         },
         {
           "name": "Weekend Package",
           "price_per_table": 1680,
           "min_spend": 30000,
-          "features": ["8-course premium menu", "Premium champagne", "Full AV package", "Red carpet", "Extended hours"]
+          "features": [
+            "8-course premium menu",
+            "Premium champagne",
+            "Full AV package",
+            "Red carpet",
+            "Extended hours"
+          ]
         }
       ],
       "description": "Unique airport hotel location with excellent accessibility for international guests. Modern facilities and reliable service. Great for guests flying in from overseas.",
@@ -339,6 +414,537 @@
         "phone": "+65 6823 5300",
         "website": "https://www.crowneplaza.com/singapore"
       }
+    },
+    {
+      "id": "venue-006",
+      "name": "Marina Bay Sands",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 1288,
+        "weekday_price": 988,
+        "weekend_price": 1288,
+        "min_spend": 20000,
+        "min_tables": 15,
+        "pricing_type": "plus_plus"
+      },
+      "capacity": {
+        "min_tables": 15,
+        "max_capacity": 6600,
+        "max_rounds": 660,
+        "comfortable_capacity": 6000
+      },
+      "location": {
+        "address": "10 Bayfront Avenue, Singapore 018956",
+        "postal": "018956",
+        "zone": "Central",
+        "district": "Marina Bay",
+        "nearest_mrt": "Bayfront MRT",
+        "mrt_distance": "Direct connection",
+        "mrt_lines": ["CE", "DT"],
+        "parking_lots": 2000,
+        "parking_cost": "$3-5/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": true,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "pillar_free": true,
+        "led_wall": true,
+        "sound_system": true,
+        "projector": true,
+        "multiple_ballrooms": true,
+        "city_view": true,
+        "waterfront_view": true,
+        "rooftop_garden": true
+      },
+      "packages": [
+        {
+          "name": "Chinese Set Menu - Lunch",
+          "price_per_table": 988,
+          "min_spend": 15000,
+          "features": [
+            "Cold lobster salad combo platter",
+            "Whole roast suckling pig",
+            "Steamed spotted garoupa",
+            "Basic AV setup",
+            "Complimentary suite"
+          ],
+          "course_count": 8,
+          "menu_type": "Chinese"
+        },
+        {
+          "name": "Chinese Set Menu - Dinner",
+          "price_per_table": 1288,
+          "min_spend": 20000,
+          "features": [
+            "Premium Chinese banquet",
+            "Outdoor solemnisation option",
+            "LED-lit ballroom dance floor",
+            "Bespoke floral arrangements",
+            "Complimentary suite"
+          ],
+          "course_count": 10,
+          "menu_type": "Chinese"
+        }
+      ],
+      "description": "Iconic luxury hotel with the largest pillar-free ballroom in Singapore. The Sands Grand Ballroom accommodates up to 6,600 guests. Features 21 versatile ballrooms, rooftop garden with city skyline views, and SkyPark cocktail reception options. Perfect for grand, lavish celebrations.",
+      "reviews_summary": "Known for spectacular venues and world-class service. The Sands Grand Ballroom is unmatched in size. Excellent for large weddings with international guests. Premium location and iconic status make it a dream venue.",
+      "rating": 4.9,
+      "review_count": 412,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "12am"
+      },
+      "contact": {
+        "email": "celebrations@marinabaysands.com",
+        "phone": "+65 6688 3133",
+        "website": "https://www.marinabaysands.com/expo-and-convention/spaces/weddings.html",
+        "booking_url": "https://www.marinabaysands.com/expo-and-convention/spaces/weddings.html"
+      },
+      "last_updated": "2025-11-18T16:00:00"
+    },
+    {
+      "id": "venue-007",
+      "name": "Raffles Hotel Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 2880,
+        "weekday_price": 2880,
+        "weekend_price": 3280,
+        "min_spend": 40000,
+        "min_tables": 15,
+        "pricing_type": "plus_plus"
+      },
+      "capacity": {
+        "min_tables": 15,
+        "max_capacity": 250,
+        "max_rounds": 25,
+        "comfortable_capacity": 240
+      },
+      "location": {
+        "address": "1 Beach Road, Singapore 189673",
+        "postal": "189673",
+        "zone": "Central",
+        "district": "City Hall/Beach Road",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": ["NS", "EW"],
+        "parking_lots": 150,
+        "parking_cost": "$4-6/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": true,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "pillar_free": false,
+        "natural_light": true,
+        "heritage_venue": true,
+        "wedding_coordinator": true
+      },
+      "packages": [
+        {
+          "name": "Jubilee Ballroom - Weekday",
+          "price_per_table": 2880,
+          "min_spend": 43200,
+          "features": [
+            "Premium banquet menu",
+            "Cream and gold interiors",
+            "Heritage chandeliers",
+            "Air-conditioned pre-event foyer",
+            "Dedicated wedding coordinator"
+          ],
+          "course_count": 8,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Jubilee Ballroom - Weekend",
+          "price_per_table": 3280,
+          "min_spend": 49200,
+          "features": [
+            "Premium weekend banquet",
+            "Heritage ballroom setting",
+            "Full AV package",
+            "Extended venue hours",
+            "Complimentary champagne"
+          ],
+          "course_count": 10,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Palm Ballroom - Weekday",
+          "price_per_table": 2580,
+          "min_spend": 38700,
+          "features": [
+            "Named after Traveller's Palm",
+            "Adjoining foyer for pre-drinks",
+            "Intimate setting",
+            "Dedicated coordinator"
+          ],
+          "course_count": 8,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Palm Ballroom - Weekend",
+          "price_per_table": 2980,
+          "min_spend": 44700,
+          "features": [
+            "Weekend premium package",
+            "Heritage venue charm",
+            "Afterparty foyer space"
+          ],
+          "course_count": 8,
+          "menu_type": "Western"
+        }
+      ],
+      "description": "Legendary heritage hotel with timeless elegance and colonial charm. The Jubilee Ballroom hosts 250+ guests with cream and gold interiors and stunning chandeliers. Palm Ballroom perfect for 200 guests. The Lawn offers outdoor solemnisation for up to 50 guests. Singapore's most prestigious wedding venue.",
+      "reviews_summary": "The pinnacle of luxury and heritage. Impeccable service befitting the Raffles name. Stunning ballrooms with historic charm. Premium pricing but unmatched prestige and elegance. Perfect for couples seeking a sophisticated, iconic venue.",
+      "rating": 4.9,
+      "review_count": 387,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_restrictions",
+        "corkage": "not_allowed",
+        "noise_curfew": "11:30pm"
+      },
+      "contact": {
+        "email": "weddings.singapore@raffles.com",
+        "phone": "+65 6412 1344",
+        "website": "https://www.raffles.com/singapore/occasions/weddings/",
+        "booking_url": "https://www.raffles.com/singapore/occasions/weddings/"
+      },
+      "last_updated": "2025-11-18T16:00:00"
+    },
+    {
+      "id": "venue-008",
+      "name": "Mandarin Oriental Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 2500,
+        "weekday_price": 2300,
+        "weekend_price": 2700,
+        "min_spend": 35000,
+        "min_tables": 14,
+        "pricing_type": "plus_plus"
+      },
+      "capacity": {
+        "min_tables": 14,
+        "max_capacity": 390,
+        "max_rounds": 39,
+        "comfortable_capacity": 350
+      },
+      "location": {
+        "address": "5 Raffles Avenue, Singapore 039797",
+        "postal": "039797",
+        "zone": "Central",
+        "district": "Marina Bay",
+        "nearest_mrt": "Esplanade MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": ["CC"],
+        "parking_lots": 200,
+        "parking_cost": "$3-5/hr"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "pillar_free": true,
+        "led_wall": true,
+        "sound_system": true,
+        "projector": true,
+        "natural_light": true,
+        "city_view": true,
+        "waterfront_view": true,
+        "wedding_coordinator": true
+      },
+      "packages": [
+        {
+          "name": "Oriental Ballroom Package",
+          "price_per_table": 2500,
+          "min_spend": 35000,
+          "features": [
+            "20-metre curved LED wall",
+            "Fan-shaped pillarless design",
+            "State-of-the-art sound system",
+            "Private cocktail reception space",
+            "Dedicated wedding expert",
+            "Wedding showcase savings up to SGD 8,888"
+          ],
+          "course_count": 8,
+          "menu_type": "Chinese"
+        },
+        {
+          "name": "Garden Suite Package",
+          "price_per_table": 2400,
+          "min_spend": 30000,
+          "features": [
+            "Surrounded by lush greenery",
+            "City skyline view",
+            "State-of-the-art AV equipment",
+            "Accommodates up to 200 guests"
+          ],
+          "course_count": 8,
+          "menu_type": "Mixed"
+        },
+        {
+          "name": "Atrium Suites Package",
+          "price_per_table": 2300,
+          "min_spend": 25000,
+          "features": [
+            "Floor-to-ceiling LED wall",
+            "Dynamic backdrop options",
+            "Stylish contemporary décor",
+            "Up to 180 guests"
+          ],
+          "course_count": 8,
+          "menu_type": "Western"
+        }
+      ],
+      "description": "Luxury Marina Bay hotel with the stunning fan-shaped Oriental Ballroom featuring a 20-metre curved LED wall. Accommodates up to 390 guests for sit-down dinner. Garden Suite offers city skyline views surrounded by greenery. Harbour View Suites provide natural light with full-length windows. Exceptionally Singapore with dedicated wedding experts.",
+      "reviews_summary": "Exceptional service and stunning venues. The Oriental Ballroom's LED wall is breathtaking. Food quality is outstanding. Wedding coordinators are meticulous and professional. Perfect Marina Bay location with three nearby MRT stations. Worth the premium pricing.",
+      "rating": 4.8,
+      "review_count": 356,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "12am"
+      },
+      "contact": {
+        "email": "mosin-weddings@mohg.com",
+        "phone": "+65 6885 3488",
+        "website": "https://www.mandarinoriental.com/en/singapore/marina-bay/celebrate",
+        "booking_url": "https://www.mandarinoriental.com/en/singapore/marina-bay/celebrate"
+      },
+      "last_updated": "2025-11-18T16:00:00"
+    },
+    {
+      "id": "venue-009",
+      "name": "Shangri-La Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 2200,
+        "weekday_price": 2000,
+        "weekend_price": 2400,
+        "min_spend": 32000,
+        "min_tables": 15,
+        "pricing_type": "plus_plus"
+      },
+      "capacity": {
+        "min_tables": 15,
+        "max_capacity": 1000,
+        "max_rounds": 100,
+        "comfortable_capacity": 900
+      },
+      "location": {
+        "address": "22 Orange Grove Road, Singapore 258350",
+        "postal": "258350",
+        "zone": "Central",
+        "district": "Orchard",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": ["NS"],
+        "parking_lots": 500,
+        "parking_cost": "$3/hr weekday, $5/hr weekend"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": true,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "pillar_free": true,
+        "multiple_ballrooms": true,
+        "garden": true,
+        "heritage_venue": true,
+        "wedding_coordinator": true
+      },
+      "packages": [
+        {
+          "name": "Island Ballroom Package",
+          "price_per_table": 2400,
+          "min_spend": 40000,
+          "features": [
+            "Pillarless ballroom for up to 1,000 guests",
+            "5,500 sq m of event space",
+            "Dedicated catering manager",
+            "Premium AV package"
+          ],
+          "course_count": 8,
+          "menu_type": "Chinese"
+        },
+        {
+          "name": "Tower Ballroom Package",
+          "price_per_table": 2200,
+          "min_spend": 32000,
+          "features": [
+            "250-500 guest capacity",
+            "Elegant ballroom setting",
+            "Professional event management",
+            "Customizable décor"
+          ],
+          "course_count": 8,
+          "menu_type": "Mixed"
+        },
+        {
+          "name": "Banyan Deck Package",
+          "price_per_table": 2000,
+          "min_spend": 25000,
+          "features": [
+            "Outdoor garden setting",
+            "Elegant solemnisation venue",
+            "Lush greenery backdrop",
+            "Intimate gathering option"
+          ],
+          "course_count": 6,
+          "menu_type": "Western"
+        }
+      ],
+      "description": "Prestigious Orchard Road hotel set in 15 acres of lush gardens. The pillarless Island Ballroom accommodates up to 1,000 guests. Tower Ballroom perfect for 250-500 guests. Features heritage Dutch Pavilion for intimate ceremonies and the beautiful Banyan Deck for outdoor solemnisations. 20 function rooms and dedicated wedding specialists.",
+      "reviews_summary": "Renowned for impeccable service and stunning venues. The Island Ballroom is one of Singapore's largest. Beautiful garden settings for outdoor ceremonies. Food quality exceptional. Professional event management team. Premium Orchard location with ample parking.",
+      "rating": 4.8,
+      "review_count": 428,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "11:30pm"
+      },
+      "contact": {
+        "email": "weddings.sls@shangri-la.com",
+        "phone": "+65 6213 4398",
+        "website": "https://www.shangri-la.com/singapore/shangrila/weddings-celebrations/",
+        "booking_url": "https://www.shangri-la.com/singapore/shangrila/weddings-celebrations/"
+      },
+      "last_updated": "2025-11-18T16:00:00"
+    },
+    {
+      "id": "venue-010",
+      "name": "Four Seasons Hotel Singapore",
+      "venue_type": "hotel",
+      "pricing": {
+        "price_per_table": 2188,
+        "weekday_price": 2088,
+        "weekend_price": 2388,
+        "min_spend": 35000,
+        "min_tables": 16,
+        "pricing_type": "plus_plus"
+      },
+      "capacity": {
+        "min_tables": 16,
+        "max_capacity": 220,
+        "max_rounds": 22,
+        "comfortable_capacity": 200
+      },
+      "location": {
+        "address": "190 Orchard Boulevard, Singapore 248646",
+        "postal": "248646",
+        "zone": "Central",
+        "district": "Orchard",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": ["NS"],
+        "parking_lots": 300,
+        "parking_cost": "$3/hr weekday, $5/hr weekend"
+      },
+      "amenities": {
+        "av_equipment": true,
+        "bridal_suite": true,
+        "in_house_catering": true,
+        "outdoor_area": false,
+        "air_conditioning": true,
+        "valet_parking": true,
+        "pillar_free": true,
+        "natural_light": true,
+        "led_wall": false,
+        "sound_system": true,
+        "projector": true,
+        "wedding_coordinator": true
+      },
+      "packages": [
+        {
+          "name": "Four Seasons Ballroom - Weekday Dinner",
+          "price_per_table": 2088,
+          "min_spend": 35000,
+          "features": [
+            "Pillarless ballroom with arched windows",
+            "Tree-lined Orchard Boulevard views",
+            "Breathtaking Barrisol ceiling",
+            "Customizable LED lighting",
+            "Wedding Maestro service"
+          ],
+          "course_count": 8,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Four Seasons Ballroom - Weekend Dinner",
+          "price_per_table": 2388,
+          "min_spend": 40000,
+          "features": [
+            "Premium weekend package",
+            "Contemporary ballroom design",
+            "Full LED lighting customization",
+            "Extended venue access",
+            "Dedicated Wedding Maestro"
+          ],
+          "course_count": 10,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Four Seasons Ballroom - Lunch",
+          "price_per_table": 2088,
+          "min_spend": 30000,
+          "features": [
+            "Natural daylight setting",
+            "Orchard Boulevard views",
+            "Elegant lunch reception",
+            "Professional service team"
+          ],
+          "course_count": 6,
+          "menu_type": "Western"
+        },
+        {
+          "name": "Crescent Ballroom Package",
+          "price_per_table": 2188,
+          "min_spend": 25000,
+          "features": [
+            "Handmade glass chandeliers",
+            "Intimate 220-guest capacity",
+            "2,648 sq ft ballroom",
+            "Inviting ambience"
+          ],
+          "course_count": 8,
+          "menu_type": "Mixed"
+        }
+      ],
+      "description": "Luxury Orchard hotel featuring the pillarless Four Seasons Ballroom with arched windows overlooking tree-lined Orchard Boulevard. Breathtaking Barrisol ceiling with customizable LED lighting. Crescent Ballroom offers handmade glass chandeliers for intimate celebrations. Wedding Maestros provide expert planning assistance. Perfect for sophisticated Orchard area weddings.",
+      "reviews_summary": "Exceptional Four Seasons service and attention to detail. The ballroom's Barrisol ceiling and LED lighting create stunning ambience. Food quality is outstanding. Wedding Maestros are highly professional and helpful. Convenient Orchard location. Premium but worth every dollar for quality-conscious couples.",
+      "rating": 4.8,
+      "review_count": 298,
+      "restrictions": {
+        "outside_catering": false,
+        "decorations": "allowed_with_approval",
+        "corkage": "not_allowed",
+        "noise_curfew": "11:30pm"
+      },
+      "contact": {
+        "email": "catering.sin.dst@fourseasons.com",
+        "phone": "+65 6831 7005",
+        "website": "https://www.fourseasons.com/singapore/weddings/",
+        "booking_url": "https://www.fourseasons.com/singapore/weddings/"
+      },
+      "last_updated": "2025-11-18T16:00:00"
     }
   ]
 }
