@@ -1023,13 +1023,13 @@
     },
     {
       "id": "venue-alfresco",
-      "name": "Alfresco",
-      "venue_type": "",
+      "name": "Alfresco @ Parkroyal Collection Marina Bay",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1039,13 +1039,19 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Dakota MRT / Mountbatten MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "CC",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338335",
+      "last_updated": "2025-11-22T15:03:17.650663",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1475,13 +1481,13 @@
     },
     {
       "id": "venue-chapel-lawn",
-      "name": "Chapel Lawn",
-      "venue_type": "outdoor_venue",
+      "name": "Chapel Lawn @ Capella Singapore",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1499,7 +1505,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T15:03:17.650712",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1725,7 +1731,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1750,18 +1756,18 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989224",
+      "last_updated": "2025-11-22T15:03:17.650755",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-creek",
-      "name": "Creek",
-      "venue_type": "",
+      "name": "Creek @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1771,13 +1777,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338689",
+      "last_updated": "2025-11-22T15:03:17.650717",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1788,7 +1799,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1813,7 +1824,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721757",
+      "last_updated": "2025-11-22T15:03:17.650822",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2053,7 +2064,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2079,7 +2090,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973288",
+      "last_updated": "2025-11-22T15:03:17.650826",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2122,13 +2133,13 @@
     },
     {
       "id": "venue-fu-lin-men",
-      "name": "Fu Lin Men",
+      "name": "Fu Lin Men @ Temasek Club",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2149,18 +2160,18 @@
       },
       "rating": 4.8,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T15:03:17.650852",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-chinese-swimming-club",
-      "name": "Fu Lin Men (Chinese Swimming Club)",
+      "name": "Fu Lin Men @ Chinese Swimming Club",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2185,18 +2196,18 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973282",
+      "last_updated": "2025-11-22T15:03:17.650857",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-national-service-resort--country-club",
-      "name": "Fu Lin Men (National Service Resort & Country Club)",
+      "name": "Fu Lin Men @ NSRCC",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2220,18 +2231,18 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973280",
+      "last_updated": "2025-11-22T15:03:17.650862",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-temasek-club",
-      "name": "Fu Lin Men (Temasek Club)",
+      "name": "Fu Lin Men @ Temasek Club",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2255,18 +2266,18 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973276",
+      "last_updated": "2025-11-22T15:03:17.650866",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-fu-lin-men-grandeur",
-      "name": "Fu Lin Men Grandeur",
+      "name": "Fu Lin Men Grandeur @ Novotel Kitchener",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2288,7 +2299,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T15:03:17.650871",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2299,7 +2310,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2325,18 +2336,18 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973274",
+      "last_updated": "2025-11-22T15:03:17.650761",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-furama-riverfront",
-      "name": "Furama RiverFront",
+      "name": "Furama RiverFront Singapore",
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2361,7 +2372,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:28:53.291215",
+      "last_updated": "2025-11-22T15:03:17.650765",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2473,13 +2484,13 @@
     },
     {
       "id": "venue-grand-ballroom",
-      "name": "Grand Ballroom",
-      "venue_type": "",
+      "name": "Grand Ballroom @ Orchid Country Club",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2495,7 +2506,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339081",
+      "last_updated": "2025-11-22T15:03:17.650875",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3136,13 +3147,13 @@
     },
     {
       "id": "venue-infinity",
-      "name": "Infinity",
-      "venue_type": "",
+      "name": "Infinity @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3152,13 +3163,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339334",
+      "last_updated": "2025-11-22T15:03:17.650724",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3231,7 +3247,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3252,7 +3268,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T15:03:17.650832",
       "data_source": "BlissfulBrides",
       "notes": "Restaurant chain that has closed many global locations - verify operational status"
     },
@@ -3482,13 +3498,13 @@
     },
     {
       "id": "venue-le-meridien-singapore-sentosa-fomerly-movenpick",
-      "name": "Le Meridien Singapore, Sentosa (fomerly Movenpick)",
+      "name": "Le Meridien Singapore, Sentosa",
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3514,7 +3530,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224257",
+      "last_updated": "2025-11-22T15:03:17.650772",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3555,13 +3571,13 @@
     },
     {
       "id": "venue-lingzhi-vegetarian-liat-towers",
-      "name": "LingZhi Vegetarian (Liat Towers)",
+      "name": "LingZhi Vegetarian @ Liat Towers",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": 150,
       "location": {
@@ -3579,7 +3595,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T15:03:17.650838",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3722,7 +3738,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": 350,
       "location": {
@@ -3740,7 +3756,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T15:03:17.650778",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3910,12 +3926,12 @@
     {
       "id": "venue-ntuc-club-downtown-east",
       "name": "NTUC Club, Downtown East",
-      "venue_type": "banquet_hall",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": 320,
       "location": {
@@ -3933,7 +3949,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:03:17.650884",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3980,7 +3996,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": 120,
       "location": {
@@ -3996,7 +4012,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:03:17.650785",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4104,7 +4120,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4129,7 +4145,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721775",
+      "last_updated": "2025-11-22T15:03:17.650792",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4167,7 +4183,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": 1000,
       "location": {
@@ -4185,7 +4201,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:03:17.650799",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4318,7 +4334,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4342,7 +4358,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989242",
+      "last_updated": "2025-11-22T15:03:17.650806",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5545,13 +5561,13 @@
     },
     {
       "id": "venue-saffron",
-      "name": "Saffron",
-      "venue_type": "",
+      "name": "Saffron @ Parkroyal Collection Marina Bay",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5561,13 +5577,19 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Dakota MRT / Mountbatten MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "CC",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340536",
+      "last_updated": "2025-11-22T15:03:17.650694",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5751,13 +5773,13 @@
     },
     {
       "id": "venue-serai",
-      "name": "Serai",
-      "venue_type": "",
+      "name": "Serai @ Parkroyal Collection Marina Bay",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5767,13 +5789,19 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Dakota MRT / Mountbatten MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "CC",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340659",
+      "last_updated": "2025-11-22T15:03:17.650707",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5840,7 +5868,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5866,7 +5894,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721767",
+      "last_updated": "2025-11-22T15:03:17.650816",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5934,13 +5962,13 @@
     },
     {
       "id": "venue-shisen-hanten",
-      "name": "Shisen Hanten",
+      "name": "Shisen Hanten @ Mandarin Orchard",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5965,7 +5993,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:28:53.291251",
+      "last_updated": "2025-11-22T15:03:17.650848",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6244,13 +6272,13 @@
     },
     {
       "id": "venue-sphere",
-      "name": "Sphere",
-      "venue_type": "",
+      "name": "Sphere @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6260,13 +6288,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340864",
+      "last_updated": "2025-11-22T15:03:17.650739",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6298,13 +6331,13 @@
     },
     {
       "id": "venue-square-ballroom",
-      "name": "Square Ballroom",
-      "venue_type": "",
+      "name": "Square Ballroom @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6314,24 +6347,29 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340887",
+      "last_updated": "2025-11-22T15:03:17.650750",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-suntec-city-guild-house",
-      "name": "Suntec City Guild House",
-      "venue_type": "",
+      "name": "Suntec City Guild House @ NUSS",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6341,13 +6379,18 @@
       "location": {
         "address": "9 Kent Ridge Drive, Singapore 119241",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Kent Ridge MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340914",
+      "last_updated": "2025-11-22T15:03:17.650895",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6893,12 +6936,12 @@
     {
       "id": "venue-top-of-uob-plaza",
       "name": "TOP of UOB Plaza",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6908,13 +6951,19 @@
       "location": {
         "address": "80 Raffles Place, #60-01 UOB Plaza 1, Singapore 048624",
         "postal": "",
-        "zone": ""
+        "zone": "",
+        "nearest_mrt": "Raffles Place MRT",
+        "mrt_distance": "Direct access",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341168",
+      "last_updated": "2025-11-22T15:03:17.650908",
       "data_source": "BlissfulBrides"
     },
     {
