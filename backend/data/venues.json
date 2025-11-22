@@ -1229,12 +1229,12 @@
     {
       "id": "venue-beach-garden",
       "name": "Beach Garden",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1250,7 +1250,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338439",
+      "last_updated": "2025-11-22T15:05:54.841683",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1261,7 +1261,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1277,7 +1277,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338454",
+      "last_updated": "2025-11-22T15:05:54.841688",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1321,12 +1321,12 @@
     {
       "id": "venue-bounty-restaurant-venue",
       "name": "Bounty Restaurant Venue",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1342,7 +1342,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338478",
+      "last_updated": "2025-11-22T15:05:54.841701",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1586,12 +1586,12 @@
     {
       "id": "venue-cliff-lawn",
       "name": "Cliff Lawn",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1607,7 +1607,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338578",
+      "last_updated": "2025-11-22T15:05:54.841709",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2743,7 +2743,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2759,7 +2759,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339162",
+      "last_updated": "2025-11-22T15:05:54.841723",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3126,7 +3126,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3142,7 +3142,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339299",
+      "last_updated": "2025-11-22T15:05:54.841732",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4243,12 +4243,12 @@
     {
       "id": "venue-outdoor-alfresco-dining",
       "name": "Outdoor Alfresco Dining",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4264,7 +4264,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339827",
+      "last_updated": "2025-11-22T15:05:54.841752",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4307,7 +4307,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4323,7 +4323,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339850",
+      "last_updated": "2025-11-22T15:05:54.841755",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4369,7 +4369,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4385,7 +4385,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339894",
+      "last_updated": "2025-11-22T15:05:54.841761",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4427,12 +4427,12 @@
     {
       "id": "venue-park-hotel-clarke-quay",
       "name": "Park Hotel Clarke Quay",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4448,7 +4448,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339913",
+      "last_updated": "2025-11-22T15:05:54.841768",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4459,7 +4459,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "",
+        "pricing_type": "plus_plus",
         "weekday_price": 1788,
         "weekend_price": 2288
       },
@@ -4477,7 +4477,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:05:04.735353",
+      "last_updated": "2025-11-22T15:05:54.841771",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4556,12 +4556,12 @@
     {
       "id": "venue-pavilion-singapore",
       "name": "Pavilion Singapore",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4577,7 +4577,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339981",
+      "last_updated": "2025-11-22T15:05:54.841781",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4769,12 +4769,12 @@
     {
       "id": "venue-peninsula-excelsior-hotel",
       "name": "Peninsula Excelsior Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4790,7 +4790,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340203",
+      "last_updated": "2025-11-22T15:05:54.841788",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4801,7 +4801,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4817,7 +4817,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340213",
+      "last_updated": "2025-11-22T15:05:54.841790",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4828,7 +4828,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4844,18 +4844,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340225",
+      "last_updated": "2025-11-22T15:05:54.841795",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-peony-jade-at-keppel-club",
       "name": "Peony Jade at Keppel Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4871,7 +4871,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340235",
+      "last_updated": "2025-11-22T15:05:54.841804",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4940,12 +4940,12 @@
     {
       "id": "venue-prima-tower-revolving-restaurant",
       "name": "Prima Tower Revolving Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4961,7 +4961,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340280",
+      "last_updated": "2025-11-22T15:05:54.841810",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5191,12 +5191,12 @@
     {
       "id": "venue-qian-xi-jubilee-garden",
       "name": "Qian Xi Jubilee Garden",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5212,7 +5212,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340385",
+      "last_updated": "2025-11-22T15:05:54.841818",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5246,12 +5246,12 @@
     {
       "id": "venue-qian-xi-pearl-garden",
       "name": "Qian Xi Pearl Garden",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5267,18 +5267,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340404",
+      "last_updated": "2025-11-22T15:05:54.841824",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-qian-xi-summer-garden",
       "name": "Qian Xi Summer Garden",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5294,7 +5294,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340412",
+      "last_updated": "2025-11-22T15:05:54.841829",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5332,12 +5332,12 @@
     {
       "id": "venue-raffles-hotel",
       "name": "Raffles Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5353,7 +5353,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340435",
+      "last_updated": "2025-11-22T15:05:54.841834",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5364,7 +5364,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5380,7 +5380,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340448",
+      "last_updated": "2025-11-22T15:05:54.841837",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5391,7 +5391,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5407,18 +5407,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340458",
+      "last_updated": "2025-11-22T15:05:54.841842",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-rendezvous-hotel-singapore-at-bras-basah",
       "name": "Rendezvous Hotel Singapore at Bras Basah",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5434,18 +5434,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340469",
+      "last_updated": "2025-11-22T15:05:54.841849",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-resorts-world-sentosa-convention-centre",
       "name": "Resorts World Sentosa, Convention Centre",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5461,7 +5461,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340479",
+      "last_updated": "2025-11-22T15:05:54.841856",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5540,7 +5540,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5556,7 +5556,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340524",
+      "last_updated": "2025-11-22T15:05:54.841859",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5630,7 +5630,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5646,7 +5646,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340567",
+      "last_updated": "2025-11-22T15:05:54.841865",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5679,12 +5679,12 @@
     {
       "id": "venue-senses-lawn",
       "name": "Senses Lawn",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5700,7 +5700,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340586",
+      "last_updated": "2025-11-22T15:05:54.841873",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5836,12 +5836,12 @@
     {
       "id": "venue-shangri-la-hotel",
       "name": "Shangri-La Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5857,7 +5857,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340685",
+      "last_updated": "2025-11-22T15:05:54.841879",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5941,7 +5941,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5957,7 +5957,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340725",
+      "last_updated": "2025-11-22T15:05:54.841882",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6035,7 +6035,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6051,7 +6051,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340756",
+      "last_updated": "2025-11-22T15:05:54.841887",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6093,12 +6093,12 @@
     {
       "id": "venue-singapore-recreation-club",
       "name": "Singapore Recreation Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6114,18 +6114,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340787",
+      "last_updated": "2025-11-22T15:05:54.841896",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-singapore-swimming-club",
       "name": "Singapore Swimming Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6141,7 +6141,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340799",
+      "last_updated": "2025-11-22T15:05:54.841903",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6152,7 +6152,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6168,7 +6168,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340809",
+      "last_updated": "2025-11-22T15:05:54.841905",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6215,7 +6215,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6231,7 +6231,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340830",
+      "last_updated": "2025-11-22T15:05:54.841911",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6310,7 +6310,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6326,7 +6326,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340874",
+      "last_updated": "2025-11-22T15:05:54.841916",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6401,7 +6401,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6417,18 +6417,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340927",
+      "last_updated": "2025-11-22T15:05:54.841922",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-british-club",
       "name": "The British Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6444,18 +6444,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340940",
+      "last_updated": "2025-11-22T15:05:54.841932",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-capitol-kempinski-hotel-singapore",
       "name": "The Capitol Kempinski Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6471,7 +6471,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340953",
+      "last_updated": "2025-11-22T15:05:54.841937",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6482,7 +6482,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6498,7 +6498,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340961",
+      "last_updated": "2025-11-22T15:05:54.841939",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6509,7 +6509,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6525,7 +6525,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340971",
+      "last_updated": "2025-11-22T15:05:54.841944",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6603,7 +6603,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6619,7 +6619,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341004",
+      "last_updated": "2025-11-22T15:05:54.841950",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6630,7 +6630,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6646,18 +6646,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341015",
+      "last_updated": "2025-11-22T15:05:54.841955",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-outpost-hotel-sentosa",
       "name": "The Outpost Hotel Sentosa",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6673,7 +6673,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341024",
+      "last_updated": "2025-11-22T15:05:54.841965",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6684,7 +6684,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6700,7 +6700,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341034",
+      "last_updated": "2025-11-22T15:05:54.841968",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6711,7 +6711,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6727,7 +6727,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341050",
+      "last_updated": "2025-11-22T15:05:54.841974",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6738,7 +6738,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6754,7 +6754,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341061",
+      "last_updated": "2025-11-22T15:05:54.841979",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6795,7 +6795,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6811,7 +6811,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341080",
+      "last_updated": "2025-11-22T15:05:54.841984",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6914,7 +6914,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6930,7 +6930,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341159",
+      "last_updated": "2025-11-22T15:05:54.841990",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7142,7 +7142,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7158,7 +7158,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341241",
+      "last_updated": "2025-11-22T15:05:54.841997",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7169,7 +7169,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7185,7 +7185,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341253",
+      "last_updated": "2025-11-22T15:05:54.842002",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7196,7 +7196,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7212,7 +7212,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341262",
+      "last_updated": "2025-11-22T15:05:54.842007",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7223,7 +7223,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7239,7 +7239,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341271",
+      "last_updated": "2025-11-22T15:05:54.842012",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7250,7 +7250,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7266,7 +7266,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341281",
+      "last_updated": "2025-11-22T15:05:54.842017",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7277,7 +7277,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7293,7 +7293,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341305",
+      "last_updated": "2025-11-22T15:05:54.842022",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7361,12 +7361,12 @@
     {
       "id": "venue-village-hotel-changi",
       "name": "Village Hotel Changi",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7382,18 +7382,18 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341353",
+      "last_updated": "2025-11-22T15:05:54.842030",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-village-hotel-katong",
       "name": "Village Hotel Katong",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7409,7 +7409,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341366",
+      "last_updated": "2025-11-22T15:05:54.842034",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7420,7 +7420,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7436,7 +7436,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341375",
+      "last_updated": "2025-11-22T15:05:54.842037",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7447,7 +7447,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7463,7 +7463,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341391",
+      "last_updated": "2025-11-22T15:05:54.842042",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7506,12 +7506,12 @@
     {
       "id": "venue-ya-ge-restaurant",
       "name": "Ya Ge Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7527,7 +7527,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341420",
+      "last_updated": "2025-11-22T15:05:54.842050",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7574,7 +7574,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7590,7 +7590,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341444",
+      "last_updated": "2025-11-22T15:05:54.842053",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7601,7 +7601,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -7617,7 +7617,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341454",
+      "last_updated": "2025-11-22T15:05:54.842058",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7866,7 +7866,7 @@
     {
       "id": "venue-ya-ge-雅閣-at-orchid-hotel",
       "name": "Ya Ge 雅閣 at Orchid Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 68,
         "min_spend": 0,
@@ -7887,7 +7887,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.262321",
+      "last_updated": "2025-11-22T15:05:54.842086",
       "data_source": "Bridely"
     },
     {
@@ -8073,7 +8073,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8089,13 +8089,13 @@
       "contact": {},
       "rating": 4.633333333333334,
       "review_count": 20,
-      "last_updated": "2025-11-18T15:45:26.262977",
+      "last_updated": "2025-11-22T15:05:54.842100",
       "data_source": "Bridely"
     },
     {
       "id": "venue-nuss-guild-houses",
       "name": "NUSS Guild Houses",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 78,
         "min_spend": 0,
@@ -8116,18 +8116,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.262992",
+      "last_updated": "2025-11-22T15:05:54.842106",
       "data_source": "Bridely"
     },
     {
       "id": "venue-pgp-hall-sri-srinivasa-perumal-temple",
       "name": "PGP Hall (Sri Srinivasa Perumal Temple)",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8143,13 +8143,13 @@
       "contact": {},
       "rating": 4.533333333333333,
       "review_count": 21,
-      "last_updated": "2025-11-18T15:45:26.263018",
+      "last_updated": "2025-11-22T15:05:54.842112",
       "data_source": "Bridely"
     },
     {
       "id": "venue-m-hotel-singapore-city-centre",
       "name": "M Hotel Singapore City Centre",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 154,
         "min_spend": 0,
@@ -8170,7 +8170,7 @@
       "contact": {},
       "rating": 3.6999999999999997,
       "review_count": 74,
-      "last_updated": "2025-11-18T15:45:26.263035",
+      "last_updated": "2025-11-22T15:05:54.842114",
       "data_source": "Bridely"
     },
     {
@@ -8218,7 +8218,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8234,13 +8234,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 16,
-      "last_updated": "2025-11-18T15:45:26.263084",
+      "last_updated": "2025-11-22T15:05:54.842118",
       "data_source": "Bridely"
     },
     {
       "id": "venue-copthorne-kings-hotel-singapore",
       "name": "Copthorne King's Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 136,
         "min_spend": 0,
@@ -8261,18 +8261,18 @@
       "contact": {},
       "rating": 4.133333333333333,
       "review_count": 49,
-      "last_updated": "2025-11-18T15:45:26.263137",
+      "last_updated": "2025-11-22T15:05:54.842122",
       "data_source": "Bridely"
     },
     {
       "id": "venue-straits-chinese-nonya-restaurant-土生坊正宗娘惹餐馆-1953",
       "name": "Straits Chinese Nonya Restaurant 土生坊正宗娘惹餐馆 (1953)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8288,13 +8288,13 @@
       "contact": {},
       "rating": 4.866666666666666,
       "review_count": 13,
-      "last_updated": "2025-11-18T15:45:26.263189",
+      "last_updated": "2025-11-22T15:05:54.842128",
       "data_source": "Bridely"
     },
     {
       "id": "venue-novotel-on-kitchener-road",
       "name": "Novotel on Kitchener Road",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 97,
         "min_spend": 0,
@@ -8315,7 +8315,7 @@
       "contact": {},
       "rating": 4.033333333333333,
       "review_count": 24,
-      "last_updated": "2025-11-18T15:45:26.263207",
+      "last_updated": "2025-11-22T15:05:54.842131",
       "data_source": "Bridely"
     },
     {
@@ -8385,12 +8385,12 @@
     {
       "id": "venue-si-chuan-dou-hua-restaurant---beach-road",
       "name": "Si Chuan Dou Hua Restaurant - Beach Road",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8406,7 +8406,7 @@
       "contact": {},
       "rating": 4.833333333333333,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.263405",
+      "last_updated": "2025-11-22T15:05:54.842139",
       "data_source": "Bridely"
     },
     {
@@ -8417,7 +8417,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8433,18 +8433,18 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.263417",
+      "last_updated": "2025-11-22T15:05:54.842142",
       "data_source": "Bridely"
     },
     {
       "id": "venue-taverna-greka-greek-italian-restaurant",
       "name": "Taverna Greka Greek-Italian Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8460,13 +8460,13 @@
       "contact": {},
       "rating": 4.866666666666666,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.263495",
+      "last_updated": "2025-11-22T15:05:54.842149",
       "data_source": "Bridely"
     },
     {
       "id": "venue-grand-shanghai-restaurant",
       "name": "Grand Shanghai Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 178,
         "min_spend": 0,
@@ -8487,7 +8487,7 @@
       "contact": {},
       "rating": 4.366666666666666,
       "review_count": 21,
-      "last_updated": "2025-11-18T15:45:26.263509",
+      "last_updated": "2025-11-22T15:05:54.842151",
       "data_source": "Bridely"
     },
     {
@@ -8574,7 +8574,7 @@
     {
       "id": "venue-fu-lin-men-cantonese-dining-chinese-swimming-club",
       "name": "Fu Lin Men Cantonese Dining (Chinese Swimming Club)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 84,
         "min_spend": 0,
@@ -8595,7 +8595,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.263611",
+      "last_updated": "2025-11-22T15:05:54.842161",
       "data_source": "Bridely"
     },
     {
@@ -8606,7 +8606,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8622,7 +8622,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.263672",
+      "last_updated": "2025-11-22T15:05:54.842164",
       "data_source": "Bridely"
     },
     {
@@ -8633,7 +8633,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8649,7 +8649,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.263755",
+      "last_updated": "2025-11-22T15:05:54.842168",
       "data_source": "Bridely"
     },
     {
@@ -8660,7 +8660,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 18,
@@ -8676,7 +8676,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.263770",
+      "last_updated": "2025-11-22T15:05:54.842173",
       "data_source": "Bridely"
     },
     {
@@ -8687,7 +8687,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8703,7 +8703,7 @@
       "contact": {},
       "rating": 3.9333333333333336,
       "review_count": 22,
-      "last_updated": "2025-11-18T15:45:26.263784",
+      "last_updated": "2025-11-22T15:05:54.842179",
       "data_source": "Bridely"
     },
     {
@@ -8768,7 +8768,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8784,13 +8784,13 @@
       "contact": {},
       "rating": 4.233333333333333,
       "review_count": 13,
-      "last_updated": "2025-11-18T15:45:26.263862",
+      "last_updated": "2025-11-22T15:05:54.842189",
       "data_source": "Bridely"
     },
     {
       "id": "venue-york-hotel",
       "name": "York Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 136,
         "min_spend": 0,
@@ -8811,7 +8811,7 @@
       "contact": {},
       "rating": 4.466666666666666,
       "review_count": 11,
-      "last_updated": "2025-11-18T15:45:26.263872",
+      "last_updated": "2025-11-22T15:05:54.842193",
       "data_source": "Bridely"
     },
     {
@@ -8822,7 +8822,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8838,13 +8838,13 @@
       "contact": {},
       "rating": 4.233333333333333,
       "review_count": 12,
-      "last_updated": "2025-11-18T15:45:26.263886",
+      "last_updated": "2025-11-22T15:05:54.842196",
       "data_source": "Bridely"
     },
     {
       "id": "venue-flower-field-hall--gardens-by-the-bay",
       "name": "Flower Field Hall @ Gardens by the Bay",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 16300,
         "min_spend": 0,
@@ -8865,7 +8865,7 @@
       "contact": {},
       "rating": 4.8999999999999995,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.263915",
+      "last_updated": "2025-11-22T15:05:54.842201",
       "data_source": "Bridely"
     },
     {
@@ -8913,7 +8913,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -8929,7 +8929,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 3,
-      "last_updated": "2025-11-18T15:45:26.263953",
+      "last_updated": "2025-11-22T15:05:54.842204",
       "data_source": "Bridely"
     },
     {
@@ -8989,12 +8989,12 @@
     {
       "id": "venue-the-grassroots-club",
       "name": "The Grassroots Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9010,7 +9010,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 8,
-      "last_updated": "2025-11-18T15:45:26.264029",
+      "last_updated": "2025-11-22T15:05:54.842217",
       "data_source": "Bridely"
     },
     {
@@ -9048,7 +9048,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9064,7 +9064,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.264078",
+      "last_updated": "2025-11-22T15:05:54.842222",
       "data_source": "Bridely"
     },
     {
@@ -9075,7 +9075,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9091,7 +9091,7 @@
       "contact": {},
       "rating": 4.6000000000000005,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.264091",
+      "last_updated": "2025-11-22T15:05:54.842227",
       "data_source": "Bridely"
     },
     {
@@ -9102,7 +9102,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 9,
@@ -9118,7 +9118,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.264102",
+      "last_updated": "2025-11-22T15:05:54.842232",
       "data_source": "Bridely"
     },
     {
@@ -9156,7 +9156,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9172,7 +9172,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264187",
+      "last_updated": "2025-11-22T15:05:54.842239",
       "data_source": "Bridely"
     },
     {
@@ -9183,7 +9183,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9199,7 +9199,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264199",
+      "last_updated": "2025-11-22T15:05:54.842243",
       "data_source": "Bridely"
     },
     {
@@ -9210,7 +9210,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9226,7 +9226,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264209",
+      "last_updated": "2025-11-22T15:05:54.842248",
       "data_source": "Bridely"
     },
     {
@@ -9237,7 +9237,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9253,18 +9253,18 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264219",
+      "last_updated": "2025-11-22T15:05:54.842254",
       "data_source": "Bridely"
     },
     {
       "id": "venue-sailuxo-yacht-club",
       "name": "SAILUXO Yacht Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9280,7 +9280,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264229",
+      "last_updated": "2025-11-22T15:05:54.842262",
       "data_source": "Bridely"
     },
     {
@@ -9291,7 +9291,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9307,7 +9307,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264239",
+      "last_updated": "2025-11-22T15:05:54.842267",
       "data_source": "Bridely"
     },
     {
@@ -9355,7 +9355,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9371,13 +9371,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.264260",
+      "last_updated": "2025-11-22T15:05:54.842272",
       "data_source": "Bridely"
     },
     {
       "id": "venue-monti-at-1-pavilion",
       "name": "Monti at 1-Pavilion",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 165,
         "min_spend": 0,
@@ -9398,13 +9398,13 @@
       "contact": {},
       "rating": 3.6333333333333333,
       "review_count": 40,
-      "last_updated": "2025-11-18T15:45:26.264586",
+      "last_updated": "2025-11-22T15:05:54.842278",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-villa-at-singapore-botanic-gardens",
       "name": "The Villa at Singapore Botanic Gardens",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 128,
         "min_spend": 0,
@@ -9425,7 +9425,7 @@
       "contact": {},
       "rating": 4.2,
       "review_count": 11,
-      "last_updated": "2025-11-18T15:45:26.264602",
+      "last_updated": "2025-11-22T15:05:54.842281",
       "data_source": "Bridely"
     },
     {
@@ -9458,7 +9458,7 @@
     {
       "id": "venue-the-barracks-hotel-sentosa",
       "name": "The Barracks Hotel Sentosa",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 779,
         "min_spend": 0,
@@ -9479,7 +9479,7 @@
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 3,
-      "last_updated": "2025-11-18T15:45:26.264674",
+      "last_updated": "2025-11-22T15:05:54.842291",
       "data_source": "Bridely"
     },
     {
@@ -9566,7 +9566,7 @@
     {
       "id": "venue-raffles-town-club",
       "name": "Raffles Town Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 109,
         "min_spend": 0,
@@ -9587,7 +9587,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264784",
+      "last_updated": "2025-11-22T15:05:54.842302",
       "data_source": "Bridely"
     },
     {
@@ -9598,7 +9598,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9614,7 +9614,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264796",
+      "last_updated": "2025-11-22T15:05:54.842305",
       "data_source": "Bridely"
     },
     {
@@ -9625,7 +9625,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9641,7 +9641,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264806",
+      "last_updated": "2025-11-22T15:05:54.842310",
       "data_source": "Bridely"
     },
     {
@@ -9652,7 +9652,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9668,7 +9668,7 @@
       "contact": {},
       "rating": 4.333333333333333,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264816",
+      "last_updated": "2025-11-22T15:05:54.842314",
       "data_source": "Bridely"
     },
     {
@@ -9679,7 +9679,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9695,7 +9695,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264828",
+      "last_updated": "2025-11-22T15:05:54.842319",
       "data_source": "Bridely"
     },
     {
@@ -9706,7 +9706,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9722,7 +9722,7 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264839",
+      "last_updated": "2025-11-22T15:05:54.842324",
       "data_source": "Bridely"
     },
     {
@@ -9733,7 +9733,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9749,7 +9749,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264848",
+      "last_updated": "2025-11-22T15:05:54.842332",
       "data_source": "Bridely"
     },
     {
@@ -9760,7 +9760,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9776,7 +9776,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264856",
+      "last_updated": "2025-11-22T15:05:54.842337",
       "data_source": "Bridely"
     },
     {
@@ -9787,7 +9787,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9803,7 +9803,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264864",
+      "last_updated": "2025-11-22T15:05:54.842342",
       "data_source": "Bridely"
     },
     {
@@ -9814,7 +9814,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9830,7 +9830,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264879",
+      "last_updated": "2025-11-22T15:05:54.842346",
       "data_source": "Bridely"
     },
     {
@@ -9864,12 +9864,12 @@
     {
       "id": "venue-kampong-kembangan-community-club",
       "name": "Kampong Kembangan Community Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9885,7 +9885,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264897",
+      "last_updated": "2025-11-22T15:05:54.842355",
       "data_source": "Bridely"
     },
     {
@@ -9896,7 +9896,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9912,7 +9912,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264904",
+      "last_updated": "2025-11-22T15:05:54.842358",
       "data_source": "Bridely"
     },
     {
@@ -9923,7 +9923,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9939,18 +9939,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264915",
+      "last_updated": "2025-11-22T15:05:54.842362",
       "data_source": "Bridely"
     },
     {
       "id": "venue-hilltop-ballroom--pearls-hill",
       "name": "Hilltop Ballroom @ Pearl's Hill",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9966,18 +9966,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264925",
+      "last_updated": "2025-11-22T15:05:54.842370",
       "data_source": "Bridely"
     },
     {
       "id": "venue-burkill-hall",
       "name": "Burkill Hall",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9993,7 +9993,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264933",
+      "last_updated": "2025-11-22T15:05:54.842375",
       "data_source": "Bridely"
     },
     {
@@ -10026,7 +10026,7 @@
     {
       "id": "venue-holiday-inn-express--suites-singapore-novena",
       "name": "Holiday Inn Express & Suites Singapore Novena",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 107,
         "min_spend": 0,
@@ -10047,7 +10047,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264966",
+      "last_updated": "2025-11-22T15:05:54.842380",
       "data_source": "Bridely"
     },
     {
@@ -10080,7 +10080,7 @@
     {
       "id": "venue-jade-at-the-fullerton-hotel-singapore",
       "name": "Jade at The Fullerton Hotel Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 225,
         "min_spend": 0,
@@ -10101,13 +10101,13 @@
       "contact": {},
       "rating": 4.3,
       "review_count": 8,
-      "last_updated": "2025-11-18T15:45:26.265072",
+      "last_updated": "2025-11-22T15:05:54.842385",
       "data_source": "Bridely"
     },
     {
       "id": "venue-tunglok-signatures-orchard-rendezvous-hotel",
       "name": "TungLok Signatures (Orchard Rendezvous Hotel)",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 142,
         "min_spend": 0,
@@ -10128,13 +10128,13 @@
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.265086",
+      "last_updated": "2025-11-22T15:05:54.842387",
       "data_source": "Bridely"
     },
     {
       "id": "venue-si-chuan-dou-hua-restaurant-at-top-of-uob-plaza",
       "name": "Si Chuan Dou Hua Restaurant at Top of UOB Plaza",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 166,
         "min_spend": 0,
@@ -10155,7 +10155,7 @@
       "contact": {},
       "rating": 4.566666666666666,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.265130",
+      "last_updated": "2025-11-22T15:05:54.842389",
       "data_source": "Bridely"
     },
     {
@@ -10193,7 +10193,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10209,18 +10209,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265178",
+      "last_updated": "2025-11-22T15:05:54.842394",
       "data_source": "Bridely"
     },
     {
       "id": "venue-new-fut-kai-vegetarian-restaurant",
       "name": "New Fut Kai Vegetarian Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10236,7 +10236,7 @@
       "contact": {},
       "rating": 4.5,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265189",
+      "last_updated": "2025-11-22T15:05:54.842401",
       "data_source": "Bridely"
     },
     {
@@ -10269,12 +10269,12 @@
     {
       "id": "venue-amaryllis-ballroom",
       "name": "Amaryllis Ballroom",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10290,18 +10290,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.265222",
+      "last_updated": "2025-11-22T15:05:54.842409",
       "data_source": "Bridely"
     },
     {
       "id": "venue-civil-service-club--bukit-batok",
       "name": "Civil Service Club @ Bukit Batok",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10317,7 +10317,7 @@
       "contact": {},
       "rating": 3.4,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.265235",
+      "last_updated": "2025-11-22T15:05:54.842415",
       "data_source": "Bridely"
     },
     {
@@ -10328,7 +10328,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10344,7 +10344,7 @@
       "contact": {},
       "rating": 3.233333333333333,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.265246",
+      "last_updated": "2025-11-22T15:05:54.842418",
       "data_source": "Bridely"
     },
     {
@@ -10355,7 +10355,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10371,7 +10371,7 @@
       "contact": {},
       "rating": 4.0,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.265283",
+      "last_updated": "2025-11-22T15:05:54.842423",
       "data_source": "Bridely"
     },
     {
@@ -10409,7 +10409,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10425,7 +10425,7 @@
       "contact": {},
       "rating": 4.166666666666667,
       "review_count": 6,
-      "last_updated": "2025-11-18T15:45:26.265316",
+      "last_updated": "2025-11-22T15:05:54.842430",
       "data_source": "Bridely"
     },
     {
@@ -10436,7 +10436,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10452,18 +10452,18 @@
       "contact": {},
       "rating": 3.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265326",
+      "last_updated": "2025-11-22T15:05:54.842435",
       "data_source": "Bridely"
     },
     {
       "id": "venue-civil-service-club--tessensohn",
       "name": "Civil Service Club @ Tessensohn",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10479,7 +10479,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265336",
+      "last_updated": "2025-11-22T15:05:54.842443",
       "data_source": "Bridely"
     },
     {
@@ -10490,7 +10490,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10506,13 +10506,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265348",
+      "last_updated": "2025-11-22T15:05:54.842446",
       "data_source": "Bridely"
     },
     {
       "id": "venue-resorts-world-convention-centre",
       "name": "Resorts World Convention Centre",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 214,
         "min_spend": 0,
@@ -10533,13 +10533,13 @@
       "contact": {},
       "rating": 3.5666666666666664,
       "review_count": 6,
-      "last_updated": "2025-11-18T15:45:26.265364",
+      "last_updated": "2025-11-22T15:05:54.842451",
       "data_source": "Bridely"
     },
     {
       "id": "venue-equarius-hotel",
       "name": "Equarius Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 214,
         "min_spend": 0,
@@ -10560,7 +10560,7 @@
       "contact": {},
       "rating": 3.533333333333333,
       "review_count": 6,
-      "last_updated": "2025-11-18T15:45:26.265379",
+      "last_updated": "2025-11-22T15:05:54.842453",
       "data_source": "Bridely"
     },
     {
@@ -10593,12 +10593,12 @@
     {
       "id": "venue-tanglin-community-club",
       "name": "Tanglin Community Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10614,7 +10614,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265421",
+      "last_updated": "2025-11-22T15:05:54.842461",
       "data_source": "Bridely"
     },
     {
@@ -10625,7 +10625,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10641,18 +10641,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265429",
+      "last_updated": "2025-11-22T15:05:54.842464",
       "data_source": "Bridely"
     },
     {
       "id": "venue-foochow-building-event-hall",
       "name": "Foochow Building Event Hall",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10668,13 +10668,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265494",
+      "last_updated": "2025-11-22T15:05:54.842471",
       "data_source": "Bridely"
     },
     {
       "id": "venue-oasia-hotel-novena",
       "name": "Oasia Hotel Novena",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 188,
         "min_spend": 0,
@@ -10695,18 +10695,18 @@
       "contact": {},
       "rating": 2.6666666666666665,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.265506",
+      "last_updated": "2025-11-22T15:05:54.842473",
       "data_source": "Bridely"
     },
     {
       "id": "venue-de-hall",
       "name": "De Hall",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10722,7 +10722,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265517",
+      "last_updated": "2025-11-22T15:05:54.842478",
       "data_source": "Bridely"
     },
     {
@@ -10785,12 +10785,12 @@
     {
       "id": "venue-peach-garden-cateringwedding",
       "name": "Peach Garden Catering/Wedding",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10806,7 +10806,7 @@
       "contact": {},
       "rating": 2.2333333333333334,
       "review_count": 5,
-      "last_updated": "2025-11-18T15:45:26.265575",
+      "last_updated": "2025-11-22T15:05:54.842487",
       "data_source": "Bridely"
     },
     {
@@ -10817,7 +10817,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10833,13 +10833,13 @@
       "contact": {},
       "rating": 3.6666666666666665,
       "review_count": 3,
-      "last_updated": "2025-11-18T15:45:26.265595",
+      "last_updated": "2025-11-22T15:05:54.842490",
       "data_source": "Bridely"
     },
     {
       "id": "venue-village-hotel-sentosa",
       "name": "Village Hotel Sentosa",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 190,
         "min_spend": 0,
@@ -10860,7 +10860,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265609",
+      "last_updated": "2025-11-22T15:05:54.842494",
       "data_source": "Bridely"
     },
     {
@@ -10871,7 +10871,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10887,7 +10887,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265619",
+      "last_updated": "2025-11-22T15:05:54.842497",
       "data_source": "Bridely"
     },
     {
@@ -10898,7 +10898,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10914,7 +10914,7 @@
       "contact": {},
       "rating": 1.0999999999999999,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.265628",
+      "last_updated": "2025-11-22T15:05:54.842502",
       "data_source": "Bridely"
     },
     {
@@ -10925,7 +10925,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10941,13 +10941,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T15:45:26.265637",
+      "last_updated": "2025-11-22T15:05:54.842506",
       "data_source": "Bridely"
     },
     {
       "id": "venue-village-hotel-albert-court",
       "name": "Village Hotel Albert Court",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 70,
         "min_spend": 0,
@@ -10968,18 +10968,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265680",
+      "last_updated": "2025-11-22T15:05:54.842510",
       "data_source": "Bridely"
     },
     {
       "id": "venue-crown-prince-restaurant-aranda-country-club",
       "name": "Crown Prince Restaurant (Aranda Country Club)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10995,13 +10995,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265754",
+      "last_updated": "2025-11-22T15:05:54.842515",
       "data_source": "Bridely"
     },
     {
       "id": "venue-indocafé---peranakan-dining",
       "name": "INDOCAFÉ - Peranakan Dining",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 118,
         "min_spend": 0,
@@ -11022,7 +11022,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265765",
+      "last_updated": "2025-11-22T15:05:54.842520",
       "data_source": "Bridely"
     },
     {
@@ -11060,7 +11060,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 40,
@@ -11076,7 +11076,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265789",
+      "last_updated": "2025-11-22T15:05:54.842525",
       "data_source": "Bridely"
     },
     {
@@ -11109,7 +11109,7 @@
     {
       "id": "venue-hub--spoke-cafe",
       "name": "Hub & Spoke Cafe",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 142,
         "min_spend": 0,
@@ -11130,7 +11130,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265809",
+      "last_updated": "2025-11-22T15:05:54.842533",
       "data_source": "Bridely"
     },
     {
@@ -11199,7 +11199,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11215,7 +11215,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265845",
+      "last_updated": "2025-11-22T15:05:54.842538",
       "data_source": "Bridely"
     },
     {
@@ -11226,7 +11226,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11242,7 +11242,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265857",
+      "last_updated": "2025-11-22T15:05:54.842543",
       "data_source": "Bridely"
     },
     {
@@ -11275,7 +11275,7 @@
     {
       "id": "venue-restaurant-espoir",
       "name": "Restaurant Espoir",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 5000,
         "min_spend": 0,
@@ -11296,7 +11296,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265875",
+      "last_updated": "2025-11-22T15:05:54.842550",
       "data_source": "Bridely"
     },
     {
@@ -11356,12 +11356,12 @@
     {
       "id": "venue-the-halia-at-singapore-botanic-gardens",
       "name": "The Halia at Singapore Botanic Gardens",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11377,13 +11377,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265908",
+      "last_updated": "2025-11-22T15:05:54.842561",
       "data_source": "Bridely"
     },
     {
       "id": "venue-claudine-restaurant",
       "name": "Claudine Restaurant",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 228,
         "min_spend": 0,
@@ -11404,7 +11404,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265917",
+      "last_updated": "2025-11-22T15:05:54.842563",
       "data_source": "Bridely"
     },
     {
@@ -11464,7 +11464,7 @@
     {
       "id": "venue-national-kitchen-by-violet-oon",
       "name": "National Kitchen by Violet Oon",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 13000,
         "min_spend": 0,
@@ -11485,18 +11485,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265976",
+      "last_updated": "2025-11-22T15:05:54.842570",
       "data_source": "Bridely"
     },
     {
       "id": "venue-gardenasia-weddings",
       "name": "Gardenasia Weddings",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11512,7 +11512,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265985",
+      "last_updated": "2025-11-22T15:05:54.842576",
       "data_source": "Bridely"
     },
     {
@@ -11604,7 +11604,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 7,
@@ -11620,7 +11620,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266026",
+      "last_updated": "2025-11-22T15:05:54.842585",
       "data_source": "Bridely"
     },
     {
@@ -11658,7 +11658,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11674,7 +11674,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266047",
+      "last_updated": "2025-11-22T15:05:54.842593",
       "data_source": "Bridely"
     },
     {
@@ -11739,7 +11739,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 2,
@@ -11755,7 +11755,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266081",
+      "last_updated": "2025-11-22T15:05:54.842603",
       "data_source": "Bridely"
     },
     {
@@ -11766,7 +11766,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11782,7 +11782,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266090",
+      "last_updated": "2025-11-22T15:05:54.842607",
       "data_source": "Bridely"
     },
     {
@@ -11793,7 +11793,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11809,7 +11809,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266098",
+      "last_updated": "2025-11-22T15:05:54.842612",
       "data_source": "Bridely"
     },
     {
@@ -11820,7 +11820,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11836,18 +11836,18 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266132",
+      "last_updated": "2025-11-22T15:05:54.842617",
       "data_source": "Bridely"
     },
     {
       "id": "venue-mandai-rainforest-resort-by-banyan-tree",
       "name": "Mandai Rainforest Resort by Banyan Tree",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11863,7 +11863,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266142",
+      "last_updated": "2025-11-22T15:05:54.842623",
       "data_source": "Bridely"
     },
     {
@@ -11874,7 +11874,7 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -11890,7 +11890,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266151",
+      "last_updated": "2025-11-22T15:05:54.842626",
       "data_source": "Bridely"
     }
   ]
