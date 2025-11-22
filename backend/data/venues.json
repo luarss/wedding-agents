@@ -3419,27 +3419,35 @@
     },
     {
       "id": "venue-lawn",
-      "name": "Lawn",
-      "venue_type": "outdoor_venue",
+      "name": "The Lawn @ Raffles Hotel Singapore",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
-        "min_spend": 0,
+        "min_spend": 9888,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": 600,
+      "capacity": {
+        "max_capacity": 50,
+        "max_rounds": 5
+      },
       "location": {
         "address": "Raffles Hotel Singapore, 1 Beach Road, Singapore 189673",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "City Hall",
-        "mrt_distance": "0.5 km"
+        "nearest_mrt": "City Hall MRT / Esplanade MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T15:00:15.492959",
       "data_source": "BlissfulBrides",
       "notes": "The Lawn at Raffles Hotel"
     },
@@ -3673,13 +3681,13 @@
     },
     {
       "id": "venue-mandalay-guild-house",
-      "name": "Mandalay Guild House",
-      "venue_type": "",
+      "name": "Mandalay Guild House @ NUSS",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
-        "min_spend": 0,
+        "min_spend": 88,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3687,15 +3695,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "9 Kent Ridge Drive, Singapore 119241",
+        "address": "2 Mandalay Road, Singapore 308207",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Novena MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6586 3771",
+        "email": "weili@nuss.org.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339562",
+      "last_updated": "2025-11-22T15:00:15.492980",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4014,13 +4030,13 @@
     },
     {
       "id": "venue-oceanfront-villa",
-      "name": "Oceanfront Villa",
-      "venue_type": "resort",
+      "name": "Oceanfront Villa @ Sentosa",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4031,42 +4047,53 @@
         "address": "Sentosa Island, Singapore",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "Harbourfront",
-        "mrt_distance": "3.0 km"
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "15 min (MRT + Sentosa transport)",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:00:15.492988",
       "data_source": "BlissfulBrides",
       "notes": "Generic oceanfront venue name - may refer to various Sentosa resorts"
     },
     {
       "id": "venue-oculus",
-      "name": "Oculus",
-      "venue_type": "",
+      "name": "Oculus @ Pullman Singapore Hill Street",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 90,
+        "max_rounds": 9
       },
       "location": {
         "address": "1 Hill Street, Singapore 179949",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Clarke Quay MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6019 7888"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339758",
+      "last_updated": "2025-11-22T15:00:15.492995",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4226,13 +4253,13 @@
     },
     {
       "id": "venue-oval",
-      "name": "Oval",
-      "venue_type": "",
+      "name": "Oval @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4242,13 +4269,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339839",
+      "last_updated": "2025-11-22T15:00:15.493001",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4859,13 +4891,13 @@
     },
     {
       "id": "venue-poolside",
-      "name": "Poolside",
-      "venue_type": "",
+      "name": "Poolside @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4875,13 +4907,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340268",
+      "last_updated": "2025-11-22T15:00:15.493008",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5246,13 +5283,13 @@
     },
     {
       "id": "venue-quad",
-      "name": "Quad",
-      "venue_type": "",
+      "name": "Quad @ Village Hotel Changi",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5262,13 +5299,18 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "East",
+        "nearest_mrt": "Expo MRT / Tanah Merah MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340427",
+      "last_updated": "2025-11-22T15:00:15.493016",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5444,29 +5486,34 @@
     },
     {
       "id": "venue-robertson-4",
-      "name": "Robertson 4",
-      "venue_type": "",
+      "name": "Robertson 4 @ The Robertson House",
+      "venue_type": "event_space",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
+        "price_per_table": 1680,
+        "min_spend": 6720,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 4,
+        "max_capacity": 66,
+        "max_rounds": 6
       },
       "location": {
         "address": "1 Unity Street, Singapore 237983",
         "postal": "",
-        "zone": ""
+        "zone": "Central",
+        "nearest_mrt": "Fort Canning MRT",
+        "mrt_distance": "250 meters",
+        "mrt_lines": [
+          "DT"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340512",
+      "last_updated": "2025-11-22T15:00:15.493023",
       "data_source": "BlissfulBrides"
     },
     {
