@@ -77,8 +77,8 @@
         "noise_curfew": "12am"
       },
       "contact": {
-        "email": "singapore.weddings@fairmont.com",
-        "phone": "+65 6339 7777",
+        "email": "weddings.singapore@fairmont.com",
+        "phone": "+65 6431 4138",
         "website": "https://www.fairmont-singapore.com"
       }
     },
@@ -158,8 +158,8 @@
         "noise_curfew": "11pm"
       },
       "contact": {
-        "email": "weddings@amarasingapore.com",
-        "phone": "+65 6879 2555",
+        "email": "weddings@amarahotels.com",
+        "phone": "+65 6879 2588",
         "website": "https://singapore.amarahotels.com"
       },
       "last_updated": "2025-11-22T13:58:41.202384"
@@ -351,8 +351,8 @@
         "postal": "018956",
         "zone": "Central",
         "district": "Marina Bay",
-        "nearest_mrt": "Bayfront MRT",
-        "mrt_distance": "Direct connection",
+        "nearest_mrt": "Bayfront",
+        "mrt_distance": "0 min (connected)",
         "mrt_lines": [
           "CE",
           "DT"
@@ -419,10 +419,10 @@
       "contact": {
         "email": "celebrations@marinabaysands.com",
         "phone": "+65 6688 3133",
-        "website": "https://www.marinabaysands.com/expo-and-convention/spaces/weddings.html",
+        "website": "https://www.marinabaysands.com/expo-events-and-convention-centre/weddings.html",
         "booking_url": "https://www.marinabaysands.com/expo-and-convention/spaces/weddings.html"
       },
-      "last_updated": "2025-11-18T16:00:00"
+      "last_updated": "2025-11-22T15:30:13.667556"
     },
     {
       "id": "venue-007",
@@ -430,8 +430,8 @@
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 2880,
-        "weekday_price": 2880,
-        "weekend_price": 3280,
+        "weekday_price": 2580,
+        "weekend_price": 2980,
         "min_spend": 40000,
         "min_tables": 15,
         "pricing_type": "plus_plus"
@@ -447,7 +447,7 @@
         "postal": "189673",
         "zone": "Central",
         "district": "City Hall/Beach Road",
-        "nearest_mrt": "City Hall MRT",
+        "nearest_mrt": "City Hall",
         "mrt_distance": "5 min walk",
         "mrt_lines": [
           "NS",
@@ -539,7 +539,7 @@
         "website": "https://www.raffles.com/singapore/occasions/weddings/",
         "booking_url": "https://www.raffles.com/singapore/occasions/weddings/"
       },
-      "last_updated": "2025-11-22T14:05:04.735353"
+      "last_updated": "2025-11-22T15:31:33.983079"
     },
     {
       "id": "venue-008",
@@ -672,7 +672,7 @@
         "postal": "258350",
         "zone": "Central",
         "district": "Orchard",
-        "nearest_mrt": "Orchard MRT",
+        "nearest_mrt": "Orchard",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
           "NS"
@@ -750,7 +750,7 @@
         "website": "https://www.shangri-la.com/singapore/shangrila/weddings-celebrations/",
         "booking_url": "https://www.shangri-la.com/singapore/shangrila/weddings-celebrations/"
       },
-      "last_updated": "2025-11-18T16:00:00"
+      "last_updated": "2025-11-22T15:30:13.667528"
     },
     {
       "id": "venue-010",
@@ -758,7 +758,7 @@
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 2188,
-        "weekday_price": 2088,
+        "weekday_price": 2188,
         "weekend_price": 2388,
         "min_spend": 35000,
         "min_tables": 16,
@@ -879,7 +879,9 @@
         "price_per_table": 588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "nett"
+        "pricing_type": "nett",
+        "weekday_price": 638,
+        "weekend_price": 1038
       },
       "capacity": {
         "min_tables": 0,
@@ -896,12 +898,12 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6883 2112",
-        "email": "angela_mar@ahyat.com.sg",
+        "email": "reservations@ahyat.com.sg",
         "website": "https://ahyatrestaurant.com.sg/"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T15:46:29.240676",
       "data_source": "BlissfulBrides"
     },
     {
@@ -937,36 +939,50 @@
       "name": "Alfresco @ Parkroyal Collection Marina Bay",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "price_per_table": 1788,
+        "min_spend": 17880,
+        "min_tables": 10,
+        "pricing_type": "plus_plus",
+        "weekday_price": 1788,
+        "weekend_price": 1788
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 500,
-        "max_rounds": 50
+        "min_tables": 10,
+        "max_capacity": 150,
+        "max_rounds": 15,
+        "comfortable_capacity": 120
       },
       "location": {
         "address": "6 Raffles Boulevard, Marina Square, Singapore 039594",
         "postal": "039594",
         "zone": "Central",
-        "nearest_mrt": "Promenade MRT / Esplanade MRT",
-        "mrt_distance": "5 min walk",
+        "nearest_mrt": "Esplanade MRT",
+        "mrt_distance": "3 min walk",
         "mrt_lines": [
-          "CC",
-          "DT"
-        ]
+          "CC"
+        ],
+        "district": "Marina Bay"
       },
-      "amenities": {},
+      "amenities": {
+        "in_house_catering": true,
+        "air_conditioning": false,
+        "av_equipment": true,
+        "bridal_suite": true,
+        "outdoor_area": true,
+        "rooftop": true,
+        "poolside": true,
+        "city_views": true
+      },
       "contact": {
         "phone": "+65 6845 1018",
-        "email": "celebrate.prsmb@parkroyalcollection.com"
+        "email": "celebrate.prsmb@parkroyalcollection.com",
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-marina-bay/celebrations.html"
       },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:18:54.632948",
-      "data_source": "BlissfulBrides"
+      "rating": 4.3,
+      "review_count": 117,
+      "last_updated": "2025-11-22T16:44:16.738170",
+      "data_source": "BlissfulBrides",
+      "description": "Resort-style rooftop alfresco poolside space at Skyline Bar with stunning Marina Bay views. Part of Singapore's first Garden-in-a-Hotel with over 2,400 plants. Perfect for outdoor solemnisations with nature-inspired ambience."
     },
     {
       "id": "venue-aloft-singapore-novena",
@@ -1067,7 +1083,8 @@
       "amenities": {},
       "contact": {
         "email": "GetMarried.sg@andaz.com",
-        "website": "https://www.hyatt.com/andaz/sinaz-andaz-singapore"
+        "website": "https://www.hyatt.com/andaz/sinaz-andaz-singapore",
+        "phone": "+65 6408 1234"
       },
       "rating": 0.0,
       "review_count": 0,
@@ -1132,12 +1149,13 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 8399 8430",
-        "website": "https://www.banheng.com.sg/orchid-country-club/"
+        "phone": "+65 6750 2166",
+        "website": "https://www.banheng.com.sg/orchid-country-club/",
+        "email": "weddings@orchidclub.com"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T13:57:33.974495",
+      "last_updated": "2025-11-22T15:43:28.973597",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1264,12 +1282,12 @@
       "name": "Capella Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 3000,
+        "price_per_table": 2680,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus",
-        "weekday_price": 2680,
-        "weekend_price": 2680
+        "weekday_price": 2280,
+        "weekend_price": 2380
       },
       "capacity": {
         "min_tables": 0,
@@ -1285,11 +1303,11 @@
       "contact": {
         "phone": "+65 6377 8888",
         "email": "cateringsales.singapore@capellahotels.com",
-        "website": "https://capellahotels.com/en/capella-singapore"
+        "website": "https://capellahotels.com/en/capella-singapore/weddings-events/weddings"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:03:40.030519",
+      "last_updated": "2025-11-22T15:31:33.983084",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1524,8 +1542,8 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6739 8355",
-        "email": "events@concorde.com.sg",
+        "phone": "+65 6739 8338",
+        "email": "cateringsales.chs@concorde.net",
         "website": "https://singapore.concordehotelsresorts.com"
       },
       "rating": 5.0,
@@ -1599,7 +1617,7 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6725 3333",
-        "email": "Sinod.cb@conradhotels.com",
+        "email": "sinod.events@conradhotels.com",
         "website": "https://www.hilton.com/en/hotels/sinodci-conrad-singapore-orchard"
       },
       "rating": 0.0,
@@ -1635,7 +1653,7 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6318 3116",
-        "email": "banquet.kings@millenniumhotels.com.sg",
+        "email": "catering@copthornekings.com.sg",
         "website": "https://www.millenniumhotels.com/en/singapore/copthorne-kings-hotel/"
       },
       "rating": 5.0,
@@ -2107,7 +2125,7 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6533 3888",
+        "phone": "+65 6531 5356",
         "email": "banquet.citycentre@furama.com",
         "website": "https://www.furama.com/citycentre"
       },
@@ -2215,7 +2233,7 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6730 1821",
-        "email": "weddings@goodwoodparkhotel.com",
+        "email": "banquet@goodwoodparkhotel.com",
         "website": "https://www.goodwoodparkhotel.com"
       },
       "rating": 0.0,
@@ -2365,11 +2383,11 @@
       "contact": {
         "phone": "+65 6416 7373",
         "email": "weddings.sg@hyatt.com",
-        "website": "https://www.hyatt.com/grand-hyatt/sinrs-grand-hyatt-singapore"
+        "website": "https://www.weddings.grandhyattsingapore.com"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T13:56:38.953685",
+      "last_updated": "2025-11-22T15:30:13.667552",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2418,7 +2436,7 @@
         "min_tables": 0,
         "pricing_type": "plus_plus",
         "weekday_price": 1480,
-        "weekend_price": 1480
+        "weekend_price": 1980
       },
       "capacity": {
         "min_tables": 0,
@@ -2438,8 +2456,9 @@
       },
       "amenities": {},
       "contact": {
-        "email": "catering.gpch@parkhotelgroup.com",
-        "website": "https://www.parkhotelgroup.com/grand-park-city-hall"
+        "email": "sales.gpch@parkhotelgroup.com",
+        "website": "https://www.parkhotelgroup.com/grand-park-city-hall",
+        "phone": "+65 6336 3456"
       },
       "rating": 0.0,
       "review_count": 0,
@@ -2723,12 +2742,12 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6559 6783",
-        "email": "enquiries@hfcsingapore.com",
-        "website": "https://hfcsingapore.com"
+        "email": "wedding@hfcsingapore.com",
+        "website": "https://hfcsingapore.com/wedding.aspx"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:55:00.983849",
+      "last_updated": "2025-11-22T15:34:41.160272",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2971,21 +2990,21 @@
       },
       "capacity": 200,
       "location": {
-        "address": "The Fullerton Hotel Singapore, 1 Fullerton Square, Singapore 049178",
-        "postal": "",
+        "address": "1 Fullerton Square, Singapore 049178",
+        "postal": "049178",
         "zone": "Central",
         "nearest_mrt": "Raffles Place",
         "mrt_distance": "0.3 km"
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 3129 8330",
-        "email": "jade@fullertonhotels.com",
-        "website": "https://www.fullertonhotels.com/fullerton-hotel-singapore/dining/restaurants-and-bars/jade"
+        "phone": "+65 6877 8968",
+        "email": "weddings@fullertonhotels.com",
+        "website": "https://www.fullertonhotels.com/fullerton-hotel-singapore/weddings"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:03:40.030519",
+      "last_updated": "2025-11-22T15:31:33.983066",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3480,40 +3499,11 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-mandarin-oriental-singapore",
-      "name": "Mandarin Oriental, Singapore",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": 350,
-      "location": {
-        "address": "5 Raffles Avenue, Marina Square, Singapore 039797",
-        "postal": "",
-        "zone": "Central",
-        "nearest_mrt": "Esplanade",
-        "mrt_distance": "0.4 km"
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6885 3488",
-        "email": "mosin-weddings@mohg.com",
-        "website": "https://www.mandarinoriental.com/en/singapore/marina-bay/celebrate"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650778",
-      "data_source": "BlissfulBrides"
-    },
-    {
       "id": "venue-mercure-singapore-bugis",
       "name": "Mercure Singapore Bugis",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 1388,
+        "price_per_table": 1088,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus",
@@ -3539,7 +3529,7 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6521 6088",
-        "email": "H0D7@accor.com",
+        "email": "wedding.bugis@accor.com",
         "website": "https://www.mercure-singapore-bugis.com"
       },
       "rating": 0.0,
@@ -3709,7 +3699,9 @@
         "price_per_table": 1380,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1380,
+        "weekend_price": 1380
       },
       "capacity": {
         "min_tables": 0,
@@ -3734,7 +3726,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224263",
+      "last_updated": "2025-11-22T15:44:14.873931",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3772,7 +3764,9 @@
         "price_per_table": 1888,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "nett"
+        "pricing_type": "nett",
+        "weekday_price": 1888,
+        "weekend_price": 1888
       },
       "capacity": 300,
       "location": {
@@ -3790,7 +3784,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:44:14.873954",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3869,7 +3863,9 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1138,
+        "weekend_price": 1488
       },
       "capacity": {
         "min_tables": 0,
@@ -3905,7 +3901,9 @@
         "price_per_table": 1588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1488,
+        "weekend_price": 1488
       },
       "capacity": 360,
       "location": {
@@ -3917,11 +3915,11 @@
       },
       "amenities": {},
       "contact": {
-        "website": "https://one15marina.com/weddings-meetings/weddings/"
+        "website": "https://one15marina.com/weddings-meetings/overview/"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T15:42:02.987097",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3929,7 +3927,7 @@
       "name": "Orchard Hotel Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1480,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus"
@@ -3937,15 +3935,15 @@
       "capacity": 1000,
       "location": {
         "address": "442 Orchard Road, Singapore 238879",
-        "postal": "",
+        "postal": "238879",
         "zone": "Central",
         "nearest_mrt": "Orchard",
         "mrt_distance": "0.5 km"
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 9186 1076",
-        "email": "weddings@millenniumhotels.com.sg",
+        "phone": "+65 6739 6603",
+        "email": "events@millenniumhotels.com",
         "website": "https://www.millenniumhotels.com/en/weddings/asia/singapore/orchard-hotel-singapore/"
       },
       "rating": 5.0,
@@ -4089,7 +4087,7 @@
       "name": "Pan Pacific Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 950,
         "min_spend": 0,
         "min_tables": 0,
         "pricing_type": "plus_plus"
@@ -4112,11 +4110,13 @@
       },
       "amenities": {},
       "contact": {
-        "website": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina"
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina/celebrations.html",
+        "phone": "+65 6336 8111",
+        "email": "weddings.ppsin@panpacific.com"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650806",
+      "last_updated": "2025-11-22T15:33:40.050084",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4162,7 +4162,9 @@
         "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1388,
+        "weekend_price": 1588
       },
       "capacity": {
         "min_tables": 0,
@@ -4187,7 +4189,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973310",
+      "last_updated": "2025-11-22T15:44:14.873967",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4206,15 +4208,20 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "1 Unity Street, Singapore 237983",
         "postal": "",
-        "zone": "Central"
+        "zone": "Central",
+        "nearest_mrt": "Clarke Quay"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6593 8888",
+        "email": "bqt.phcq@parkhotelgroup.com",
+        "website": "https://www.parkhotelgroup.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647822",
+      "last_updated": "2025-11-22T15:28:22.043704",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4235,12 +4242,15 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "6 Raffles Boulevard Marina Square, Singapore 039594",
+        "postal": "039594",
         "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6845 1018",
+        "email": "celebrate.prsmb@parkroyalcollection.com"
+      },
       "rating": 0.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:20:17.925507",
@@ -4265,7 +4275,7 @@
         "address": "3 Upper Pickering Street, Singapore 058289",
         "postal": "058289",
         "zone": "Central",
-        "nearest_mrt": "Clarke Quay MRT / Chinatown MRT",
+        "nearest_mrt": "Chinatown",
         "mrt_distance": "5 min walk",
         "mrt_lines": [
           "NE",
@@ -4274,13 +4284,13 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 8328 3338",
+        "phone": "+65 6809 8849",
         "email": "celebrate.prsps@parkroyalcollection.com",
-        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering"
+        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering/celebrations.html"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:13:53.889593",
+      "last_updated": "2025-11-22T15:33:40.050070",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4291,7 +4301,9 @@
         "price_per_table": 1588,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1068,
+        "weekend_price": 1338
       },
       "capacity": {
         "min_tables": 0,
@@ -4660,15 +4672,19 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "10 Bukit Chermin Road, M Level, Keppel Club, Singapore 109918",
         "postal": "",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6276 8327",
+        "email": "hanrobert@quaysidedining.com",
+        "website": "https://peonyjade.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:20:17.925540",
+      "last_updated": "2025-11-22T15:28:22.043730",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4750,7 +4766,7 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "201 Keppel Road, Singapore (PERMANENTLY CLOSED)",
         "postal": "",
         "zone": "Unknown"
       },
@@ -4758,36 +4774,66 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:20:17.925555",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T15:28:22.043742",
+      "data_source": "BlissfulBrides",
+      "restrictions": {
+        "status": "permanently_closed",
+        "closure_date": "2020"
+      }
     },
     {
       "id": "venue-qian-xi-bliss-garden",
       "name": "Qian Xi Bliss Garden",
       "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "nett"
+        "price_per_table": 688,
+        "min_spend": 6880,
+        "min_tables": 10,
+        "pricing_type": "plus_plus",
+        "weekday_price": 688,
+        "weekend_price": 1088
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 10,
+        "max_capacity": 500,
+        "max_rounds": 50,
+        "comfortable_capacity": 400
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "East"
+        "address": "1 Expo Drive #02-03, Singapore 486150",
+        "postal": "486150",
+        "zone": "East",
+        "nearest_mrt": "Expo MRT",
+        "district": "Changi/Expo",
+        "mrt_distance": "7 min walk",
+        "mrt_lines": [
+          "CG",
+          "DT"
+        ]
       },
-      "amenities": {},
-      "contact": {},
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T14:17:28.316875",
+      "amenities": {
+        "in_house_catering": true,
+        "air_conditioning": true,
+        "av_equipment": true,
+        "bridal_suite": false,
+        "outdoor_area": false,
+        "valet_parking": false,
+        "parking": true,
+        "columnless_ballroom": true,
+        "high_ceiling": true
+      },
+      "contact": {
+        "phone": "+65 6789 1313",
+        "email": "qianxipl@singnet.com.sg",
+        "website": "https://www.qianxi.com.sg/bliss-garden-restaurant",
+        "fax": "+65 6789 0012"
+      },
+      "rating": 3.5,
+      "review_count": 4,
+      "last_updated": "2025-11-22T16:42:12.195373",
       "data_source": "BlissfulBrides",
-      "parent_venue": "Qian Xi Restaurant Group"
+      "parent_venue": "Qian Xi Restaurant Group",
+      "description": "Columnless ballroom with majestic 25ft-high ceiling at Singapore Expo. Hotel-style wedding banquets at affordable prices. Specializes in Cantonese cuisine."
     },
     {
       "id": "venue-qian-xi-blossom-garden",
@@ -4797,7 +4843,9 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "nett"
+        "pricing_type": "nett",
+        "weekday_price": 718,
+        "weekend_price": 1168
       },
       "capacity": {
         "min_tables": 0,
@@ -4805,15 +4853,20 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "2 Bukit Batok West Ave 7, Singapore",
         "postal": "",
-        "zone": "West"
+        "zone": "West",
+        "nearest_mrt": "Bukit Batok"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6268 4567",
+        "email": "qianxipl@singnet.com.sg",
+        "website": "https://www.qianxi.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:17:28.316875",
+      "last_updated": "2025-11-22T15:29:03.728827",
       "data_source": "BlissfulBrides",
       "parent_venue": "Qian Xi Restaurant Group"
     },
@@ -4825,7 +4878,9 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "nett"
+        "pricing_type": "nett",
+        "weekday_price": 668,
+        "weekend_price": 1068
       },
       "capacity": {
         "min_tables": 0,
@@ -4838,10 +4893,13 @@
         "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 9006 4533",
+        "website": "https://www.qianxi.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T14:17:28.316875",
+      "last_updated": "2025-11-22T15:29:03.728838",
       "data_source": "BlissfulBrides",
       "parent_venue": "Qian Xi Restaurant Group"
     },
@@ -5043,56 +5101,99 @@
     {
       "id": "venue-qian-xi-pearl-garden",
       "name": "Qian Xi Pearl Garden",
-      "venue_type": "event_space",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "price_per_table": 868,
+        "min_spend": 6680,
+        "min_tables": 10,
+        "pricing_type": "plus_plus",
+        "weekday_price": 668,
+        "weekend_price": 1068
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 10,
+        "max_capacity": 1200,
+        "max_rounds": 120,
+        "comfortable_capacity": 1000
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Unknown"
+        "address": "SAFRA Jurong, 333 Boon Lay Way #3A-02, Singapore",
+        "postal": "649848",
+        "zone": "West",
+        "district": "Jurong",
+        "nearest_mrt": "Chinese Garden MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
-      "amenities": {},
-      "contact": {},
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:20:17.925589",
-      "data_source": "BlissfulBrides"
+      "amenities": {
+        "in_house_catering": true,
+        "air_conditioning": true,
+        "av_equipment": true,
+        "bridal_suite": false,
+        "outdoor_area": false,
+        "parking": true
+      },
+      "contact": {
+        "phone": "+65 9006 4533",
+        "website": "https://www.qianxi.com.sg/pearlgardenweddingpackage"
+      },
+      "rating": 5.0,
+      "review_count": 1,
+      "last_updated": "2025-11-22T16:53:12.652423",
+      "data_source": "BlissfulBrides",
+      "description": "Hotel-style ballroom at SAFRA Jurong accommodating up to 120 tables. Part of Qian Xi Group with 20+ years experience in wedding banquets."
     },
     {
       "id": "venue-qian-xi-summer-garden",
       "name": "Qian Xi Summer Garden",
-      "venue_type": "event_space",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "price_per_table": 888,
+        "min_spend": 6880,
+        "min_tables": 10,
+        "pricing_type": "plus_plus",
+        "weekday_price": 688,
+        "weekend_price": 1088
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 10,
+        "max_capacity": 600,
+        "max_rounds": 60,
+        "comfortable_capacity": 500
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Unknown"
+        "address": "SAFRA Mt Faber, 2 Telok Blangah Way #02-05, Singapore",
+        "postal": "098803",
+        "zone": "Central",
+        "district": "Telok Blangah",
+        "nearest_mrt": "Outram Park MRT",
+        "mrt_distance": "Bus 124 to venue",
+        "mrt_lines": [
+          "EW",
+          "NE"
+        ]
       },
-      "amenities": {},
-      "contact": {},
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:20:17.925598",
-      "data_source": "BlissfulBrides"
+      "amenities": {
+        "in_house_catering": true,
+        "air_conditioning": true,
+        "av_equipment": true,
+        "bridal_suite": false,
+        "outdoor_area": true,
+        "poolside": true,
+        "garden": true,
+        "parking": true
+      },
+      "contact": {
+        "phone": "+65 9006 4533",
+        "website": "https://www.qianxi.com.sg/summergardenweddingpackage"
+      },
+      "rating": 2.5,
+      "review_count": 5,
+      "last_updated": "2025-11-22T16:53:56.756479",
+      "data_source": "BlissfulBrides",
+      "description": "Most idyllic Qian Xi branch with tranquil setting, outdoor viewing deck overlooking lush greenery and swimming pool. State-of-the-art equipment at SAFRA Mt Faber."
     },
     {
       "id": "venue-quad",
@@ -5288,7 +5389,9 @@
         "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1888,
+        "weekend_price": 1888
       },
       "capacity": {
         "min_tables": 0,
@@ -5309,11 +5412,12 @@
       "amenities": {},
       "contact": {
         "email": "weddings@RWSentosa.com",
-        "website": "https://www.rwsentosa.com"
+        "website": "https://www.rwsentosa.com/en/meetings/weddings-social-events",
+        "phone": "+65 6577 8888"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721772",
+      "last_updated": "2025-11-22T15:42:02.987128",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5364,12 +5468,15 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "25 Scotts Road, Singapore 228220",
+        "postal": "228220",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6737 7966",
+        "email": "bqt@royalplaza.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:20:17.925640",
@@ -5527,7 +5634,9 @@
         "price_per_table": 1500,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 988,
+        "weekend_price": 988
       },
       "capacity": {
         "min_tables": 0,
@@ -5547,13 +5656,13 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6373 7155",
+        "phone": "+65 8321 6055",
         "email": "events@sentosagolf.com",
         "website": "https://sentosagolf.com"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721766",
+      "last_updated": "2025-11-22T15:43:28.973614",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5721,7 +5830,9 @@
         "price_per_table": 2038,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2038,
+        "weekend_price": 2038
       },
       "capacity": {
         "min_tables": 0,
@@ -5746,7 +5857,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973300",
+      "last_updated": "2025-11-22T15:43:28.973513",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5792,10 +5903,10 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "333 Orchard Road, Mandarin Orchard Singapore, Singapore 238867",
+        "address": "333 Orchard Road, Singapore 238867",
         "postal": "238867",
         "zone": "Central",
-        "nearest_mrt": "Somerset MRT",
+        "nearest_mrt": "Somerset",
         "mrt_distance": "3 min walk",
         "mrt_lines": [
           "NS"
@@ -5803,13 +5914,13 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6831 6262",
-        "email": "shisenhanten@ouerestaurants.com",
+        "phone": "+65 6831 6029",
+        "email": "events.orchard@meritus-hotels.com",
         "website": "https://www.shisenhanten.com.sg"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650848",
+      "last_updated": "2025-11-22T15:33:40.050046",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5878,7 +5989,9 @@
         "price_per_table": 1688,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1388,
+        "weekend_price": 1988
       },
       "capacity": {
         "min_tables": 0,
@@ -5897,13 +6010,13 @@
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6831 4768",
+        "phone": "+65 6831 4769",
         "email": "mhrs.sindt.sales@marriotthotels.com",
         "website": "https://www.marriott.com/en-us/hotels/sindt-singapore-marriott-tang-plaza-hotel"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721778",
+      "last_updated": "2025-11-22T15:43:28.973541",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6003,12 +6116,15 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "9 Wallich Street, Singapore 078885",
+        "postal": "078885",
         "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6428 5049",
+        "email": "beverly.goh@sofitel.com"
+      },
       "rating": 0.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:20:17.925765",
@@ -6022,7 +6138,9 @@
         "price_per_table": 1888,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1888,
+        "weekend_price": 1888
       },
       "capacity": {
         "min_tables": 0,
@@ -6043,11 +6161,11 @@
       "amenities": {},
       "contact": {
         "email": "H9474-SL@sofitel.com",
-        "website": "https://sofitel.accor.com"
+        "website": "https://www.sofitel-singapore-sentosa.com/weddings-events/"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721769",
+      "last_updated": "2025-11-22T15:42:02.987150",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6339,43 +6457,6 @@
       "parent_venue": "The Fullerton Bay Hotel"
     },
     {
-      "id": "venue-the-fullerton-hotel-singapore",
-      "name": "The Fullerton Hotel Singapore",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 2674,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "1 Fullerton Square, Singapore 049178",
-        "postal": "049178",
-        "zone": "Central",
-        "nearest_mrt": "Raffles Place MRT",
-        "mrt_distance": "5 min walk",
-        "mrt_lines": [
-          "NS",
-          "EW"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6877 8968",
-        "email": "weddings@fullertonhotels.com",
-        "website": "https://www.fullertonhotels.com"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224265",
-      "data_source": "BlissfulBrides"
-    },
-    {
       "id": "venue-the-level-poolside",
       "name": "The Level Poolside",
       "venue_type": "venue",
@@ -6583,12 +6664,15 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "29 Tanglin Road, Singapore 247911",
+        "postal": "247911",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6506 6856",
+        "email": "wedding.singapore@stregis.com"
+      },
       "rating": 0.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:20:17.925896",
@@ -7108,37 +7192,6 @@
       "parent_venue": "TungLok Group"
     },
     {
-      "id": "venue-tunglok-signatures-antica-ballroom--orchard-rendezvous-hotel",
-      "name": "TungLok Signatures, Antica Ballroom @ Orchard Rendezvous Hotel*",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 300,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "1 Tanglin Road #02-18 Orchard Rendezvous Hotel",
-        "postal": "247905",
-        "zone": "Central"
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6836 0984",
-        "email": "jasminehuang@tunglok.com"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T14:26:06.789714",
-      "data_source": "BlissfulBrides",
-      "parent_venue": "TungLok Group"
-    },
-    {
       "id": "venue-village-hotel-changi",
       "name": "Village Hotel Changi",
       "venue_type": "hotel",
@@ -7262,7 +7315,7 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "21 Ocean Way, Singapore 098374",
+        "address": "21 Ocean Way, Sentosa Cove, Singapore 098374",
         "postal": "098374",
         "zone": "Central",
         "nearest_mrt": "HarbourFront MRT",
@@ -7318,7 +7371,9 @@
         "price_per_table": 1258,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1258,
+        "weekend_price": 1258
       },
       "capacity": {
         "min_tables": 0,
@@ -7338,12 +7393,12 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6830 1121",
-        "email": "events@yorkhotel.com.sg",
+        "email": "weddings@yorkhotel.com.sg",
         "website": "https://www.yorkhotel.com.sg"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973298",
+      "last_updated": "2025-11-22T15:43:28.973593",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7686,14 +7741,14 @@
         "max_rounds": 32
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "30 Beach Road, Singapore 189763",
+        "postal": "189763",
         "zone": "Central"
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6818 1900",
-        "email": "[email protected]"
+        "phone": "+65 6818 1888",
+        "email": "jw.sinjw.weddings@marriott.com"
       },
       "rating": 4.2,
       "review_count": 63,
@@ -8283,15 +8338,20 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Central"
+        "address": "39C Harding Road, Singapore 249541",
+        "postal": "249541",
+        "zone": "Central",
+        "nearest_mrt": "Orchard"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6473 9965",
+        "email": "events@thewhiterabbit.com.sg",
+        "website": "https://www.thewhiterabbit.com.sg"
+      },
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:20:17.926372",
+      "last_updated": "2025-11-22T15:34:41.160248",
       "data_source": "Bridely"
     },
     {
@@ -8445,12 +8505,15 @@
         "max_rounds": 42
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "21 Mount Elizabeth, Singapore 228516",
+        "postal": "228516",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6830 1121",
+        "email": "events@yorkhotel.com.sg"
+      },
       "rating": 4.466666666666666,
       "review_count": 11,
       "last_updated": "2025-11-22T15:20:17.926436",
@@ -8499,15 +8562,20 @@
         "max_rounds": 110
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Unknown"
+        "address": "18 Marina Gardens Drive, Singapore 018953",
+        "postal": "018953",
+        "zone": "Unknown",
+        "nearest_mrt": "Bayfront"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6420 6849",
+        "email": "weddings@gardensbythebay.com.sg",
+        "website": "https://www.gardensbythebay.com.sg/en/book-a-venue/weddings.html"
+      },
       "rating": 4.8999999999999995,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:20:17.926458",
+      "last_updated": "2025-11-22T15:34:41.160300",
       "data_source": "Bridely"
     },
     {
@@ -8539,12 +8607,12 @@
       "amenities": {},
       "contact": {
         "phone": "+65 6512 2232",
-        "email": "wedding@fareast.com.sg",
+        "email": "wedding.vhb@fareast.com",
         "website": "https://www.villagehotels.asia"
       },
       "rating": 3.9666666666666663,
       "review_count": 23,
-      "last_updated": "2025-11-18T16:18:36.721776",
+      "last_updated": "2025-11-22T15:46:29.240664",
       "data_source": "Bridely"
     },
     {
@@ -9789,12 +9857,15 @@
         "max_rounds": 15
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "80 Raffles Place, #60-01 UOB Plaza 1, Singapore 048624",
+        "postal": "048624",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6535 6006",
+        "email": "top@sichuandouhua.com"
+      },
       "rating": 4.566666666666666,
       "review_count": 4,
       "last_updated": "2025-11-22T15:20:17.926872",
@@ -10194,12 +10265,15 @@
         "max_rounds": 52
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "8 Sentosa Gateway, Resorts World Sentosa, Singapore 098269",
+        "postal": "098269",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6577 9900",
+        "email": "weddings@RWSentosa.com"
+      },
       "rating": 3.533333333333333,
       "review_count": 6,
       "last_updated": "2025-11-22T15:20:17.927027",
@@ -10602,12 +10676,15 @@
         "max_rounds": 10
       },
       "location": {
-        "address": "",
-        "postal": "",
+        "address": "180 Albert Street, Singapore 189971",
+        "postal": "189971",
         "zone": "Unknown"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6339 3939",
+        "email": "wedding@fareast.com"
+      },
       "rating": 0.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:20:17.927149",
@@ -11535,5 +11612,9 @@
       "last_updated": "2025-11-22T15:20:17.927490",
       "data_source": "Bridely"
     }
-  ]
+  ],
+  "metadata": {
+    "last_updated": "2025-11-22T16:18:18.546635",
+    "total_venues": 365
+  }
 }
