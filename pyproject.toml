@@ -15,6 +15,7 @@ dependencies = [
     "opentelemetry-sdk>=1.28.2",
     "opentelemetry-exporter-otlp>=1.28.2",
     "openinference-instrumentation-smolagents>=0.1.8",
+    "claude-agent-sdk>=0.1.9",
 ]
 
 [tool.hatch.build.targets.wheel]
