@@ -935,7 +935,7 @@
     {
       "id": "venue-alfresco",
       "name": "Alfresco @ Parkroyal Collection Marina Bay",
-      "venue_type": "event_space",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -944,25 +944,28 @@
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 500,
+        "max_rounds": 50
       },
       "location": {
-        "address": "25 Marine Parade Singapore 449536",
-        "postal": "",
+        "address": "6 Raffles Boulevard, Marina Square, Singapore 039594",
+        "postal": "039594",
         "zone": "Central",
-        "nearest_mrt": "Dakota MRT / Mountbatten MRT",
-        "mrt_distance": "10 min walk",
+        "nearest_mrt": "Promenade MRT / Esplanade MRT",
+        "mrt_distance": "5 min walk",
         "mrt_lines": [
           "CC",
-          "CC"
+          "DT"
         ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6845 1018",
+        "email": "celebrate.prsmb@parkroyalcollection.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647683",
+      "last_updated": "2025-11-22T15:18:54.632948",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4332,15 +4335,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "KINEX, #02-38, 11 Tanjong Katong Road, Singapore 437157",
+        "postal": "437157",
+        "zone": "East",
+        "nearest_mrt": "Paya Lebar MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "CC",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6909 8219"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841781",
+      "last_updated": "2025-11-22T15:18:54.632969",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4570,7 +4581,7 @@
     {
       "id": "venue-peony-jade--amara-singapore",
       "name": "Peony Jade @ Amara Singapore",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -4583,15 +4594,22 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "165 Tanjong Pagar Road, Level 2, Singapore 088539",
+        "postal": "088539",
+        "zone": "Central",
+        "nearest_mrt": "Tanjong Pagar MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6276 8327"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841790",
+      "last_updated": "2025-11-22T15:18:54.632994",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5113,15 +5131,17 @@
       "name": "Raffles Hotel",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 3080,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2880,
+        "weekend_price": 3280
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 270,
+        "max_rounds": 27
       },
       "location": {
         "address": "",
@@ -5132,7 +5152,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647879",
+      "last_updated": "2025-11-22T15:18:54.633004",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5201,25 +5221,33 @@
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 240,
+        "max_rounds": 24
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Central"
+        "address": "9 Bras Basah Road, Singapore 189559",
+        "postal": "189559",
+        "zone": "Central",
+        "nearest_mrt": "Bras Basah MRT",
+        "mrt_distance": "2 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6496 7581",
+        "email": "celebrate.rhssg@fareast.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647889",
+      "last_updated": "2025-11-22T15:18:54.633029",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-resorts-world-sentosa-convention-centre",
       "name": "Resorts World Sentosa, Convention Centre",
-      "venue_type": "hotel",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5228,19 +5256,28 @@
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 4000,
+        "max_rounds": 400
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Central"
+        "address": "8 Sentosa Gateway, Singapore 098269",
+        "postal": "098269",
+        "zone": "Central",
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "15 min (MRT + Sentosa Express)",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "weddings@rwsentosa.com",
+        "phone": "+65 6577 6868"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647893",
+      "last_updated": "2025-11-22T15:18:54.633050",
       "data_source": "BlissfulBrides"
     },
     {
