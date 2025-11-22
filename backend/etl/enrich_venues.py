@@ -2,8 +2,8 @@
 """
 Automated venue enrichment using Claude Agent SDK.
 
-This script orchestrates the Stage 2B enrichment process from the ETL pipeline,
-using the Claude Agent SDK to coordinate parallel web searches for venue data.
+This script enriches venue data in backend/data/venues.json by using the
+Claude Agent SDK to coordinate parallel web searches for missing venue information.
 """
 
 import argparse
@@ -33,7 +33,7 @@ def _print_verbose_message(message: str) -> None:
 
 
 async def enrich_venues(
-    transformed_file: Path,
+    venues_file: Path,
     min_confidence: float = 0.7,
     max_venues: int | None = None,
     interactive: bool = False,
@@ -42,14 +42,14 @@ async def enrich_venues(
     Enrich venues using Claude Agent SDK with parallel web searches.
 
     Args:
-        transformed_file: Path to transformed.json from Stage 2A
+        venues_file: Path to venues.json
         min_confidence: Minimum confidence threshold for enrichment
         max_venues: Maximum number of venues to enrich (None = all)
         interactive: Ask for confirmation before each venue enrichment
     """
     _print_verbose_message(
         "🚀 Starting venue enrichment with Claude Agent SDK\n"
-        f"📂 Input file: {transformed_file}\n"
+        f"📂 Input file: {venues_file}\n"
         f"🎯 Target confidence: {min_confidence}\n"
         f"{'🔢 Max venues: ' + str(max_venues) if max_venues else ''}\n"
         f"🔄 Mode: {'Interactive' if interactive else 'Automated'}"
@@ -103,7 +103,7 @@ async def enrich_venues(
             Use the get_venues_needing_enrichment tool to identify venues that need enrichment.
 
             Parameters:
-            - transformed_file: {transformed_file}
+            - transformed_file: {venues_file}
             - min_confidence: {min_confidence}
 
             Show me the summary and list the top 10 venues needing enrichment.
@@ -155,7 +155,7 @@ async def enrich_venues(
         await client.query(
             f"""
             Generate a final enrichment report:
-            1. Load {transformed_file}
+            1. Load {venues_file}
             2. Calculate completeness statistics
             3. Show before/after comparison
             4. List any venues still needing enrichment
@@ -177,24 +177,29 @@ async def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Enrich all venues with confidence < 0.7
-  %(prog)s transformed.json
+  # Enrich all venues with confidence < 0.7 (uses backend/data/venues.json by default)
+  %(prog)s
+
+  # Enrich venues from a specific file
+  %(prog)s path/to/venues.json
 
   # Enrich first 10 venues only
-  %(prog)s transformed.json --max-venues 10
+  %(prog)s --max-venues 10
 
   # Interactive mode (ask before enriching)
-  %(prog)s transformed.json --interactive
+  %(prog)s --interactive
 
   # Custom confidence threshold
-  %(prog)s transformed.json --min-confidence 0.8
+  %(prog)s --min-confidence 0.8
         """,
     )
 
     parser.add_argument(
-        "transformed_file",
+        "venues_file",
         type=Path,
-        help="Path to transformed.json from Stage 2A",
+        nargs="?",
+        default=Path("backend/data/venues.json"),
+        help="Path to venues.json (default: backend/data/venues.json)",
     )
 
     parser.add_argument(
@@ -219,14 +224,14 @@ Examples:
     args = parser.parse_args()
 
     # Validate input file
-    if not args.transformed_file.exists():
-        print(f"❌ Error: File not found: {args.transformed_file}")
+    if not args.venues_file.exists():
+        print(f"❌ Error: File not found: {args.venues_file}")
         return 1
 
     # Run enrichment
     try:
         await enrich_venues(
-            transformed_file=args.transformed_file,
+            venues_file=args.venues_file,
             min_confidence=args.min_confidence,
             max_venues=args.max_venues,
             interactive=args.interactive,
