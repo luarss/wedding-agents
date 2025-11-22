@@ -1,23 +1,31 @@
 ---
 name: venue-etl-pipeline
-description: Automated ETL pipeline for Singapore wedding venue data. Extract venues from CSV/JSON sources, transform with normalization/deduplication/geocoding, and load into venues.json. Use when the user asks to "import venue data", "run ETL pipeline", "process venue CSV", "normalize venue data", "deduplicate venues", or needs to populate/update backend/data/venues.json from external sources.
+description: AI-assisted ETL pipeline for Singapore wedding venue data with active web search enrichment. Extract venues from CSV/JSON, transform with normalization + LLM-driven web search to fill missing critical fields (pricing, contact, location), deduplicate using multi-metric similarity, and load into venues.json. Use when the user asks to "import venue data", "run ETL pipeline", "process venue CSV", "enrich venue data", or needs to populate/update backend/data/venues.json. CRITICAL - Stage 2B requires LLM to actively search web for missing data, not just parse existing fields.
 ---
 
 # Venue ETL Pipeline
 
-Automated Extract-Transform-Load pipeline for wedding venue data processing. Handles source enumeration, normalization, deduplication, entity resolution, and loading into `backend/data/venues.json`.
+**AI-Assisted** Extract-Transform-Load pipeline for wedding venue data processing. Combines automated scripts with LLM-driven web search to actively enrich venue data. Handles source enumeration, normalization, intelligent data augmentation via web search, deduplication, entity resolution, and loading into `backend/data/venues.json`.
+
+**Key innovation:** Stage 2B requires YOU (the LLM) to proactively search the web for missing venue data, not just passively transform what exists.
 
 ## Quick Start
 
 **User requests:** "Import venues from CSV", "Run ETL on this data", "Process venue data from Bridely"
 
-**Basic workflow:**
+**AI-Assisted ETL Workflow:**
 ```bash
 # 1. Extract from source
 python scripts/extract_venues.py input.csv --source "Bridely" --output extracted.json
 
-# 2. Transform (normalize, parse, classify)
+# 2A. Transform: Automated normalization
 python scripts/transform_venues.py extracted.json --output transformed.json
+
+# 2B. Transform: AI-Assisted Enrichment (YOU DO THIS)
+# - Identify venues with confidence < 0.7 or missing critical fields
+# - For each venue: WebSearch for missing data
+# - Update transformed.json with enriched data
+# - Target: 80%+ field completeness before proceeding
 
 # 3. Deduplicate
 python scripts/deduplicate_venues.py transformed.json --output deduplicated.json
@@ -25,6 +33,8 @@ python scripts/deduplicate_venues.py transformed.json --output deduplicated.json
 # 4. Load into venues.json
 python scripts/load_venues.py deduplicated.json --merge --venues-file backend/data/venues.json
 ```
+
+**⚠️ CRITICAL:** Stage 2B (AI enrichment) is NOT optional. Running without enrichment produces weak, incomplete data.
 
 ## Pipeline Stages
 
@@ -62,14 +72,18 @@ The script intelligently maps various column names to standard fields:
 
 **Output:** JSON file with extracted venues in intermediate format
 
-### Stage 2: Transform
+### Stage 2: Transform (AI-Assisted with Web Search)
 
+**Purpose:** Transform raw data into structured venue schema WITH active data enrichment
+
+**⚠️ CRITICAL: This stage requires LLM assistance with web search to fill missing data**
+
+#### Two-Phase Transform Approach:
+
+**Phase 2A: Automated Normalization** (Script-based)
 **Script:** `scripts/transform_venues.py`
 
-**Purpose:** Transform raw data into structured venue schema
-
-**Transformations applied:**
-
+Basic transformations that don't require web search:
 1. **Normalization**
    - Unicode NFKC normalization
    - Strip whitespace
@@ -92,8 +106,7 @@ The script intelligently maps various column names to standard fields:
    - Categories: hotel, restaurant, banquet_hall, club, unique
 
 5. **Confidence Scoring**
-   - Weighted by field completeness
-   - Critical fields: 40%, High priority: 30%, Medium: 20%, Low: 10%
+   - Identifies venues needing enrichment
    - Score range: 0.0 to 1.0
 
 **Usage:**
@@ -101,7 +114,89 @@ The script intelligently maps various column names to standard fields:
 python scripts/transform_venues.py extracted.json --output transformed.json
 ```
 
-**Output:** JSON with normalized, parsed venues + confidence scores
+**Phase 2B: AI-Assisted Enrichment** (LLM + Web Search)
+**Mode:** Interactive LLM-driven process
+
+**IMPORTANT:** After running the transform script, YOU MUST actively enrich venues with missing critical/high-priority fields using web search.
+
+**Enrichment workflow:**
+
+1. **Identify venues needing enrichment:**
+```bash
+python -c "import json; data = json.load(open('transformed.json'));
+needs_enrichment = [v for v in data['venues'] if v.get('confidence_score', 0) < 0.7 or v.get('needs_review')];
+print(f'Found {len(needs_enrichment)} venues needing enrichment');
+for v in needs_enrichment[:10]: print(f'  - {v[\"name\"]}: {v.get(\"needs_review\", [])}')"
+```
+
+2. **For each incomplete venue, use WebSearch to find missing data:**
+
+**Search strategy per venue:**
+```
+"[Venue Name] Singapore wedding pricing per table 2024"
+"[Venue Name] Singapore address postal code contact"
+"[Venue Name] Singapore wedding capacity ballroom"
+"[Venue Name] Singapore wedding packages amenities"
+```
+
+**Fields to actively search for (in priority order):**
+
+🔴 **CRITICAL** (must fill):
+- `pricing.pricing_type` (plus_plus or nett)
+- `location.zone` (Central/East/West/North)
+- `location.address` (full address with postal)
+- `pricing.price_per_table` (base price)
+- `capacity.max_capacity` (max guests)
+
+🟡 **HIGH PRIORITY** (should fill):
+- `pricing.weekday_price`, `pricing.weekend_price`
+- `pricing.min_spend`, `pricing.min_tables`
+- `contact.phone`, `contact.email`, `contact.website`
+- `location.nearest_mrt`, `location.mrt_distance`
+
+🟢 **MEDIUM PRIORITY** (nice to have):
+- `amenities.*` (bridal_suite, av_equipment, etc.)
+- `description`, `rating`, `review_count`
+- `packages` (wedding packages with features)
+
+3. **Update the transformed.json with enriched data:**
+   - Read transformed.json
+   - For each venue, search web for missing fields
+   - Update venue with found data
+   - Validate data (don't make up values if not found)
+   - Save back to transformed.json
+
+4. **Batch processing approach:**
+   - Process 10-20 venues per batch
+   - Use parallel web searches when possible
+   - Report progress after each batch
+
+**Example enrichment for one venue:**
+
+```
+Venue: "Fullerton Hotel Singapore"
+Missing: pricing_type, weekday_price, contact info
+
+Search 1: "Fullerton Hotel Singapore wedding pricing per table 2024"
+→ Found: $2,500++ per table (pricing_type: plus_plus)
+→ Found: Weekday $2,200++, Weekend $2,800++
+
+Search 2: "Fullerton Hotel Singapore wedding contact email phone"
+→ Found: +65 6877 8911
+→ Found: weddings@fullertonhotels.com
+→ Found: https://www.fullertonhotels.com
+
+Update venue in transformed.json with this data
+```
+
+**Validation rules during enrichment:**
+- ✅ Only use data from official venue websites or trusted wedding directories
+- ✅ Mark year/date of pricing information found
+- ✅ Leave field empty if no reliable data found (don't guess)
+- ❌ Never fabricate data
+- ❌ Don't use outdated pricing (>2 years old)
+
+**Output:** Enriched `transformed.json` with 80%+ field completeness
 
 **Singapore-specific rules:**
 See `references/singapore_context.md` for:
@@ -208,14 +303,13 @@ python scripts/load_venues.py deduplicated.json --report completeness.json
 - `capacity.max_capacity`: 10-2,000 guests
 - `rating`: 0.0-5.0
 
-## Complete Pipeline Example
+## Complete Pipeline Example with AI Enrichment
 
-**Scenario:** Import 50 venues from Bridely CSV, deduplicate, and load into existing venues.json
+**Scenario:** Import 50 venues from Bridely CSV, enrich with web search, deduplicate, and load
 
 ```bash
 # Create pipeline directory
 mkdir -p pipeline_runs/2025-01-22
-
 cd pipeline_runs/2025-01-22
 
 # Stage 1: Extract
@@ -228,15 +322,82 @@ python ../../.claude/skills/venue-etl-pipeline/scripts/extract_venues.py \
 # ✅ Extracted 50 venues
 # 💾 Saved to extracted.json
 
-# Stage 2: Transform
+# Stage 2A: Transform (automated)
 python ../../.claude/skills/venue-etl-pipeline/scripts/transform_venues.py \
   extracted.json \
   --output transformed.json
 
 # Output:
 # ✅ Transformed 50 venues
-# 📊 Average confidence: 0.78
-# 📊 Needs review: 5 venues
+# 📊 Average confidence: 0.35 (LOW - needs enrichment!)
+# 📊 Needs review: 48 venues
+
+# Stage 2B: Transform (AI-assisted enrichment) - THIS IS WHERE YOU COME IN
+# Identify venues needing enrichment
+python -c "import json; data = json.load(open('transformed.json'));
+low_conf = [v for v in data['venues'] if v.get('confidence_score', 0) < 0.7];
+print(f'🔍 Found {len(low_conf)} venues needing enrichment');
+print('\nSample venues:');
+for v in low_conf[:5]:
+    missing = v.get('needs_review', [])
+    print(f'  • {v[\"name\"]}: missing {len(missing)} critical fields')"
+
+# Output:
+# 🔍 Found 48 venues needing enrichment
+#
+# Sample venues:
+#   • Grand Hyatt Singapore: missing 3 critical fields
+#   • Raffles Hotel: missing 2 critical fields
+#   • Fullerton Hotel: missing 4 critical fields
+#   • Marina Bay Sands: missing 2 critical fields
+#   • Pan Pacific Singapore: missing 3 critical fields
+
+# NOW: Use WebSearch to enrich each venue
+# For "Fullerton Hotel Singapore" example:
+
+# WebSearch: "Fullerton Hotel Singapore wedding pricing per table 2025"
+# Found: $2,500++ per table (weekday: $2,200++, weekend: $2,800++)
+
+# WebSearch: "Fullerton Hotel Singapore wedding contact"
+# Found: +65 6877 8911, weddings@fullertonhotels.com
+
+# WebSearch: "Fullerton Hotel Singapore address postal code"
+# Found: 1 Fullerton Square, Singapore 049178
+
+# Update transformed.json:
+python -c "
+import json
+data = json.load(open('transformed.json'))
+for v in data['venues']:
+    if v['name'] == 'Fullerton Hotel Singapore':
+        v['pricing']['pricing_type'] = 'plus_plus'
+        v['pricing']['price_per_table'] = 2500
+        v['pricing']['weekday_price'] = 2200
+        v['pricing']['weekend_price'] = 2800
+        v['location']['address'] = '1 Fullerton Square, Singapore 049178'
+        v['location']['postal'] = '049178'
+        v['location']['zone'] = 'Central'
+        v['contact']['phone'] = '+65 6877 8911'
+        v['contact']['email'] = 'weddings@fullertonhotels.com'
+        v['confidence_score'] = 0.92
+        v['needs_review'] = []
+        break
+json.dump(data, open('transformed.json', 'w'), indent=2)
+"
+
+# Repeat for all 48 venues...
+# Process in batches of 10-15 venues
+# After enrichment, verify completeness:
+
+python -c "import json; data = json.load(open('transformed.json'));
+avg_conf = sum(v.get('confidence_score', 0) for v in data['venues']) / len(data['venues']);
+print(f'📈 Average confidence after enrichment: {avg_conf:.2f}');
+needs_review = sum(1 for v in data['venues'] if v.get('needs_review'));
+print(f'📊 Venues still needing review: {needs_review}')"
+
+# Target output after enrichment:
+# 📈 Average confidence after enrichment: 0.85
+# 📊 Venues still needing review: 3
 
 # Stage 3: Deduplicate
 python ../../.claude/skills/venue-etl-pipeline/scripts/deduplicate_venues.py \
@@ -246,7 +407,7 @@ python ../../.claude/skills/venue-etl-pipeline/scripts/deduplicate_venues.py \
   --report duplicates.json
 
 # Output:
-# ✅ Reduced from 50 to 42 unique venues
+# ✅ Reduced from 50 to 47 unique venues (3 duplicates found)
 # 📊 Duplicate report saved to duplicates.json
 
 # Stage 4: Load (validate first)
@@ -256,8 +417,8 @@ python ../../.claude/skills/venue-etl-pipeline/scripts/load_venues.py \
 
 # Output:
 # ✅ All venues valid
-# 📈 Critical fields: 95% complete
-# 📈 High priority fields: 82% complete
+# 📈 Critical fields: 99% complete
+# 📈 High priority fields: 87% complete (UP from 35%!)
 
 # Stage 4: Load (merge and save)
 python ../../.claude/skills/venue-etl-pipeline/scripts/load_venues.py \
@@ -268,9 +429,11 @@ python ../../.claude/skills/venue-etl-pipeline/scripts/load_venues.py \
 
 # Output:
 # 💾 Created backup: backend/data/backups/venues_backup_20250122_143000.json
-# ✅ Saved 410 venues to backend/data/venues.json (368 existing + 42 new)
+# ✅ Saved 415 venues to backend/data/venues.json (368 existing + 47 new)
 # 📊 Completeness report saved to completeness.json
 ```
+
+**Key difference:** With AI enrichment, high-priority field completeness goes from 35% → 87%!
 
 ## Field Priority Reference
 
