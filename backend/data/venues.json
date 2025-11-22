@@ -250,7 +250,8 @@
         "email": "weddings@amarasingapore.com",
         "phone": "+65 6879 2555",
         "website": "https://singapore.amarahotels.com"
-      }
+      },
+      "last_updated": "2025-11-22T13:58:41.202384"
     },
     {
       "id": "venue-004",
@@ -413,7 +414,8 @@
         "email": "meetings.cpsin@ihg.com",
         "phone": "+65 6823 5300",
         "website": "https://www.crowneplaza.com/singapore"
-      }
+      },
+      "last_updated": "2025-11-22T13:58:41.202384"
     },
     {
       "id": "venue-006",
@@ -711,7 +713,7 @@
           "features": [
             "Floor-to-ceiling LED wall",
             "Dynamic backdrop options",
-            "Stylish contemporary d\u00e9cor",
+            "Stylish contemporary décor",
             "Up to 180 guests"
           ],
           "course_count": 8,
@@ -802,7 +804,7 @@
             "250-500 guest capacity",
             "Elegant ballroom setting",
             "Professional event management",
-            "Customizable d\u00e9cor"
+            "Customizable décor"
           ],
           "course_count": 8,
           "menu_type": "Mixed"
@@ -1089,7 +1091,9 @@
         "price_per_table": 2238,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1788,
+        "weekend_price": 1888
       },
       "capacity": {
         "min_tables": 0,
@@ -1108,7 +1112,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494064",
+      "last_updated": "2025-11-22T13:59:19.406120",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1188,7 +1192,9 @@
         "price_per_table": 758,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "nett"
+        "pricing_type": "nett",
+        "weekday_price": 1188,
+        "weekend_price": 1188
       },
       "capacity": 490,
       "location": {
@@ -1205,7 +1211,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T13:57:33.974495",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1393,7 +1399,9 @@
         "price_per_table": 1288,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1258,
+        "weekend_price": 1388
       },
       "capacity": {
         "min_tables": 0,
@@ -1418,7 +1426,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721761",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1488,7 +1496,9 @@
         "price_per_table": 2100,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2228,
+        "weekend_price": 2228
       },
       "capacity": {
         "min_tables": 0,
@@ -1514,7 +1524,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721741",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1814,8 +1824,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-dien-h\u1ed3ng-ballroom",
-      "name": "Die\u0302n H\u1ed3ng Ballroom",
+      "id": "venue-dien-hồng-ballroom",
+      "name": "Diên Hồng Ballroom",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -1848,7 +1858,9 @@
         "price_per_table": 1638,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1538,
+        "weekend_price": 1888
       },
       "capacity": {
         "min_tables": 0,
@@ -1873,7 +1885,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721756",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1931,14 +1943,16 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-fairmont-singapore--swiss\u00f4tel-the-stamford",
-      "name": "Fairmont Singapore & Swiss\u00f4tel The Stamford",
+      "id": "venue-fairmont-singapore--swissôtel-the-stamford",
+      "name": "Fairmont Singapore & Swissôtel The Stamford",
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 1908,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1828,
+        "weekend_price": 1988
       },
       "capacity": {
         "min_tables": 0,
@@ -1964,7 +1978,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973265",
+      "last_updated": "2025-11-22T13:57:33.974495",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2041,7 +2055,9 @@
         "price_per_table": 1338,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1338,
+        "weekend_price": 1338
       },
       "capacity": {
         "min_tables": 0,
@@ -2066,7 +2082,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989236",
+      "last_updated": "2025-11-22T13:57:33.974495",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2474,7 +2490,9 @@
         "price_per_table": 1488,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1708,
+        "weekend_price": 2088
       },
       "capacity": {
         "min_tables": 0,
@@ -2499,7 +2517,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973284",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2510,7 +2528,9 @@
         "price_per_table": 1788,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1688,
+        "weekend_price": 1988
       },
       "capacity": {
         "min_tables": 0,
@@ -2535,7 +2555,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989218",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2618,7 +2638,9 @@
         "price_per_table": 1668,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1668,
+        "weekend_price": 1688
       },
       "capacity": {
         "min_tables": 0,
@@ -2643,7 +2665,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:28:53.291223",
+      "last_updated": "2025-11-22T13:57:33.974495",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2710,7 +2732,9 @@
         "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1988,
+        "weekend_price": 1988
       },
       "capacity": {
         "min_tables": 0,
@@ -2735,7 +2759,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989220",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2775,7 +2799,9 @@
         "price_per_table": 938,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1498,
+        "weekend_price": 1498
       },
       "capacity": {
         "min_tables": 0,
@@ -2800,7 +2826,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973303",
+      "last_updated": "2025-11-22T13:57:33.974495",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3051,13 +3077,15 @@
     },
     {
       "id": "venue-intercontinental-singapore",
-      "name": "InterContinental\u00ae Singapore",
+      "name": "InterContinental® Singapore",
       "venue_type": "hotel",
       "pricing": {
         "price_per_table": 2380,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2188,
+        "weekend_price": 2488
       },
       "capacity": 320,
       "location": {
@@ -3075,7 +3103,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T13:56:38.953685",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3446,7 +3474,7 @@
     },
     {
       "id": "venue-lingzhi-vegetarian-velocity--novena-square",
-      "name": "LingZhi Vegetarian (Velocity \u2013 Novena Square)",
+      "name": "LingZhi Vegetarian (Velocity – Novena Square)",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 533,
@@ -3630,7 +3658,7 @@
     },
     {
       "id": "venue-minh-tam---hoa-tam---ngoa-nguyet-lake---khai-tam-gate",
-      "name": "Minh Ta\u0302m - Hoa Ta\u0302m - Ngo\u0323a Nguye\u0323\u0302t Lake - Khai Ta\u0302m Gate",
+      "name": "Minh Tâm - Hoa Tâm - Ngọa Nguyệt Lake - Khai Tâm Gate",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -3966,7 +3994,7 @@
     },
     {
       "id": "venue-one15-marina-sentosa-cove-singapore",
-      "name": "ONE\u00b015 Marina Sentosa Cove Singapore",
+      "name": "ONE°15 Marina Sentosa Cove Singapore",
       "venue_type": "marina",
       "pricing": {
         "price_per_table": 1588,
@@ -6104,8 +6132,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-swiss\u00f4tel-merchant-court-singapore",
-      "name": "Swiss\u00f4tel Merchant Court Singapore",
+      "id": "venue-swissôtel-merchant-court-singapore",
+      "name": "Swissôtel Merchant Court Singapore",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -6574,7 +6602,7 @@
     },
     {
       "id": "venue-the-westin-singapore--cook--brew",
-      "name": "The Westin Singapore \u2013 Cook & Brew",
+      "name": "The Westin Singapore – Cook & Brew",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -7267,8 +7295,8 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-y\u00e0n-\u5bb4",
-      "name": "Y\u00c0N \u5bb4",
+      "id": "venue-yàn-宴",
+      "name": "YÀN 宴",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -7537,8 +7565,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-ya-ge-\u96c5\u95a3-at-orchid-hotel",
-      "name": "Ya Ge \u96c5\u95a3 at Orchid Hotel",
+      "id": "venue-ya-ge-雅閣-at-orchid-hotel",
+      "name": "Ya Ge 雅閣 at Orchid Hotel",
       "venue_type": "",
       "pricing": {
         "price_per_table": 68,
@@ -7935,8 +7963,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-straits-chinese-nonya-restaurant-\u571f\u751f\u574a\u6b63\u5b97\u5a18\u60f9\u9910\u9986-1953",
-      "name": "Straits Chinese Nonya Restaurant \u571f\u751f\u574a\u6b63\u5b97\u5a18\u60f9\u9910\u9986 (1953)",
+      "id": "venue-straits-chinese-nonya-restaurant-土生坊正宗娘惹餐馆-1953",
+      "name": "Straits Chinese Nonya Restaurant 土生坊正宗娘惹餐馆 (1953)",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -8377,8 +8405,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-chui-huay-lim-teochew-cuisine-\u9189\u82b1\u6797\u54c1\u6f6e\u8f69",
-      "name": "Chui Huay Lim Teochew Cuisine \u9189\u82b1\u6797\u54c1\u6f6e\u8f69",
+      "id": "venue-chui-huay-lim-teochew-cuisine-醉花林品潮轩",
+      "name": "Chui Huay Lim Teochew Cuisine 醉花林品潮轩",
       "venue_type": "",
       "pricing": {
         "price_per_table": 100,
@@ -9153,7 +9181,7 @@
     },
     {
       "id": "venue-one15-marina-sentosa-cove",
-      "name": "ONE\u00b015 Marina Sentosa Cove",
+      "name": "ONE°15 Marina Sentosa Cove",
       "venue_type": "",
       "pricing": {
         "price_per_table": 178,
@@ -9368,8 +9396,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-caf\u00e9-melba-at-goodman-arts-centre",
-      "name": "Caf\u00e9 Melba at Goodman Arts Centre",
+      "id": "venue-café-melba-at-goodman-arts-centre",
+      "name": "Café Melba at Goodman Arts Centre",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -9989,8 +10017,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-priv\u00e9-grill",
-      "name": "Priv\u00e9 Grill",
+      "id": "venue-privé-grill",
+      "name": "Privé Grill",
       "venue_type": "",
       "pricing": {
         "price_per_table": 0,
@@ -10664,8 +10692,8 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-indocaf\u00e9---peranakan-dining",
-      "name": "INDOCAF\u00c9 - Peranakan Dining",
+      "id": "venue-indocafé---peranakan-dining",
+      "name": "INDOCAFÉ - Peranakan Dining",
       "venue_type": "",
       "pricing": {
         "price_per_table": 118,
