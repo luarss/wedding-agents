@@ -1158,19 +1158,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841683",
+      "last_updated": "2025-11-22T15:20:17.925184",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-beach-wedding",
       "name": "Beach Wedding",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -1185,13 +1185,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841688",
+      "last_updated": "2025-11-22T15:20:17.925206",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1250,13 +1250,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841701",
+      "last_updated": "2025-11-22T15:20:17.925222",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1485,13 +1485,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841709",
+      "last_updated": "2025-11-22T15:20:17.925245",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1742,12 +1742,12 @@
     {
       "id": "venue-dien-hồng-ballroom",
       "name": "Diên Hồng Ballroom",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -1757,13 +1757,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "International"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338810",
+      "last_updated": "2025-11-22T15:20:17.925278",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2487,7 +2487,7 @@
     {
       "id": "venue-grass-field-venue",
       "name": "Grass Field Venue",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2502,13 +2502,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841723",
+      "last_updated": "2025-11-22T15:20:17.925340",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2772,12 +2772,12 @@
     {
       "id": "venue-huong-tram-ballroom",
       "name": "Huong Tram Ballroom",
-      "venue_type": "",
+      "venue_type": "event_space",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -2787,13 +2787,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "International"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339265",
+      "last_updated": "2025-11-22T15:20:17.925367",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2870,7 +2870,7 @@
     {
       "id": "venue-indoor-bar",
       "name": "Indoor Bar",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -2885,13 +2885,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841732",
+      "last_updated": "2025-11-22T15:20:17.925383",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3550,12 +3550,12 @@
     {
       "id": "venue-minh-tam---hoa-tam---ngoa-nguyet-lake---khai-tam-gate",
       "name": "Minh Tâm - Hoa Tâm - Ngọa Nguyệt Lake - Khai Tâm Gate",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -3565,13 +3565,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "International"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339635",
+      "last_updated": "2025-11-22T15:20:17.925449",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4007,13 +4007,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841752",
+      "last_updated": "2025-11-22T15:20:17.925488",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4220,7 +4220,7 @@
     {
       "id": "venue-parkroyal-collection-marina-bay-singapore",
       "name": "PARKROYAL COLLECTION Marina Bay, Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -4243,7 +4243,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647825",
+      "last_updated": "2025-11-22T15:20:17.925507",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4662,13 +4662,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841804",
+      "last_updated": "2025-11-22T15:20:17.925540",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4752,13 +4752,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841810",
+      "last_updated": "2025-11-22T15:20:17.925555",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5003,13 +5003,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841818",
+      "last_updated": "2025-11-22T15:20:17.925577",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5058,13 +5058,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841824",
+      "last_updated": "2025-11-22T15:20:17.925589",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5085,13 +5085,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841829",
+      "last_updated": "2025-11-22T15:20:17.925598",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5158,7 +5158,7 @@
     {
       "id": "venue-raffles-marina",
       "name": "Raffles Marina",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5179,13 +5179,13 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647881",
+      "last_updated": "2025-11-22T15:20:17.925607",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-red-house-seafood",
       "name": "Red House Seafood",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5200,13 +5200,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841842",
+      "last_updated": "2025-11-22T15:20:17.925618",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5351,7 +5351,7 @@
     {
       "id": "venue-royal-plaza-on-scotts",
       "name": "Royal Plaza on Scotts",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5366,13 +5366,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841859",
+      "last_updated": "2025-11-22T15:20:17.925640",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5441,7 +5441,7 @@
     {
       "id": "venue-scorpio-and-taurus",
       "name": "Scorpio and Taurus",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5456,13 +5456,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841865",
+      "last_updated": "2025-11-22T15:20:17.925668",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5510,13 +5510,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841873",
+      "last_updated": "2025-11-22T15:20:17.925678",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5667,13 +5667,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841879",
+      "last_updated": "2025-11-22T15:20:17.925696",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5752,7 +5752,7 @@
     {
       "id": "venue-shin-yeh",
       "name": "Shin Yeh",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5767,13 +5767,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841882",
+      "last_updated": "2025-11-22T15:20:17.925711",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5846,7 +5846,7 @@
     {
       "id": "venue-sinfonia-ristorante",
       "name": "Sinfonia Ristorante",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5861,13 +5861,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841887",
+      "last_updated": "2025-11-22T15:20:17.925727",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5924,13 +5924,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841896",
+      "last_updated": "2025-11-22T15:20:17.925739",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5951,19 +5951,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841903",
+      "last_updated": "2025-11-22T15:20:17.925748",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-siri-house",
       "name": "SIRI HOUSE",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -5978,19 +5978,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841905",
+      "last_updated": "2025-11-22T15:20:17.925759",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-sofitel-singapore-city-centre",
       "name": "Sofitel Singapore City Centre",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6011,7 +6011,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647948",
+      "last_updated": "2025-11-22T15:20:17.925765",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6085,7 +6085,7 @@
     {
       "id": "venue-spring-court",
       "name": "Spring Court",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6100,13 +6100,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841916",
+      "last_updated": "2025-11-22T15:20:17.925780",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6176,7 +6176,7 @@
     {
       "id": "venue-swissôtel-merchant-court-singapore",
       "name": "Swissôtel Merchant Court Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6191,13 +6191,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841922",
+      "last_updated": "2025-11-22T15:20:17.925795",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6218,13 +6218,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841932",
+      "last_updated": "2025-11-22T15:20:17.925804",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6257,7 +6257,7 @@
     {
       "id": "venue-the-chevrons",
       "name": "THE CHEVRONS",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6272,19 +6272,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841939",
+      "last_updated": "2025-11-22T15:20:17.925816",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-chevrons--jurong-east",
       "name": "The Chevrons @ Jurong East",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6305,7 +6305,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647991",
+      "last_updated": "2025-11-22T15:20:17.925822",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6378,7 +6378,7 @@
     {
       "id": "venue-the-level-poolside",
       "name": "The Level Poolside",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6393,19 +6393,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841950",
+      "last_updated": "2025-11-22T15:20:17.925837",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-majestic-chapel",
       "name": "The Majestic Chapel",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6420,13 +6420,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841955",
+      "last_updated": "2025-11-22T15:20:17.925848",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6459,7 +6459,7 @@
     {
       "id": "venue-the-ritz-carlton-millenia-singapore",
       "name": "The Ritz Carlton, Millenia Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6474,19 +6474,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841968",
+      "last_updated": "2025-11-22T15:20:17.925864",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-robertson-house-by-the-crest-collection",
       "name": "The Robertson House by The Crest Collection",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6507,13 +6507,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648013",
+      "last_updated": "2025-11-22T15:20:17.925870",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-singapore-edition",
       "name": "The Singapore EDITION",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6528,13 +6528,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841979",
+      "last_updated": "2025-11-22T15:20:17.925882",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6570,7 +6570,7 @@
     {
       "id": "venue-the-st-regis-singapore",
       "name": "The St. Regis Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6585,13 +6585,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841984",
+      "last_updated": "2025-11-22T15:20:17.925896",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6689,7 +6689,7 @@
     {
       "id": "venue-tim-palace",
       "name": "Tim Palace",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6704,13 +6704,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841990",
+      "last_updated": "2025-11-22T15:20:17.925915",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6917,7 +6917,7 @@
     {
       "id": "venue-tunglok-heen",
       "name": "TungLok Heen",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6932,19 +6932,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841997",
+      "last_updated": "2025-11-22T15:20:17.925939",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-tunglok-seafood-park-regis-singapore",
       "name": "TungLok Seafood (Park Regis Singapore)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6959,19 +6959,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842002",
+      "last_updated": "2025-11-22T15:20:17.925953",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-tunglok-seafood-plq-mall",
       "name": "TungLok Seafood (PLQ Mall)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -6986,19 +6986,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842007",
+      "last_updated": "2025-11-22T15:20:17.925965",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-tunglok-seafood-upper-jurong",
       "name": "TungLok Seafood (Upper Jurong)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7019,13 +7019,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648053",
+      "last_updated": "2025-11-22T15:20:17.925971",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-tunglok-seafood--orchard-central",
       "name": "TungLok Seafood @ Orchard Central",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7046,13 +7046,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648055",
+      "last_updated": "2025-11-22T15:20:17.925976",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-tunglok-signatures-the-central",
       "name": "TungLok Signatures (The Central)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7073,7 +7073,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648058",
+      "last_updated": "2025-11-22T15:20:17.925982",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7195,7 +7195,7 @@
     {
       "id": "venue-virgo",
       "name": "Virgo",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7210,19 +7210,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842037",
+      "last_updated": "2025-11-22T15:20:17.926001",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-voco-orchard-singapore",
       "name": "voco Orchard Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7243,7 +7243,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648071",
+      "last_updated": "2025-11-22T15:20:17.926009",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7301,13 +7301,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842050",
+      "last_updated": "2025-11-22T15:20:17.926020",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7349,7 +7349,7 @@
     {
       "id": "venue-ywca-fort-canning",
       "name": "YWCA Fort Canning",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7370,13 +7370,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648079",
+      "last_updated": "2025-11-22T15:20:17.926028",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-yàn-宴",
       "name": "YÀN 宴",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7391,19 +7391,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842058",
+      "last_updated": "2025-11-22T15:20:17.926039",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-blue-ginger",
       "name": "The Blue Ginger",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 120,
         "min_spend": 0,
@@ -7418,19 +7418,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.966666666666667,
       "review_count": 59,
-      "last_updated": "2025-11-18T15:45:26.261993",
+      "last_updated": "2025-11-22T15:20:17.926050",
       "data_source": "Bridely"
     },
     {
       "id": "venue-little-island-brewing-co",
       "name": "Little Island Brewing Co",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 78,
         "min_spend": 0,
@@ -7445,19 +7445,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.833333333333333,
       "review_count": 28,
-      "last_updated": "2025-11-18T15:45:26.262018",
+      "last_updated": "2025-11-22T15:20:17.926062",
       "data_source": "Bridely"
     },
     {
       "id": "venue-st-regis-singapore",
       "name": "St Regis Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 262,
         "min_spend": 0,
@@ -7472,19 +7472,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.466666666666666,
       "review_count": 91,
-      "last_updated": "2025-11-18T15:45:26.262065",
+      "last_updated": "2025-11-22T15:20:17.926074",
       "data_source": "Bridely"
     },
     {
       "id": "venue-parkroyal-collection-marina-bay",
       "name": "PARKROYAL COLLECTION Marina Bay",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 154,
         "min_spend": 0,
@@ -7505,13 +7505,13 @@
       "contact": {},
       "rating": 4.266666666666667,
       "review_count": 120,
-      "last_updated": "2025-11-22T15:08:04.648099",
+      "last_updated": "2025-11-22T15:20:17.926080",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-acacia-geneo",
       "name": "The Acacia Geneo",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 55,
         "min_spend": 0,
@@ -7526,19 +7526,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 8,
-      "last_updated": "2025-11-18T15:45:26.262092",
+      "last_updated": "2025-11-22T15:20:17.926091",
       "data_source": "Bridely"
     },
     {
       "id": "venue-conrad-centennial-singapore",
       "name": "Conrad Centennial Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 238,
         "min_spend": 0,
@@ -7553,19 +7553,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.2,
       "review_count": 120,
-      "last_updated": "2025-11-18T15:45:26.262125",
+      "last_updated": "2025-11-22T15:20:17.926105",
       "data_source": "Bridely"
     },
     {
       "id": "venue-artemis-grill--sky-bar",
       "name": "Artemis Grill & Sky Bar",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 18000,
         "min_spend": 0,
@@ -7580,19 +7580,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.7,
       "review_count": 46,
-      "last_updated": "2025-11-18T15:45:26.262218",
+      "last_updated": "2025-11-22T15:20:17.926116",
       "data_source": "Bridely"
     },
     {
       "id": "venue-chijmes",
       "name": "CHIJMES",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 190,
         "min_spend": 0,
@@ -7607,19 +7607,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 57,
-      "last_updated": "2025-11-18T15:45:26.262247",
+      "last_updated": "2025-11-22T15:20:17.926126",
       "data_source": "Bridely"
     },
     {
       "id": "venue-vineyard-at-hort-park",
       "name": "Vineyard at Hort Park",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 129,
         "min_spend": 0,
@@ -7634,13 +7634,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.666666666666667,
       "review_count": 35,
-      "last_updated": "2025-11-18T15:45:26.262260",
+      "last_updated": "2025-11-22T15:20:17.926138",
       "data_source": "Bridely"
     },
     {
@@ -7661,13 +7661,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842086",
+      "last_updated": "2025-11-22T15:20:17.926151",
       "data_source": "Bridely"
     },
     {
@@ -7703,7 +7703,7 @@
     {
       "id": "venue-the-masons-table",
       "name": "The Masons Table",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 88,
         "min_spend": 0,
@@ -7718,19 +7718,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.766666666666667,
       "review_count": 35,
-      "last_updated": "2025-11-18T15:45:26.262508",
+      "last_updated": "2025-11-22T15:20:17.926165",
       "data_source": "Bridely"
     },
     {
       "id": "venue-empress",
       "name": "Empress",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 98,
         "min_spend": 0,
@@ -7745,19 +7745,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 50,
-      "last_updated": "2025-11-18T15:45:26.262679",
+      "last_updated": "2025-11-22T15:20:17.926174",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-ritz-carlton-millenia",
       "name": "The Ritz Carlton Millenia",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 249,
         "min_spend": 0,
@@ -7772,19 +7772,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.133333333333333,
       "review_count": 39,
-      "last_updated": "2025-11-18T15:45:26.262958",
+      "last_updated": "2025-11-22T15:20:17.926186",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-secret-patio--duxton",
       "name": "The Secret Patio @ Duxton",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7799,13 +7799,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.633333333333334,
       "review_count": 20,
-      "last_updated": "2025-11-22T15:05:54.842100",
+      "last_updated": "2025-11-22T15:20:17.926195",
       "data_source": "Bridely"
     },
     {
@@ -7826,13 +7826,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842106",
+      "last_updated": "2025-11-22T15:20:17.926204",
       "data_source": "Bridely"
     },
     {
@@ -7853,13 +7853,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.533333333333333,
       "review_count": 21,
-      "last_updated": "2025-11-22T15:05:54.842112",
+      "last_updated": "2025-11-22T15:20:17.926215",
       "data_source": "Bridely"
     },
     {
@@ -7892,7 +7892,7 @@
     {
       "id": "venue-hortpark",
       "name": "HortPark",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -7907,13 +7907,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 16,
-      "last_updated": "2025-11-22T15:05:54.842118",
+      "last_updated": "2025-11-22T15:20:17.926228",
       "data_source": "Bridely"
     },
     {
@@ -7934,13 +7934,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.133333333333333,
       "review_count": 49,
-      "last_updated": "2025-11-22T15:05:54.842122",
+      "last_updated": "2025-11-22T15:20:17.926238",
       "data_source": "Bridely"
     },
     {
@@ -7961,13 +7961,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.866666666666666,
       "review_count": 13,
-      "last_updated": "2025-11-22T15:05:54.842128",
+      "last_updated": "2025-11-22T15:20:17.926254",
       "data_source": "Bridely"
     },
     {
@@ -7988,19 +7988,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.033333333333333,
       "review_count": 24,
-      "last_updated": "2025-11-22T15:05:54.842131",
+      "last_updated": "2025-11-22T15:20:17.926263",
       "data_source": "Bridely"
     },
     {
       "id": "venue-open-farm-community",
       "name": "Open Farm Community",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 118,
         "min_spend": 0,
@@ -8015,13 +8015,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.666666666666667,
       "review_count": 16,
-      "last_updated": "2025-11-18T15:45:26.263253",
+      "last_updated": "2025-11-22T15:20:17.926275",
       "data_source": "Bridely"
     },
     {
@@ -8054,7 +8054,7 @@
     {
       "id": "venue-into-the-woods",
       "name": "Into the Woods",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8069,13 +8069,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 7,
-      "last_updated": "2025-11-22T15:05:54.842142",
+      "last_updated": "2025-11-22T15:20:17.926288",
       "data_source": "Bridely"
     },
     {
@@ -8096,13 +8096,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.866666666666666,
       "review_count": 7,
-      "last_updated": "2025-11-22T15:05:54.842149",
+      "last_updated": "2025-11-22T15:20:17.926304",
       "data_source": "Bridely"
     },
     {
@@ -8123,19 +8123,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.366666666666666,
       "review_count": 21,
-      "last_updated": "2025-11-22T15:05:54.842151",
+      "last_updated": "2025-11-22T15:20:17.926314",
       "data_source": "Bridely"
     },
     {
       "id": "venue-pan-pacific-orchard",
       "name": "Pan Pacific Orchard",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 226,
         "min_spend": 0,
@@ -8156,13 +8156,13 @@
       "contact": {},
       "rating": 4.666666666666667,
       "review_count": 9,
-      "last_updated": "2025-11-22T15:08:04.648221",
+      "last_updated": "2025-11-22T15:20:17.926319",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-alkaff-mansion",
       "name": "The Alkaff Mansion",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 155,
         "min_spend": 0,
@@ -8177,19 +8177,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.8000000000000003,
       "review_count": 51,
-      "last_updated": "2025-11-18T15:45:26.263559",
+      "last_updated": "2025-11-22T15:20:17.926331",
       "data_source": "Bridely"
     },
     {
       "id": "venue-wheelers-estate",
       "name": "Wheeler's Estate",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 9200,
         "min_spend": 0,
@@ -8204,13 +8204,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.166666666666667,
       "review_count": 44,
-      "last_updated": "2025-11-18T15:45:26.263590",
+      "last_updated": "2025-11-22T15:20:17.926342",
       "data_source": "Bridely"
     },
     {
@@ -8231,19 +8231,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842161",
+      "last_updated": "2025-11-22T15:20:17.926355",
       "data_source": "Bridely"
     },
     {
       "id": "venue-all-to-gather",
       "name": "All To Gather",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8258,19 +8258,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842164",
+      "last_updated": "2025-11-22T15:20:17.926366",
       "data_source": "Bridely"
     },
     {
       "id": "venue-white-rabbit-hole-chinatown",
       "name": "White Rabbit Hole (Chinatown)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8291,13 +8291,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:08:04.648246",
+      "last_updated": "2025-11-22T15:20:17.926372",
       "data_source": "Bridely"
     },
     {
       "id": "venue-beaulieu-house-sembawang-seafood-paradise",
       "name": "Beaulieu House (Sembawang Seafood Paradise)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8318,13 +8318,13 @@
       "contact": {},
       "rating": 5.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:08:04.648252",
+      "last_updated": "2025-11-22T15:20:17.926378",
       "data_source": "Bridely"
     },
     {
       "id": "venue-plume-singapore",
       "name": "Plume Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8339,19 +8339,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.9333333333333336,
       "review_count": 22,
-      "last_updated": "2025-11-22T15:05:54.842179",
+      "last_updated": "2025-11-22T15:20:17.926389",
       "data_source": "Bridely"
     },
     {
       "id": "venue-chui-huay-lim-teochew-cuisine-醉花林品潮轩",
       "name": "Chui Huay Lim Teochew Cuisine 醉花林品潮轩",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 100,
         "min_spend": 0,
@@ -8366,19 +8366,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.933333333333334,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.263819",
+      "last_updated": "2025-11-22T15:20:17.926406",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-summerhouse",
       "name": "The Summerhouse",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 145,
         "min_spend": 0,
@@ -8393,19 +8393,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.966666666666667,
       "review_count": 26,
-      "last_updated": "2025-11-18T15:45:26.263847",
+      "last_updated": "2025-11-22T15:20:17.926417",
       "data_source": "Bridely"
     },
     {
       "id": "venue-altro-zafferano",
       "name": "Altro Zafferano",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8420,13 +8420,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.233333333333333,
       "review_count": 13,
-      "last_updated": "2025-11-22T15:05:54.842189",
+      "last_updated": "2025-11-22T15:20:17.926428",
       "data_source": "Bridely"
     },
     {
@@ -8447,19 +8447,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.466666666666666,
       "review_count": 11,
-      "last_updated": "2025-11-22T15:05:54.842193",
+      "last_updated": "2025-11-22T15:20:17.926436",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-outset",
       "name": "THE OUTSET",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8474,13 +8474,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.233333333333333,
       "review_count": 12,
-      "last_updated": "2025-11-22T15:05:54.842196",
+      "last_updated": "2025-11-22T15:20:17.926446",
       "data_source": "Bridely"
     },
     {
@@ -8501,13 +8501,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.8999999999999995,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842201",
+      "last_updated": "2025-11-22T15:20:17.926458",
       "data_source": "Bridely"
     },
     {
@@ -8550,7 +8550,7 @@
     {
       "id": "venue-the-white-label",
       "name": "The White Label",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8565,19 +8565,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 3,
-      "last_updated": "2025-11-22T15:05:54.842204",
+      "last_updated": "2025-11-22T15:20:17.926470",
       "data_source": "Bridely"
     },
     {
       "id": "venue-royal-albatross---luxury-tall-ship",
       "name": "Royal Albatross - Luxury Tall Ship",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 308,
         "min_spend": 0,
@@ -8592,19 +8592,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 3,
-      "last_updated": "2025-11-18T15:45:26.263966",
+      "last_updated": "2025-11-22T15:20:17.926483",
       "data_source": "Bridely"
     },
     {
       "id": "venue-red-house-seafood-grand-copthorne",
       "name": "Red House Seafood Grand Copthorne",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 226,
         "min_spend": 0,
@@ -8619,13 +8619,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.333333333333333,
       "review_count": 12,
-      "last_updated": "2025-11-18T15:45:26.263983",
+      "last_updated": "2025-11-22T15:20:17.926496",
       "data_source": "Bridely"
     },
     {
@@ -8646,19 +8646,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 8,
-      "last_updated": "2025-11-22T15:05:54.842217",
+      "last_updated": "2025-11-22T15:20:17.926505",
       "data_source": "Bridely"
     },
     {
       "id": "venue-botanico-at-the-summerhouse-formerly-at-the-garage",
       "name": "Botanico At The Summerhouse (Formerly at The Garage)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 180,
         "min_spend": 0,
@@ -8673,19 +8673,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.9,
       "review_count": 25,
-      "last_updated": "2025-11-18T15:45:26.264048",
+      "last_updated": "2025-11-22T15:20:17.926521",
       "data_source": "Bridely"
     },
     {
       "id": "venue-ion-sky",
       "name": "ION Sky",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8700,19 +8700,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842222",
+      "last_updated": "2025-11-22T15:20:17.926530",
       "data_source": "Bridely"
     },
     {
       "id": "venue-cali---ascott-raffles-place-singapore",
       "name": "CALI - Ascott Raffles Place Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8733,13 +8733,13 @@
       "contact": {},
       "rating": 4.6000000000000005,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:08:04.648333",
+      "last_updated": "2025-11-22T15:20:17.926536",
       "data_source": "Bridely"
     },
     {
       "id": "venue-candlenut",
       "name": "Candlenut",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8754,19 +8754,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842232",
+      "last_updated": "2025-11-22T15:20:17.926546",
       "data_source": "Bridely"
     },
     {
       "id": "venue-min-jiang-at-dempsey",
       "name": "Min Jiang at Dempsey",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 20888,
         "min_spend": 0,
@@ -8781,19 +8781,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.266666666666667,
       "review_count": 17,
-      "last_updated": "2025-11-18T15:45:26.264113",
+      "last_updated": "2025-11-22T15:20:17.926558",
       "data_source": "Bridely"
     },
     {
       "id": "venue-arpanam",
       "name": "Arpanam",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8808,19 +8808,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842239",
+      "last_updated": "2025-11-22T15:20:17.926567",
       "data_source": "Bridely"
     },
     {
       "id": "venue-park-avenue-convention-centre",
       "name": "Park Avenue Convention Centre",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8835,19 +8835,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842243",
+      "last_updated": "2025-11-22T15:20:17.926580",
       "data_source": "Bridely"
     },
     {
       "id": "venue-fort-canning-green",
       "name": "Fort Canning Green",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8868,13 +8868,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:08:04.648354",
+      "last_updated": "2025-11-22T15:20:17.926586",
       "data_source": "Bridely"
     },
     {
       "id": "venue-alma-by-juan-amador",
       "name": "Alma by Juan Amador",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8889,13 +8889,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842254",
+      "last_updated": "2025-11-22T15:20:17.926597",
       "data_source": "Bridely"
     },
     {
@@ -8916,19 +8916,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842262",
+      "last_updated": "2025-11-22T15:20:17.926606",
       "data_source": "Bridely"
     },
     {
       "id": "venue-yacht-bookings-singapore",
       "name": "Yacht Bookings Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -8943,13 +8943,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842267",
+      "last_updated": "2025-11-22T15:20:17.926618",
       "data_source": "Bridely"
     },
     {
@@ -8992,7 +8992,7 @@
     {
       "id": "venue-highfive",
       "name": "HIGHfive",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9007,13 +9007,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842272",
+      "last_updated": "2025-11-22T15:20:17.926630",
       "data_source": "Bridely"
     },
     {
@@ -9034,13 +9034,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.6333333333333333,
       "review_count": 40,
-      "last_updated": "2025-11-22T15:05:54.842278",
+      "last_updated": "2025-11-22T15:20:17.926639",
       "data_source": "Bridely"
     },
     {
@@ -9061,19 +9061,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.2,
       "review_count": 11,
-      "last_updated": "2025-11-22T15:05:54.842281",
+      "last_updated": "2025-11-22T15:20:17.926662",
       "data_source": "Bridely"
     },
     {
       "id": "venue-sea-aquarium",
       "name": "S.E.A. Aquarium",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 321,
         "min_spend": 0,
@@ -9088,13 +9088,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.133333333333333,
       "review_count": 8,
-      "last_updated": "2025-11-18T15:45:26.264614",
+      "last_updated": "2025-11-22T15:20:17.926673",
       "data_source": "Bridely"
     },
     {
@@ -9127,7 +9127,7 @@
     {
       "id": "venue-one15-marina-sentosa-cove",
       "name": "ONE°15 Marina Sentosa Cove",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 178,
         "min_spend": 0,
@@ -9148,13 +9148,13 @@
       "contact": {},
       "rating": 4.066666666666666,
       "review_count": 15,
-      "last_updated": "2025-11-22T15:08:04.648394",
+      "last_updated": "2025-11-22T15:20:17.926682",
       "data_source": "Bridely"
     },
     {
       "id": "venue-tunglok-seafood-orchard-central",
       "name": "TungLok Seafood (Orchard Central)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 86,
         "min_spend": 0,
@@ -9175,13 +9175,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:08:04.648396",
+      "last_updated": "2025-11-22T15:20:17.926688",
       "data_source": "Bridely"
     },
     {
       "id": "venue-haus217",
       "name": "HAUS217",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 128,
         "min_spend": 0,
@@ -9196,13 +9196,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264771",
+      "last_updated": "2025-11-22T15:20:17.926697",
       "data_source": "Bridely"
     },
     {
@@ -9235,7 +9235,7 @@
     {
       "id": "venue-the-teahouse-studio",
       "name": "The Teahouse Studio",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9250,19 +9250,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842305",
+      "last_updated": "2025-11-22T15:20:17.926710",
       "data_source": "Bridely"
     },
     {
       "id": "venue-socioq--besar",
       "name": "SOCIOQ @ Besar",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9277,19 +9277,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842310",
+      "last_updated": "2025-11-22T15:20:17.926721",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-winery-tapas-bar",
       "name": "The Winery Tapas Bar",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9304,19 +9304,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.333333333333333,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842314",
+      "last_updated": "2025-11-22T15:20:17.926732",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-common-good",
       "name": "The Common Good",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9331,19 +9331,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842319",
+      "last_updated": "2025-11-22T15:20:17.926743",
       "data_source": "Bridely"
     },
     {
       "id": "venue-café-melba-at-goodman-arts-centre",
       "name": "Café Melba at Goodman Arts Centre",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9358,19 +9358,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842324",
+      "last_updated": "2025-11-22T15:20:17.926758",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-velvet-affair",
       "name": "The Velvet Affair",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9385,19 +9385,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842332",
+      "last_updated": "2025-11-22T15:20:17.926769",
       "data_source": "Bridely"
     },
     {
       "id": "venue-chavents",
       "name": "Chavents",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9412,19 +9412,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842337",
+      "last_updated": "2025-11-22T15:20:17.926778",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-happi-loft",
       "name": "The Happi Loft",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9439,19 +9439,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842342",
+      "last_updated": "2025-11-22T15:20:17.926789",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-lavender",
       "name": "The Lavender",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9466,13 +9466,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842346",
+      "last_updated": "2025-11-22T15:20:17.926798",
       "data_source": "Bridely"
     },
     {
@@ -9533,7 +9533,7 @@
     {
       "id": "venue-le-danz",
       "name": "Le Danz",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9548,19 +9548,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842358",
+      "last_updated": "2025-11-22T15:20:17.926811",
       "data_source": "Bridely"
     },
     {
       "id": "venue-pivotal-studios",
       "name": "Pivotal Studios",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9575,13 +9575,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842362",
+      "last_updated": "2025-11-22T15:20:17.926821",
       "data_source": "Bridely"
     },
     {
@@ -9629,19 +9629,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842375",
+      "last_updated": "2025-11-22T15:20:17.926831",
       "data_source": "Bridely"
     },
     {
       "id": "venue-panamericana",
       "name": "Panamericana",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 10000,
         "min_spend": 0,
@@ -9656,13 +9656,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264952",
+      "last_updated": "2025-11-22T15:20:17.926842",
       "data_source": "Bridely"
     },
     {
@@ -9695,7 +9695,7 @@
     {
       "id": "venue-oso-ristorante",
       "name": "OSO Ristorante",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 98,
         "min_spend": 0,
@@ -9710,13 +9710,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264979",
+      "last_updated": "2025-11-22T15:20:17.926855",
       "data_source": "Bridely"
     },
     {
@@ -9791,19 +9791,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.566666666666666,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842389",
+      "last_updated": "2025-11-22T15:20:17.926872",
       "data_source": "Bridely"
     },
     {
       "id": "venue-wheelers-tropikana",
       "name": "Wheeler's Tropikana",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 6000,
         "min_spend": 0,
@@ -9818,19 +9818,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.7,
       "review_count": 4,
-      "last_updated": "2025-11-18T15:45:26.265143",
+      "last_updated": "2025-11-22T15:20:17.926883",
       "data_source": "Bridely"
     },
     {
       "id": "venue-huone",
       "name": "HUONE",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9845,13 +9845,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842394",
+      "last_updated": "2025-11-22T15:20:17.926891",
       "data_source": "Bridely"
     },
     {
@@ -9872,19 +9872,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.5,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842401",
+      "last_updated": "2025-11-22T15:20:17.926902",
       "data_source": "Bridely"
     },
     {
       "id": "venue-1-atico",
       "name": "1-Atico",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 170,
         "min_spend": 0,
@@ -9899,13 +9899,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.766666666666667,
       "review_count": 13,
-      "last_updated": "2025-11-18T15:45:26.265198",
+      "last_updated": "2025-11-22T15:20:17.926911",
       "data_source": "Bridely"
     },
     {
@@ -9926,13 +9926,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842409",
+      "last_updated": "2025-11-22T15:20:17.926920",
       "data_source": "Bridely"
     },
     {
@@ -9953,19 +9953,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.4,
       "review_count": 7,
-      "last_updated": "2025-11-22T15:05:54.842415",
+      "last_updated": "2025-11-22T15:20:17.926930",
       "data_source": "Bridely"
     },
     {
       "id": "venue-privé-grill",
       "name": "Privé Grill",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -9980,19 +9980,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.233333333333333,
       "review_count": 7,
-      "last_updated": "2025-11-22T15:05:54.842418",
+      "last_updated": "2025-11-22T15:20:17.926941",
       "data_source": "Bridely"
     },
     {
       "id": "venue-dads-corner",
       "name": "Dad's Corner",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10007,19 +10007,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842423",
+      "last_updated": "2025-11-22T15:20:17.926952",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-riverhouse",
       "name": "The Riverhouse",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 145,
         "min_spend": 0,
@@ -10034,19 +10034,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.5333333333333337,
       "review_count": 11,
-      "last_updated": "2025-11-18T15:45:26.265304",
+      "last_updated": "2025-11-22T15:20:17.926962",
       "data_source": "Bridely"
     },
     {
       "id": "venue-alcove-at-caldwell-house",
       "name": "Alcove at Caldwell House",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10061,19 +10061,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.166666666666667,
       "review_count": 6,
-      "last_updated": "2025-11-22T15:05:54.842430",
+      "last_updated": "2025-11-22T15:20:17.926974",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-secret-haven-at-mt-sophia",
       "name": "The Secret Haven at Mt Sophia",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10088,13 +10088,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842435",
+      "last_updated": "2025-11-22T15:20:17.926987",
       "data_source": "Bridely"
     },
     {
@@ -10115,19 +10115,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842443",
+      "last_updated": "2025-11-22T15:20:17.926996",
       "data_source": "Bridely"
     },
     {
       "id": "venue-caroline-mansion--st-regis",
       "name": "Caroline Mansion @ St Regis",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10142,13 +10142,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842446",
+      "last_updated": "2025-11-22T15:20:17.927009",
       "data_source": "Bridely"
     },
     {
@@ -10169,13 +10169,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.5666666666666664,
       "review_count": 6,
-      "last_updated": "2025-11-22T15:05:54.842451",
+      "last_updated": "2025-11-22T15:20:17.927019",
       "data_source": "Bridely"
     },
     {
@@ -10196,19 +10196,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.533333333333333,
       "review_count": 6,
-      "last_updated": "2025-11-22T15:05:54.842453",
+      "last_updated": "2025-11-22T15:20:17.927027",
       "data_source": "Bridely"
     },
     {
       "id": "venue-art-di-daniele-sperindio",
       "name": "Art di Daniele Sperindio",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 148,
         "min_spend": 0,
@@ -10223,13 +10223,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.666666666666667,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265409",
+      "last_updated": "2025-11-22T15:20:17.927039",
       "data_source": "Bridely"
     },
     {
@@ -10250,19 +10250,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842461",
+      "last_updated": "2025-11-22T15:20:17.927048",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-oval",
       "name": "The Oval",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10277,13 +10277,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842464",
+      "last_updated": "2025-11-22T15:20:17.927058",
       "data_source": "Bridely"
     },
     {
@@ -10304,13 +10304,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842471",
+      "last_updated": "2025-11-22T15:20:17.927068",
       "data_source": "Bridely"
     },
     {
@@ -10358,19 +10358,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842478",
+      "last_updated": "2025-11-22T15:20:17.927076",
       "data_source": "Bridely"
     },
     {
       "id": "venue-1-arden",
       "name": "1-Arden",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 155,
         "min_spend": 0,
@@ -10385,13 +10385,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.033333333333333,
       "review_count": 7,
-      "last_updated": "2025-11-18T15:45:26.265528",
+      "last_updated": "2025-11-22T15:20:17.927086",
       "data_source": "Bridely"
     },
     {
@@ -10442,19 +10442,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 2.2333333333333334,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842487",
+      "last_updated": "2025-11-22T15:20:17.927098",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-legacy",
       "name": "THE LEGACY",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10469,13 +10469,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.6666666666666665,
       "review_count": 3,
-      "last_updated": "2025-11-22T15:05:54.842490",
+      "last_updated": "2025-11-22T15:20:17.927109",
       "data_source": "Bridely"
     },
     {
@@ -10508,7 +10508,7 @@
     {
       "id": "venue-orto",
       "name": "ORTO",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10523,19 +10523,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842497",
+      "last_updated": "2025-11-22T15:20:17.927119",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-lighthouse",
       "name": "The Lighthouse",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10550,19 +10550,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 1.0999999999999999,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842502",
+      "last_updated": "2025-11-22T15:20:17.927129",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-ahava",
       "name": "THE AHAVA",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10577,13 +10577,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842506",
+      "last_updated": "2025-11-22T15:20:17.927139",
       "data_source": "Bridely"
     },
     {
@@ -10604,13 +10604,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842510",
+      "last_updated": "2025-11-22T15:20:17.927149",
       "data_source": "Bridely"
     },
     {
@@ -10631,13 +10631,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842515",
+      "last_updated": "2025-11-22T15:20:17.927161",
       "data_source": "Bridely"
     },
     {
@@ -10658,19 +10658,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842520",
+      "last_updated": "2025-11-22T15:20:17.927172",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-coastal-settlement",
       "name": "The Coastal Settlement",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 3888,
         "min_spend": 0,
@@ -10685,19 +10685,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265775",
+      "last_updated": "2025-11-22T15:20:17.927184",
       "data_source": "Bridely"
     },
     {
       "id": "venue-orchidville-pte-ltd",
       "name": "ORCHIDVILLE PTE LTD",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10712,19 +10712,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842525",
+      "last_updated": "2025-11-22T15:20:17.927196",
       "data_source": "Bridely"
     },
     {
       "id": "venue-marguerite",
       "name": "Marguerite",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 20000,
         "min_spend": 0,
@@ -10739,13 +10739,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265799",
+      "last_updated": "2025-11-22T15:20:17.927206",
       "data_source": "Bridely"
     },
     {
@@ -10766,13 +10766,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842533",
+      "last_updated": "2025-11-22T15:20:17.927215",
       "data_source": "Bridely"
     },
     {
@@ -10809,7 +10809,7 @@
     {
       "id": "venue-mandai-wildlife-reserve",
       "name": "Mandai Wildlife Reserve",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 208,
         "min_spend": 0,
@@ -10824,19 +10824,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265832",
+      "last_updated": "2025-11-22T15:20:17.927229",
       "data_source": "Bridely"
     },
     {
       "id": "venue-singapore-zoo",
       "name": "Singapore Zoo",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10851,19 +10851,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842538",
+      "last_updated": "2025-11-22T15:20:17.927240",
       "data_source": "Bridely"
     },
     {
       "id": "venue-jewel-cloud9-piazza",
       "name": "Jewel Cloud9 Piazza",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -10878,19 +10878,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842543",
+      "last_updated": "2025-11-22T15:20:17.927251",
       "data_source": "Bridely"
     },
     {
       "id": "venue-riviera",
       "name": "Riviera",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 118,
         "min_spend": 0,
@@ -10905,13 +10905,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265865",
+      "last_updated": "2025-11-22T15:20:17.927261",
       "data_source": "Bridely"
     },
     {
@@ -10932,19 +10932,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842550",
+      "last_updated": "2025-11-22T15:20:17.927271",
       "data_source": "Bridely"
     },
     {
       "id": "venue-reddot-brewhouse",
       "name": "RedDot Brewhouse",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 5000,
         "min_spend": 0,
@@ -10959,19 +10959,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265885",
+      "last_updated": "2025-11-22T15:20:17.927281",
       "data_source": "Bridely"
     },
     {
       "id": "venue-violet-oon--jewel",
       "name": "Violet Oon @ Jewel",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 13000,
         "min_spend": 0,
@@ -10986,13 +10986,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265895",
+      "last_updated": "2025-11-22T15:20:17.927292",
       "data_source": "Bridely"
     },
     {
@@ -11013,13 +11013,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842561",
+      "last_updated": "2025-11-22T15:20:17.927307",
       "data_source": "Bridely"
     },
     {
@@ -11040,19 +11040,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842563",
+      "last_updated": "2025-11-22T15:20:17.927317",
       "data_source": "Bridely"
     },
     {
       "id": "venue-timbre-signatures",
       "name": "Timbre Signatures",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 18000,
         "min_spend": 0,
@@ -11067,19 +11067,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265943",
+      "last_updated": "2025-11-22T15:20:17.927328",
       "data_source": "Bridely"
     },
     {
       "id": "venue-atlas",
       "name": "ATLAS",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 35500,
         "min_spend": 0,
@@ -11094,13 +11094,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265965",
+      "last_updated": "2025-11-22T15:20:17.927336",
       "data_source": "Bridely"
     },
     {
@@ -11121,13 +11121,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842570",
+      "last_updated": "2025-11-22T15:20:17.927347",
       "data_source": "Bridely"
     },
     {
@@ -11148,19 +11148,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842576",
+      "last_updated": "2025-11-22T15:20:17.927355",
       "data_source": "Bridely"
     },
     {
       "id": "venue-1-altitude-coast",
       "name": "1-Altitude Coast",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 158,
         "min_spend": 0,
@@ -11175,19 +11175,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265994",
+      "last_updated": "2025-11-22T15:20:17.927366",
       "data_source": "Bridely"
     },
     {
       "id": "venue-the-cliff",
       "name": "THE CLIFF",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 238,
         "min_spend": 0,
@@ -11202,19 +11202,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266003",
+      "last_updated": "2025-11-22T15:20:17.927376",
       "data_source": "Bridely"
     },
     {
       "id": "venue-plonk",
       "name": "PLONK",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 1500,
         "min_spend": 0,
@@ -11229,19 +11229,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266014",
+      "last_updated": "2025-11-22T15:20:17.927385",
       "data_source": "Bridely"
     },
     {
       "id": "venue-como-cuisine-at-como-orchard",
       "name": "COMO Cuisine at COMO Orchard",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11262,13 +11262,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648756",
+      "last_updated": "2025-11-22T15:20:17.927392",
       "data_source": "Bridely"
     },
     {
       "id": "venue-tunglok-seafood-darena",
       "name": "TungLok Seafood (d'Arena)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 83,
         "min_spend": 0,
@@ -11283,19 +11283,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266038",
+      "last_updated": "2025-11-22T15:20:17.927404",
       "data_source": "Bridely"
     },
     {
       "id": "venue-guoco-midtown",
       "name": "Guoco Midtown",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11310,19 +11310,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842593",
+      "last_updated": "2025-11-22T15:20:17.927415",
       "data_source": "Bridely"
     },
     {
       "id": "venue-greenwood-fish-market-sentosa-cove",
       "name": "Greenwood Fish Market (Sentosa Cove)",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 128,
         "min_spend": 0,
@@ -11343,13 +11343,13 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648771",
+      "last_updated": "2025-11-22T15:20:17.927422",
       "data_source": "Bridely"
     },
     {
       "id": "venue-jiak-kim-house",
       "name": "Jiak Kim House",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 18000,
         "min_spend": 0,
@@ -11364,19 +11364,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266072",
+      "last_updated": "2025-11-22T15:20:17.927432",
       "data_source": "Bridely"
     },
     {
       "id": "venue-labrador-house",
       "name": "Labrador House",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11391,19 +11391,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842603",
+      "last_updated": "2025-11-22T15:20:17.927442",
       "data_source": "Bridely"
     },
     {
       "id": "venue-kei-studio",
       "name": "Kei Studio",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11418,19 +11418,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842607",
+      "last_updated": "2025-11-22T15:20:17.927453",
       "data_source": "Bridely"
     },
     {
       "id": "venue-jia-he-grand",
       "name": "Jia He Grand",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11445,19 +11445,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842612",
+      "last_updated": "2025-11-22T15:20:17.927463",
       "data_source": "Bridely"
     },
     {
       "id": "venue-de-villa",
       "name": "De Villa",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11472,13 +11472,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842617",
+      "last_updated": "2025-11-22T15:20:17.927473",
       "data_source": "Bridely"
     },
     {
@@ -11499,19 +11499,19 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Unknown"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842623",
+      "last_updated": "2025-11-22T15:20:17.927484",
       "data_source": "Bridely"
     },
     {
       "id": "venue-raffles-sentosa-singapore",
       "name": "Raffles Sentosa Singapore",
-      "venue_type": "",
+      "venue_type": "venue",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -11532,7 +11532,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.648799",
+      "last_updated": "2025-11-22T15:20:17.927490",
       "data_source": "Bridely"
     }
   ]
