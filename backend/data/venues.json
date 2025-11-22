@@ -1121,22 +1121,24 @@
       "name": "Andaz Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2280,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 2180,
+        "weekend_price": 2380
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 280,
+        "max_rounds": 28
       },
       "location": {
         "address": "5 Fraser Street, Singapore 189354",
         "postal": "189354",
         "zone": "Central",
         "nearest_mrt": "Bugis MRT",
-        "mrt_distance": "Direct connection",
+        "mrt_distance": "5 min walk",
         "mrt_lines": [
           "EW",
           "DT"
@@ -1149,7 +1151,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494057",
+      "last_updated": "2025-11-22T14:58:36.849982",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2011,20 +2013,28 @@
       "name": "Flutes",
       "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
+        "price_per_table": 2280,
+        "min_spend": 16888,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 2111,
+        "weekend_price": 2449
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 8,
+        "max_capacity": 90,
+        "max_rounds": 9
       },
       "location": {
-        "address": "Guoco Midtown House, Singapore",
+        "address": "120 Beach Road, #01-02 Guoco Midtown House, Singapore",
         "postal": "",
-        "zone": "Central"
+        "zone": "Central",
+        "nearest_mrt": "Bugis MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "EW",
+          "DT"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -2032,7 +2042,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973289",
+      "last_updated": "2025-11-22T14:58:36.849987",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3289,22 +3299,24 @@
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": ""
+        "min_tables": 28,
+        "pricing_type": "plus_plus"
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 22,
+        "max_capacity": 320,
+        "max_rounds": 32
       },
       "location": {
         "address": "30 Beach Road, Singapore 189763",
         "postal": "189763",
         "zone": "Central",
-        "nearest_mrt": "Esplanade MRT",
-        "mrt_distance": "3 min walk",
+        "nearest_mrt": "Esplanade MRT / City Hall MRT",
+        "mrt_distance": "5 min walk",
         "mrt_lines": [
-          "CC"
+          "CC",
+          "NS",
+          "EW"
         ]
       },
       "amenities": {},
@@ -3313,7 +3325,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224249",
+      "last_updated": "2025-11-22T14:58:36.849996",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3499,13 +3511,13 @@
     },
     {
       "id": "venue-lijiang-restaurant-by-yunnan",
-      "name": "Lijiang Restaurant by Yunnan",
+      "name": "Yunnan Garden Restaurant (Lijiang) @ NTU",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -3513,11 +3525,15 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "Nanyang Technological University, Singapore",
+        "address": "NTU Alumni Club, Nanyang Technological University, Singapore",
         "postal": "",
         "zone": "West",
-        "nearest_mrt": "Pioneer",
-        "mrt_distance": "2.0 km"
+        "nearest_mrt": "Buona Vista MRT",
+        "mrt_distance": "Opposite station",
+        "mrt_lines": [
+          "EW",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -3526,7 +3542,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T14:58:36.850002",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3598,12 +3614,12 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 320,
+        "max_rounds": 32
       },
       "location": {
         "address": "81 Anson Road, Singapore 079908",
@@ -3622,7 +3638,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224252",
+      "last_updated": "2025-11-22T14:58:36.850008",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3783,9 +3799,9 @@
       "venue_type": "resort",
       "pricing": {
         "price_per_table": 0,
-        "min_spend": 0,
+        "min_spend": 88888888,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -3795,8 +3811,11 @@
       "location": {
         "address": "Jl. Hang Lekiu, Nongsa, Batam, Riau Islands 29465, Indonesia",
         "postal": "",
-        "zone": "N/A",
-        "notes": "Resort in Batam, Indonesia (30 min from Singapore)"
+        "zone": "International",
+        "notes": "Resort in Batam, Indonesia (30 min from Singapore)",
+        "nearest_mrt": "N/A (Batam, Indonesia)",
+        "mrt_distance": "Ferry from Singapore",
+        "mrt_lines": []
       },
       "amenities": {},
       "contact": {
@@ -3804,7 +3823,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T14:58:36.850014",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6080,20 +6099,27 @@
     {
       "id": "venue-sky-garden-sentosa",
       "name": "Sky Garden Sentosa",
-      "venue_type": "outdoor_venue",
+      "venue_type": "event_space",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1880,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": 150,
+      "capacity": {
+        "max_capacity": 150,
+        "max_rounds": 15
+      },
       "location": {
         "address": "43 Siloso Beach Walk, iFly Singapore, Singapore 099010",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "Beach Station (Sentosa)",
-        "mrt_distance": "0.1 km"
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "15 min (MRT + Sentosa Express)",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -6103,7 +6129,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:58:36.849949",
       "data_source": "BlissfulBrides"
     },
     {
@@ -9196,12 +9222,12 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 30,
+        "max_rounds": 3
       },
       "location": {
         "address": "1 Cuscaden Road, Level 3, Conrad Singapore Orchard, Singapore 249715",
@@ -9210,18 +9236,19 @@
         "nearest_mrt": "Orchard MRT",
         "mrt_distance": "5 min walk",
         "mrt_lines": [
-          "NS"
+          "NS",
+          "TE"
         ]
       },
       "amenities": {},
       "contact": {
         "phone": "+65 6725 3333",
-        "email": "catering@regentsingapore.com.sg",
+        "email": "sinod.cb@conradhotels.com",
         "website": "https://www.hilton.com/en/hotels/sinodci-conrad-singapore-orchard"
       },
       "rating": 5.0,
       "review_count": 2,
-      "last_updated": "2025-11-18T16:28:53.291235",
+      "last_updated": "2025-11-22T14:58:36.849976",
       "data_source": "Bridely"
     },
     {
