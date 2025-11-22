@@ -3511,10 +3511,12 @@
         "min_tables": 0,
         "pricing_type": "nett"
       },
-      "capacity": 120,
+      "capacity": {
+        "max_capacity": 130
+      },
       "location": {
         "address": "238 Thomson Road, #03-09/10, Velocity@Novena Square, Singapore 307683",
-        "postal": "",
+        "postal": "238881",
         "zone": "Central",
         "nearest_mrt": "Novena",
         "mrt_distance": "0.1 km"
@@ -3527,8 +3529,9 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-m-hotel-singapore",
@@ -5504,28 +5507,28 @@
     {
       "id": "venue-seletar-country-club",
       "name": "Seletar Country Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 240,
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "101 Seletar Club Road",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340576",
+      "last_updated": "2025-11-22T14:26:06.789714",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6355,29 +6358,32 @@
     {
       "id": "venue-the-clifford-pier--the-fullerton-bay-hotel",
       "name": "The Clifford Pier @ The Fullerton Bay Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 208,
         "max_rounds": 0
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "weddings@fullertonhotels.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340982",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "The Fullerton Bay Hotel"
     },
     {
       "id": "venue-the-fullerton-hotel-singapore",
@@ -6581,12 +6587,12 @@
     {
       "id": "venue-the-singapore-island-country-club",
       "name": "The Singapore Island Country Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6596,13 +6602,16 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6459 2222",
+        "email": "events@sicc.org.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341071",
+      "last_updated": "2025-11-22T14:26:06.789714",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6696,12 +6705,12 @@
     {
       "id": "venue-the-westin-singapore--cook--brew",
       "name": "The Westin Singapore – Cook & Brew",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6710,15 +6719,19 @@
       },
       "location": {
         "address": "12 Marina View, Asia Square Tower 2, Singapore 018961",
-        "postal": "",
-        "zone": ""
+        "postal": "018961",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6922 6888",
+        "email": "banquet.thewestinsingapore@westin.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341149",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "The Westin Singapore"
     },
     {
       "id": "venue-tim-palace",
@@ -7107,56 +7120,64 @@
     {
       "id": "venue-tunglok-signatures--antica-ballroom-orchard-rendezvous-hotel",
       "name": "Tunglok Signatures @ Antica Ballroom, Orchard Rendezvous Hotel",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 300,
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Tanglin Road #02-18 Orchard Rendezvous Hotel",
+        "postal": "247905",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6836 0984",
+        "email": "jasminehuang@tunglok.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341322",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tunglok-signatures-antica-ballroom--orchard-rendezvous-hotel",
       "name": "TungLok Signatures, Antica Ballroom @ Orchard Rendezvous Hotel*",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 300,
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "1 Tanglin Road #02-18 Orchard Rendezvous Hotel",
+        "postal": "247905",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6836 0984",
+        "email": "jasminehuang@tunglok.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341334",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-village-hotel-changi",
@@ -10935,7 +10956,7 @@
     {
       "id": "venue-singapore-island-country-club-island-location",
       "name": "Singapore Island Country Club (Island Location)",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 113,
         "min_spend": 0,
@@ -10948,16 +10969,20 @@
         "max_rounds": 45
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "180 Island Club Road",
+        "postal": "578774",
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6459 2222",
+        "email": "events@sicc.org.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.265821",
-      "data_source": "Bridely"
+      "last_updated": "2025-11-22T14:26:06.789714",
+      "data_source": "Bridely",
+      "parent_venue": "The Singapore Island Country Club"
     },
     {
       "id": "venue-mandai-wildlife-reserve",
