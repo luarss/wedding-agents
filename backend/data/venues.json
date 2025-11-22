@@ -1,95 +1,6 @@
 {
   "venues": [
     {
-      "id": "venue-001",
-      "name": "Grand Copthorne Waterfront Hotel",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 1400,
-        "weekday_price": 1200,
-        "weekend_price": 1600,
-        "min_spend": 18000,
-        "min_tables": 10,
-        "pricing_type": "nett"
-      },
-      "capacity": {
-        "min_tables": 10,
-        "max_capacity": 650,
-        "max_rounds": 65,
-        "comfortable_capacity": 600
-      },
-      "location": {
-        "address": "392 Havelock Road, Singapore 169663",
-        "postal": "169663",
-        "zone": "Central",
-        "district": "Tiong Bahru/Outram",
-        "nearest_mrt": "Tiong Bahru MRT",
-        "mrt_distance": "8 min walk",
-        "mrt_lines": [
-          "EW"
-        ],
-        "parking_lots": 200,
-        "parking_cost": "$2-3/hr"
-      },
-      "amenities": {
-        "av_equipment": true,
-        "bridal_suite": true,
-        "in_house_catering": true,
-        "outdoor_area": true,
-        "air_conditioning": true,
-        "valet_parking": true,
-        "waterfront_view": true,
-        "projector": false,
-        "sound_system": false,
-        "led_wall": false,
-        "pillar_free": false,
-        "city_view": false,
-        "garden_view": false
-      },
-      "packages": [
-        {
-          "name": "Weekday Lunch",
-          "price_per_table": 1200,
-          "min_spend": 12000,
-          "features": [
-            "6-course Chinese menu",
-            "Complimentary champagne toast",
-            "Basic AV setup",
-            "Waterfront venue"
-          ]
-        },
-        {
-          "name": "Weekend Dinner",
-          "price_per_table": 1600,
-          "min_spend": 20000,
-          "features": [
-            "8-course premium menu",
-            "Premium wine pairing",
-            "Enhanced AV setup",
-            "Extended venue hours",
-            "Waterfront venue"
-          ]
-        }
-      ],
-      "description": "Elegant waterfront hotel with stunning Singapore River views. Large ballrooms suitable for grand celebrations with multiple dining options.",
-      "reviews_summary": "Praised for spacious venues and waterfront location. Food quality consistently good. Staff helpful and professional.",
-      "rating": 4.5,
-      "review_count": 156,
-      "restrictions": {
-        "outside_catering": false,
-        "decorations": "allowed_with_approval",
-        "corkage": "not_allowed",
-        "noise_curfew": "11pm"
-      },
-      "contact": {
-        "email": "events@grandcopthorne.com",
-        "phone": "+65 6233 1100",
-        "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront-hotel-singapore/",
-        "booking_url": ""
-      },
-      "last_updated": "2025-11-18T15:22:56.938156"
-    },
-    {
       "id": "venue-002",
       "name": "Fairmont Singapore",
       "venue_type": "hotel",
@@ -1450,36 +1361,6 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-changi-cove-singapore",
-      "name": "Changi Cove Singapore",
-      "venue_type": "unique",
-      "pricing": {
-        "price_per_table": 1288,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "351 Cranwell Road, Singapore 509866",
-        "postal": "509866",
-        "zone": "North"
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6922 6108",
-        "email": "enquiry@changicove.com"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494062",
-      "data_source": "BlissfulBrides"
-    },
-    {
       "id": "venue-chapel-lawn",
       "name": "Chapel Lawn @ Capella Singapore",
       "venue_type": "event_space",
@@ -1981,45 +1862,6 @@
       "parent_venue": "Orchid Country Club"
     },
     {
-      "id": "venue-fairmont-singapore--swissôtel-the-stamford",
-      "name": "Fairmont Singapore & Swissôtel The Stamford",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 1908,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus",
-        "weekday_price": 1828,
-        "weekend_price": 1988
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "80 Bras Basah Road, Singapore 189560",
-        "postal": "189560",
-        "zone": "Central",
-        "nearest_mrt": "City Hall MRT",
-        "mrt_distance": "Direct connection",
-        "mrt_lines": [
-          "NS",
-          "EW"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6431 5530",
-        "email": "weddings.singapore@fairmont.com",
-        "website": "https://www.swissotel-singapore-stamford.com"
-      },
-      "rating": 5.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T13:57:33.974495",
-      "data_source": "BlissfulBrides"
-    },
-    {
       "id": "venue-flutes",
       "name": "Flutes",
       "venue_type": "restaurant",
@@ -2129,74 +1971,6 @@
       "rating": 5.0,
       "review_count": 0,
       "last_updated": "2025-11-22T13:57:33.974495",
-      "data_source": "BlissfulBrides"
-    },
-    {
-      "id": "venue-fu-lin-men",
-      "name": "Fu Lin Men @ Temasek Club",
-      "venue_type": "restaurant",
-      "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "#02-03, Temasek Club, 31 Rifle Range Road, Singapore 588406",
-        "postal": "",
-        "zone": "Central",
-        "nearest_mrt": "Buona Vista",
-        "mrt_distance": "1.5 km"
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6235 5026",
-        "website": "https://www.fulinmen.com.sg/"
-      },
-      "rating": 4.8,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650852",
-      "data_source": "BlissfulBrides"
-    },
-    {
-      "id": "venue-fu-lin-men-chinese-swimming-club",
-      "name": "Fu Lin Men @ Chinese Swimming Club",
-      "venue_type": "restaurant",
-      "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "21 Amber Road, Level 3, Singapore 439870",
-        "postal": "439870",
-        "zone": "East",
-        "nearest_mrt": "Marine Parade",
-        "mrt_distance": "15 min drive",
-        "mrt_lines": [
-          "TE"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6282 0810",
-        "email": "nsk@fulinmen.com.sg",
-        "website": "https://www.fulinmen.com.sg"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650857",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2337,42 +2111,6 @@
       "rating": 5.0,
       "review_count": 0,
       "last_updated": "2025-11-22T15:03:17.650761",
-      "data_source": "BlissfulBrides"
-    },
-    {
-      "id": "venue-furama-riverfront",
-      "name": "Furama RiverFront Singapore",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 0,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
-      },
-      "location": {
-        "address": "405 Havelock Road, Singapore 169633",
-        "postal": "169633",
-        "zone": "Central",
-        "nearest_mrt": "Tiong Bahru MRT",
-        "mrt_distance": "8 min walk",
-        "mrt_lines": [
-          "EW"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6739 6452",
-        "email": "banquet.riverfront@furama.com",
-        "website": "https://www.furama.com/riverfront"
-      },
-      "rating": 5.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650765",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6213,42 +5951,6 @@
       "data_source": "BlissfulBrides"
     },
     {
-      "id": "venue-sky-garden-sentosa",
-      "name": "Sky Garden Sentosa",
-      "venue_type": "event_space",
-      "pricing": {
-        "price_per_table": 1880,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "max_capacity": 150,
-        "max_rounds": 15
-      },
-      "location": {
-        "address": "43 Siloso Beach Walk, iFly Singapore, Singapore 099010",
-        "postal": "",
-        "zone": "Central",
-        "nearest_mrt": "HarbourFront MRT",
-        "mrt_distance": "15 min (MRT + Sentosa Express)",
-        "mrt_lines": [
-          "NE",
-          "CC"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6571 0002",
-        "email": "events@iflysingapore.com",
-        "website": "https://skygardensentosa.com/"
-      },
-      "rating": 0.0,
-      "review_count": 0,
-      "last_updated": "2025-11-22T14:58:36.849949",
-      "data_source": "BlissfulBrides"
-    },
-    {
       "id": "venue-sofitel-singapore-city-centre",
       "name": "Sofitel Singapore City Centre",
       "venue_type": "",
@@ -7962,43 +7664,6 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-parkroyal-collection-pickering",
-      "name": "PARKROYAL COLLECTION Pickering",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 1868,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 2,
-        "max_capacity": 400,
-        "max_rounds": 40
-      },
-      "location": {
-        "address": "3 Upper Pickering Street, Singapore 058289",
-        "postal": "058289",
-        "zone": "Central",
-        "nearest_mrt": "Chinatown MRT",
-        "mrt_distance": "5 min walk",
-        "mrt_lines": [
-          "NE",
-          "DT"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 8328 3338",
-        "email": "singaporeweddings@panpacific.com",
-        "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering"
-      },
-      "rating": 4.033333333333333,
-      "review_count": 83,
-      "last_updated": "2025-11-18T16:02:10.224266",
-      "data_source": "Bridely"
-    },
-    {
       "id": "venue-the-masons-table",
       "name": "The Masons Table",
       "venue_type": "",
@@ -8050,33 +7715,6 @@
       "rating": 4.3999999999999995,
       "review_count": 50,
       "last_updated": "2025-11-18T15:45:26.262679",
-      "data_source": "Bridely"
-    },
-    {
-      "id": "venue-paradox-singapore-merchant-court",
-      "name": "Paradox Singapore Merchant Court",
-      "venue_type": "",
-      "pricing": {
-        "price_per_table": 166,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 25,
-        "max_capacity": 420,
-        "max_rounds": 42
-      },
-      "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
-      },
-      "amenities": {},
-      "contact": {},
-      "rating": 4.1000000000000005,
-      "review_count": 62,
-      "last_updated": "2025-11-18T15:45:26.262694",
       "data_source": "Bridely"
     },
     {
@@ -8215,43 +7853,6 @@
       "data_source": "Bridely"
     },
     {
-      "id": "venue-fairmont-singapore-and-swissotel-the-stamford",
-      "name": "Fairmont Singapore and Swissotel The Stamford",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 1908,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 12,
-        "max_capacity": 1500,
-        "max_rounds": 150
-      },
-      "location": {
-        "address": "80 Bras Basah Road, Singapore 189560",
-        "postal": "189560",
-        "zone": "Central",
-        "nearest_mrt": "City Hall MRT",
-        "mrt_distance": "Direct connection",
-        "mrt_lines": [
-          "NS",
-          "EW"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6431 5530",
-        "email": "weddings.singapore@fairmont.com",
-        "website": "https://www.swissotel-singapore-stamford.com"
-      },
-      "rating": 3.9333333333333336,
-      "review_count": 40,
-      "last_updated": "2025-11-18T16:23:08.973265",
-      "data_source": "Bridely"
-    },
-    {
       "id": "venue-hortpark",
       "name": "HortPark",
       "venue_type": "",
@@ -8357,43 +7958,6 @@
       "rating": 4.033333333333333,
       "review_count": 24,
       "last_updated": "2025-11-22T15:05:54.842131",
-      "data_source": "Bridely"
-    },
-    {
-      "id": "venue-shangri-la-rasa-sentosa",
-      "name": "Shangri-La Rasa Sentosa",
-      "venue_type": "hotel",
-      "pricing": {
-        "price_per_table": 237,
-        "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": "plus_plus"
-      },
-      "capacity": {
-        "min_tables": 8,
-        "max_capacity": 360,
-        "max_rounds": 36
-      },
-      "location": {
-        "address": "101 Siloso Road, Sentosa, Singapore 098970",
-        "postal": "098970",
-        "zone": "Central",
-        "nearest_mrt": "HarbourFront MRT",
-        "mrt_distance": "Sentosa Express",
-        "mrt_lines": [
-          "NE",
-          "CC"
-        ]
-      },
-      "amenities": {},
-      "contact": {
-        "phone": "+65 6371 2963",
-        "email": "weddings.slrss@shangri-la.com",
-        "website": "https://www.shangri-la.com/singapore/rasasentosaresort"
-      },
-      "rating": 4.066666666666666,
-      "review_count": 36,
-      "last_updated": "2025-11-18T16:18:36.721767",
       "data_source": "Bridely"
     },
     {
