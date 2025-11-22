@@ -1337,7 +1337,9 @@
         "price_per_table": 3000,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2680,
+        "weekend_price": 2680
       },
       "capacity": {
         "min_tables": 0,
@@ -1357,7 +1359,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494049",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1368,7 +1370,9 @@
         "price_per_table": 1368,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1368,
+        "weekend_price": 1368
       },
       "capacity": {
         "min_tables": 0,
@@ -1388,7 +1392,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494059",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1634,7 +1638,9 @@
         "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1988,
+        "weekend_price": 1988
       },
       "capacity": {
         "min_tables": 0,
@@ -1658,7 +1664,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721753",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2602,7 +2608,9 @@
         "price_per_table": 1880,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1480,
+        "weekend_price": 1480
       },
       "capacity": {
         "min_tables": 0,
@@ -2627,7 +2635,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:23:08.973309",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2703,7 +2711,9 @@
         "price_per_table": 1988,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1988,
+        "weekend_price": 1988
       },
       "capacity": 800,
       "location": {
@@ -2721,7 +2731,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3114,7 +3124,9 @@
         "price_per_table": 1899,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 2254,
+        "weekend_price": 2854
       },
       "capacity": 200,
       "location": {
@@ -3132,7 +3144,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:38:56.640106",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3627,7 +3639,9 @@
         "price_per_table": 1388,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1188,
+        "weekend_price": 1188
       },
       "capacity": {
         "min_tables": 0,
@@ -3653,7 +3667,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224261",
+      "last_updated": "2025-11-22T14:03:40.030519",
       "data_source": "BlissfulBrides"
     },
     {
