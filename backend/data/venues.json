@@ -2494,19 +2494,27 @@
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 1500,
+        "max_rounds": 120
       },
       "location": {
         "address": "1 Orchid Club Road, Singapore 769162",
         "postal": "",
-        "zone": ""
+        "zone": "North",
+        "nearest_mrt": "Yio Chu Kang MRT",
+        "mrt_distance": "15 min by bus",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6750 2166",
+        "email": "banquetsales@orchidclub.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650875",
+      "last_updated": "2025-11-22T15:13:53.889532",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4302,7 +4310,7 @@
     {
       "id": "venue-pan-pacific-orchard-singapore",
       "name": "Pan Pacific Orchard Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -4311,19 +4319,28 @@
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 500,
+        "max_rounds": 35
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Central"
+        "address": "10 Claymore Road, Singapore 229540",
+        "postal": "229540",
+        "zone": "Central",
+        "nearest_mrt": "Orchard MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "TE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6991 6888",
+        "email": "celebrate.ppsor@panpacific.com"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647814",
+      "last_updated": "2025-11-22T15:13:53.889555",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4363,12 +4380,12 @@
     },
     {
       "id": "venue-paradox-singapore",
-      "name": "Paradox Singapore",
-      "venue_type": "",
+      "name": "Paradox Singapore Merchant Court",
+      "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1488,
         "min_spend": 0,
-        "min_tables": 0,
+        "min_tables": 20,
         "pricing_type": "plus_plus"
       },
       "capacity": {
@@ -4377,15 +4394,23 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "20 Merchant Road, Singapore 058281",
+        "postal": "058281",
+        "zone": "Central",
+        "nearest_mrt": "Clarke Quay MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NE"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "weddings@paradoxsingapore.com",
+        "phone": "+65 6239 1752"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841761",
+      "last_updated": "2025-11-22T15:13:53.889564",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4499,7 +4524,7 @@
         "address": "3 Upper Pickering Street, Singapore 058289",
         "postal": "058289",
         "zone": "Central",
-        "nearest_mrt": "Chinatown MRT",
+        "nearest_mrt": "Clarke Quay MRT / Chinatown MRT",
         "mrt_distance": "5 min walk",
         "mrt_lines": [
           "NE",
@@ -4509,12 +4534,12 @@
       "amenities": {},
       "contact": {
         "phone": "+65 8328 3338",
-        "email": "singaporeweddings@panpacific.com",
+        "email": "celebrate.prsps@parkroyalcollection.com",
         "website": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224266",
+      "last_updated": "2025-11-22T15:13:53.889593",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4771,26 +4796,37 @@
       "name": "Peninsula Excelsior Hotel",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1388,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": "plus_plus"
+        "pricing_type": "plus_plus",
+        "weekday_price": 1388,
+        "weekend_price": 1388
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 300,
+        "max_rounds": 30
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": "Central"
+        "zone": "Central",
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6416 1033",
+        "email": "pe.banquet@ytchotels.com.sg"
+      },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647835",
+      "last_updated": "2025-11-22T15:13:53.889601",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4823,7 +4859,7 @@
     {
       "id": "venue-peony-jade-at-clarke-quay",
       "name": "Peony Jade at Clarke Quay",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
@@ -4831,20 +4867,25 @@
         "pricing_type": "plus_plus"
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 18,
+        "max_capacity": 250,
+        "max_rounds": 25
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": "Central"
+        "address": "3A River Valley Road, #02-02 Clarke Quay, Singapore 179019",
+        "postal": "179019",
+        "zone": "Central",
+        "nearest_mrt": "Clarke Quay MRT",
+        "mrt_distance": "3 min walk",
+        "mrt_lines": [
+          "NE"
+        ]
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:08:04.647848",
+      "last_updated": "2025-11-22T15:13:53.889611",
       "data_source": "BlissfulBrides"
     },
     {
