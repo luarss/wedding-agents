@@ -3290,56 +3290,60 @@
     {
       "id": "venue-laguna-ballroom",
       "name": "Laguna Ballroom",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 1538,
+        "weekend_price": 1888
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 380,
         "max_rounds": 0
       },
       "location": {
         "address": "11 Laguna Golf Green, Singapore 488047",
-        "postal": "",
-        "zone": ""
+        "postal": "488047",
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339452",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Dusit Thani Laguna Singapore"
     },
     {
       "id": "venue-laguna-lawn",
       "name": "Laguna Lawn",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 50,
         "max_rounds": 0
       },
       "location": {
         "address": "11 Laguna Golf Green, Singapore 488047",
-        "postal": "",
-        "zone": ""
+        "postal": "488047",
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339467",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Dusit Thani Laguna Singapore"
     },
     {
       "id": "venue-lawn",
@@ -4449,12 +4453,12 @@
     {
       "id": "venue-peach-garden--hotel-miramar",
       "name": "Peach Garden @ Hotel Miramar",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4464,24 +4468,28 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339990",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peach-garden--ocbc-centre",
       "name": "Peach Garden @ OCBC Centre",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4489,26 +4497,30 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "63 Chulia Street #33-00 OCBC Centre East",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339999",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peach-garden--orchid-country-club",
       "name": "Peach Garden @ Orchid Country Club",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4518,24 +4530,28 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340012",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peach-garden--the-heeren",
       "name": "Peach Garden @ The Heeren",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -4543,70 +4559,82 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "260 Orchard Road #04-01 The Heeren",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340023",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peach-garden--the-metropolis",
       "name": "Peach Garden @ The Metropolis",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 220,
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "9 North Buona Vista Drive #02-02 The Metropolis Tower 1",
+        "postal": "138588",
+        "zone": "West"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340174",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peach-garden--thomson-plaza",
       "name": "Peach Garden @ Thomson Plaza",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 220,
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "301 Upper Thomson Road Thomson Plaza",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 8468 3736",
+        "email": "banquet@peachgarden.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340187",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Peach Garden Restaurant"
     },
     {
       "id": "venue-peninsula-excelsior-hotel",
@@ -4719,29 +4747,33 @@
     {
       "id": "venue-polaris-ballroom--novotel-singapore-on-stevens",
       "name": "Polaris Ballroom | Novotel Singapore on Stevens",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 320,
         "max_rounds": 0
       },
       "location": {
         "address": "Novotel Singapore on Stevens, 28 Stevens Road, Singapore 257878",
-        "postal": "",
-        "zone": ""
+        "postal": "257878",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6491 6106",
+        "email": "H9543-sc3@accor.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340255",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:14:22.988609",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Novotel Singapore on Stevens"
     },
     {
       "id": "venue-poolside",
