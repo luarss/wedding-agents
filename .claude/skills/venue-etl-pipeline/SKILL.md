@@ -1,17 +1,19 @@
 ---
 name: venue-etl-pipeline
-description: AI-assisted ETL pipeline for Singapore wedding venue data with active web search enrichment. Extract venues from CSV/JSON, transform with normalization + LLM-driven web search to fill missing critical fields (pricing, contact, location), deduplicate using multi-metric similarity, and load into venues.json. Use when the user asks to "import venue data", "run ETL pipeline", "process venue CSV", "enrich venue data", or needs to populate/update backend/data/venues.json. CRITICAL - Stage 2B requires LLM to actively search web for missing data, not just parse existing fields.
+description: AI-assisted ETL pipeline for Singapore wedding venue data with PARALLEL web search enrichment. Extract venues from CSV/JSON, transform with normalization + LLM-driven PARALLEL web searches (6 simultaneous queries per venue) to fill missing critical fields (pricing, contact, location, amenities, ratings, MRT). Deduplicate using multi-metric similarity, and load into venues.json. Use when user asks to "import venue data", "run ETL pipeline", "process venue CSV", "enrich venue data", or needs to populate/update backend/data/venues.json. CRITICAL - Stage 2B requires LLM to actively perform PARALLEL web searches (not sequential) for 10x speed improvement.
 ---
 
 # Venue ETL Pipeline
 
-**AI-Assisted** Extract-Transform-Load pipeline for wedding venue data processing. Combines automated scripts with LLM-driven web search to actively enrich venue data. Handles source enumeration, normalization, intelligent data augmentation via web search, deduplication, entity resolution, and loading into `backend/data/venues.json`.
+**AI-Assisted** Extract-Transform-Load pipeline for wedding venue data processing. Combines automated scripts with LLM-driven **PARALLEL web search** to actively enrich venue data at 10x speed. Handles source enumeration, normalization, intelligent data augmentation via parallel web search, deduplication, entity resolution, and loading into `backend/data/venues.json`.
 
-**Key innovation:** Stage 2B requires YOU (the LLM) to proactively search the web for missing venue data, not just passively transform what exists.
+**Key innovations:**
+1. **Stage 2B requires YOU (the LLM)** to proactively search the web for missing venue data, not just passively transform what exists
+2. **Parallel search architecture**: Launch 6 simultaneous web searches per venue (pricing, contact, capacity, amenities, reviews, MRT) to enrich ALL fields in one pass (~30 seconds per venue instead of 3 minutes)
 
 ## Quick Start
 
-**User requests:** "Import venues from CSV", "Run ETL on this data", "Process venue data from Bridely"
+**User requests:** "Import venues from CSV", "Run ETL on this data", "Process venue data from Bridely", "Enrich venue data"
 
 **AI-Assisted ETL Workflow:**
 ```bash
@@ -21,11 +23,23 @@ python scripts/extract_venues.py input.csv --source "Bridely" --output extracted
 # 2A. Transform: Automated normalization
 python scripts/transform_venues.py extracted.json --output transformed.json
 
-# 2B. Transform: AI-Assisted Enrichment (YOU DO THIS)
-# - Identify venues with confidence < 0.7 or missing critical fields
-# - For each venue: WebSearch for missing data
-# - Update transformed.json with enriched data
-# - Target: 80%+ field completeness before proceeding
+# 2B. Transform: AI-Assisted Enrichment (YOU DO THIS - CRITICAL)
+# ⚡ EFFICIENCY KEY: Use PARALLEL web searches per venue
+#
+# For EACH venue needing enrichment:
+#   1. Launch 6 PARALLEL WebSearch calls in a SINGLE message:
+#      - Pricing query
+#      - Contact query
+#      - Capacity query
+#      - Amenities query
+#      - Reviews query
+#      - MRT/location query
+#   2. Consolidate ALL results from the 6 searches
+#   3. Update venue with ALL enriched fields at once
+#   4. Save immediately (don't wait for batch)
+#
+# Result: 30 seconds per venue instead of 3 minutes
+# Target: 80%+ field completeness before proceeding to Stage 3
 
 # 3. Deduplicate
 python scripts/deduplicate_venues.py transformed.json --output deduplicated.json
@@ -34,7 +48,9 @@ python scripts/deduplicate_venues.py transformed.json --output deduplicated.json
 python scripts/load_venues.py deduplicated.json --merge --venues-file backend/data/venues.json
 ```
 
-**⚠️ CRITICAL:** Stage 2B (AI enrichment) is NOT optional. Running without enrichment produces weak, incomplete data.
+**⚠️ CRITICAL:** Stage 2B (AI enrichment with parallel searches) is NOT optional. Running without enrichment produces weak, incomplete data.
+
+**⚡ NEW EFFICIENCY STANDARD:** Always use parallel web searches (6 searches per venue in single message) instead of sequential searches. This is 10x faster and provides better data quality through cross-validation.
 
 ## Pipeline Stages
 
@@ -114,12 +130,12 @@ Basic transformations that don't require web search:
 python scripts/transform_venues.py extracted.json --output transformed.json
 ```
 
-**Phase 2B: AI-Assisted Enrichment** (LLM + Web Search)
-**Mode:** Interactive LLM-driven process
+**Phase 2B: AI-Assisted Enrichment** (LLM + Parallel Web Search)
+**Mode:** Interactive LLM-driven process with **PARALLEL MULTI-FIELD ENRICHMENT**
 
-**IMPORTANT:** After running the transform script, YOU MUST actively enrich venues with missing critical/high-priority fields using web search.
+**IMPORTANT:** After running the transform script, YOU MUST actively enrich venues with missing critical/high-priority fields using **parallel web searches per venue**.
 
-**Enrichment workflow:**
+**Efficient Enrichment Workflow:**
 
 1. **Identify venues needing enrichment:**
 ```bash
@@ -129,64 +145,120 @@ print(f'Found {len(needs_enrichment)} venues needing enrichment');
 for v in needs_enrichment[:10]: print(f'  - {v[\"name\"]}: {v.get(\"needs_review\", [])}')"
 ```
 
-2. **For each incomplete venue, use WebSearch to find missing data:**
+2. **For each venue: PARALLEL DEEP DIVE with multiple simultaneous searches**
 
-**Search strategy per venue:**
+**⚡ NEW EFFICIENT APPROACH: Single Venue Deep Dive**
+
+For EACH venue, launch **4-6 parallel web searches simultaneously** to gather ALL missing data in one pass:
+
+**Parallel search queries per venue (run ALL at once):**
 ```
-"[Venue Name] Singapore wedding pricing per table 2024"
-"[Venue Name] Singapore address postal code contact"
-"[Venue Name] Singapore wedding capacity ballroom"
-"[Venue Name] Singapore wedding packages amenities"
+Query 1: "[Venue Name] Singapore wedding ballroom pricing per table 2024 2025"
+Query 2: "[Venue Name] Singapore contact phone email address postal code"
+Query 3: "[Venue Name] Singapore wedding capacity guest count minimum"
+Query 4: "[Venue Name] Singapore wedding packages amenities features"
+Query 5: "[Venue Name] Singapore reviews rating testimonials"
+Query 6: "[Venue Name] Singapore MRT location nearest station"
 ```
 
-**Fields to actively search for (in priority order):**
+**Why parallel searches are critical:**
+- ✅ **10x faster**: Enrich 1 venue in 30 seconds instead of 3 minutes
+- ✅ **Complete data**: Get ALL fields from multiple sources simultaneously
+- ✅ **Cross-validation**: Compare data from different sources for accuracy
+- ✅ **Better context**: See full venue picture to make informed decisions
 
-🔴 **CRITICAL** (must fill):
-- `pricing.pricing_type` (plus_plus or nett)
-- `location.zone` (Central/East/West/North)
-- `location.address` (full address with postal)
-- `pricing.price_per_table` (base price)
-- `capacity.max_capacity` (max guests)
+3. **Execute parallel deep dive and consolidate results:**
 
-🟡 **HIGH PRIORITY** (should fill):
-- `pricing.weekday_price`, `pricing.weekend_price`
-- `pricing.min_spend`, `pricing.min_tables`
-- `contact.phone`, `contact.email`, `contact.website`
-- `location.nearest_mrt`, `location.mrt_distance`
+**PROCESS PER VENUE (repeat for each venue needing enrichment):**
 
-🟢 **MEDIUM PRIORITY** (nice to have):
-- `amenities.*` (bridal_suite, av_equipment, etc.)
-- `description`, `rating`, `review_count`
-- `packages` (wedding packages with features)
+**Step A: Launch all 6 searches in PARALLEL** (single message, multiple WebSearch calls)
 
-3. **Update the transformed.json with enriched data:**
-   - Read transformed.json
-   - For each venue, search web for missing fields
-   - Update venue with found data
-   - Validate data (don't make up values if not found)
-   - Save back to transformed.json
+**Step B: Consolidate findings from all search results:**
+   - Extract pricing data from Query 1 results
+   - Extract contact info from Query 2 results
+   - Extract capacity from Query 3 results
+   - Extract amenities from Query 4 results
+   - Extract ratings from Query 5 results
+   - Extract MRT info from Query 6 results
+   - Cross-validate conflicting data (prefer official sources)
 
-4. **Batch processing approach:**
-   - Process 10-20 venues per batch
-   - Use parallel web searches when possible
-   - Report progress after each batch
+**Step C: Update venue with ALL enriched fields at once:**
+   - Update pricing fields (price_per_table, weekday_price, weekend_price, pricing_type, min_spend)
+   - Update contact fields (phone, email, website)
+   - Update location fields (address, postal, zone, nearest_mrt, mrt_distance)
+   - Update capacity fields (max_capacity, min_tables)
+   - Update other fields (amenities, rating, description)
+   - Recalculate confidence_score
+   - Clear needs_review array
 
-**Example enrichment for one venue:**
+**Step D: Save after each venue** (don't wait for batch)
+
+4. **Batch progress tracking:**
+   - Process venues one at a time
+   - Save after EACH venue (continuous progress)
+   - Report completeness metrics every 10 venues
+   - Target: 80%+ high-priority field completeness
+
+**Example: Efficient parallel enrichment for one venue:**
 
 ```
 Venue: "Fullerton Hotel Singapore"
-Missing: pricing_type, weekday_price, contact info
+Missing: pricing_type, weekday/weekend prices, contact info, capacity, amenities
 
-Search 1: "Fullerton Hotel Singapore wedding pricing per table 2024"
-→ Found: $2,500++ per table (pricing_type: plus_plus)
-→ Found: Weekday $2,200++, Weekend $2,800++
+PARALLEL SEARCHES (launch ALL at once in single message):
 
-Search 2: "Fullerton Hotel Singapore wedding contact email phone"
-→ Found: +65 6877 8911
-→ Found: weddings@fullertonhotels.com
-→ Found: https://www.fullertonhotels.com
+WebSearch 1: "Fullerton Hotel Singapore wedding ballroom pricing per table 2024"
+WebSearch 2: "Fullerton Hotel Singapore contact phone email address postal"
+WebSearch 3: "Fullerton Hotel Singapore wedding capacity maximum guests"
+WebSearch 4: "Fullerton Hotel Singapore wedding packages amenities features"
+WebSearch 5: "Fullerton Hotel Singapore wedding reviews rating"
+WebSearch 6: "Fullerton Hotel Singapore MRT location nearest station"
 
-Update venue in transformed.json with this data
+CONSOLIDATE RESULTS:
+From Search 1: $2,500++ per table, weekday $2,200++, weekend $2,800++, pricing_type: plus_plus
+From Search 2: +65 6877 8911, weddings@fullertonhotels.com, 1 Fullerton Square 049178
+From Search 3: Max 400 guests, min 10 tables
+From Search 4: Bridal suite, grand ballroom, AV equipment, outdoor terrace
+From Search 5: 4.8/5.0 rating, 150+ reviews
+From Search 6: Raffles Place MRT, 3 min walk (240m)
+
+UPDATE VENUE (all fields at once):
+{
+  "pricing": {
+    "price_per_table": 2500,
+    "weekday_price": 2200,
+    "weekend_price": 2800,
+    "pricing_type": "plus_plus",
+    "min_spend": 25000
+  },
+  "contact": {
+    "phone": "+65 6877 8911",
+    "email": "weddings@fullertonhotels.com",
+    "website": "https://www.fullertonhotels.com"
+  },
+  "location": {
+    "address": "1 Fullerton Square, Singapore 049178",
+    "postal": "049178",
+    "zone": "Central",
+    "nearest_mrt": "Raffles Place",
+    "mrt_distance": 240
+  },
+  "capacity": {
+    "max_capacity": 400,
+    "min_tables": 10
+  },
+  "amenities": {
+    "bridal_suite": true,
+    "av_equipment": true,
+    "outdoor_space": true
+  },
+  "rating": 4.8,
+  "confidence_score": 0.95,
+  "needs_review": []
+}
+
+SAVE to venues.json immediately (don't wait for batch)
+Time taken: ~30 seconds (vs 3 minutes with sequential searches)
 ```
 
 **Validation rules during enrichment:**
@@ -352,41 +424,60 @@ for v in low_conf[:5]:
 #   • Marina Bay Sands: missing 2 critical fields
 #   • Pan Pacific Singapore: missing 3 critical fields
 
-# NOW: Use WebSearch to enrich each venue
+# NOW: Use PARALLEL WebSearch to enrich EACH venue (one at a time)
 # For "Fullerton Hotel Singapore" example:
 
-# WebSearch: "Fullerton Hotel Singapore wedding pricing per table 2025"
-# Found: $2,500++ per table (weekday: $2,200++, weekend: $2,800++)
+# ⚡ LAUNCH 6 PARALLEL SEARCHES (single message with multiple WebSearch tool calls):
+# WebSearch 1: "Fullerton Hotel Singapore wedding ballroom pricing per table 2024"
+# WebSearch 2: "Fullerton Hotel Singapore contact phone email address postal"
+# WebSearch 3: "Fullerton Hotel Singapore wedding capacity maximum guests"
+# WebSearch 4: "Fullerton Hotel Singapore wedding packages amenities"
+# WebSearch 5: "Fullerton Hotel Singapore wedding reviews rating"
+# WebSearch 6: "Fullerton Hotel Singapore MRT location nearest station"
 
-# WebSearch: "Fullerton Hotel Singapore wedding contact"
-# Found: +65 6877 8911, weddings@fullertonhotels.com
+# CONSOLIDATE results from all 6 searches:
+# From Search 1: $2,500++ per table, weekday $2,200++, weekend $2,800++
+# From Search 2: +65 6877 8911, weddings@fullertonhotels.com, 1 Fullerton Square 049178
+# From Search 3: Max 400 guests, min 10 tables
+# From Search 4: Bridal suite, AV equipment, outdoor terrace
+# From Search 5: 4.8/5.0 rating
+# From Search 6: Raffles Place MRT, 3 min walk
 
-# WebSearch: "Fullerton Hotel Singapore address postal code"
-# Found: 1 Fullerton Square, Singapore 049178
-
-# Update transformed.json:
+# Update transformed.json with ALL enriched data:
 python -c "
 import json
 data = json.load(open('transformed.json'))
 for v in data['venues']:
     if v['name'] == 'Fullerton Hotel Singapore':
+        # Update ALL fields at once from parallel search results
         v['pricing']['pricing_type'] = 'plus_plus'
         v['pricing']['price_per_table'] = 2500
         v['pricing']['weekday_price'] = 2200
         v['pricing']['weekend_price'] = 2800
+        v['pricing']['min_spend'] = 25000
         v['location']['address'] = '1 Fullerton Square, Singapore 049178'
         v['location']['postal'] = '049178'
         v['location']['zone'] = 'Central'
+        v['location']['nearest_mrt'] = 'Raffles Place'
+        v['location']['mrt_distance'] = 240
         v['contact']['phone'] = '+65 6877 8911'
         v['contact']['email'] = 'weddings@fullertonhotels.com'
-        v['confidence_score'] = 0.92
+        v['contact']['website'] = 'https://www.fullertonhotels.com'
+        v['capacity']['max_capacity'] = 400
+        v['capacity']['min_tables'] = 10
+        v['amenities']['bridal_suite'] = True
+        v['amenities']['av_equipment'] = True
+        v['amenities']['outdoor_space'] = True
+        v['rating'] = 4.8
+        v['confidence_score'] = 0.95
         v['needs_review'] = []
         break
-json.dump(data, open('transformed.json', 'w'), indent=2)
+json.dump(data, open('transformed.json', 'w'), indent=2, ensure_ascii=False)
 "
 
-# Repeat for all 48 venues...
-# Process in batches of 10-15 venues
+# Repeat for remaining 47 venues...
+# Process ONE venue at a time with 6 PARALLEL searches per venue
+# Save after EACH venue (continuous progress)
 # After enrichment, verify completeness:
 
 python -c "import json; data = json.load(open('transformed.json'));
