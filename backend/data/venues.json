@@ -2359,24 +2359,28 @@
       "name": "Furama RiverFront, Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1248,
         "min_spend": 0,
-        "min_tables": 0,
-        "pricing_type": ""
+        "min_tables": 15,
+        "pricing_type": "plus_plus",
+        "weekday_price": 1248,
+        "weekend_price": 1248
       },
       "capacity": {
-        "min_tables": 0,
+        "min_tables": 15,
         "max_capacity": 0,
-        "max_rounds": 0
+        "max_rounds": 20
       },
       "location": {
         "address": "405 Havelock Road, Singapore 169633",
         "postal": "169633",
         "zone": "Central",
-        "nearest_mrt": "Tiong Bahru MRT",
-        "mrt_distance": "8 min walk",
+        "nearest_mrt": "Outram Park MRT",
+        "mrt_distance": "10 min walk",
         "mrt_lines": [
-          "EW"
+          "EW",
+          "NE",
+          "TE"
         ]
       },
       "amenities": {},
@@ -2387,7 +2391,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:28:53.291215",
+      "last_updated": "2025-11-22T14:55:00.983806",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2423,24 +2427,27 @@
       "name": "Goodwood Park Hotel",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 2150,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 2024,
+        "weekend_price": 2276
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 12,
+        "max_capacity": 350,
+        "max_rounds": 35
       },
       "location": {
         "address": "22 Scotts Road, Singapore 228221",
         "postal": "228221",
         "zone": "Central",
         "nearest_mrt": "Orchard MRT",
-        "mrt_distance": "8 min walk",
+        "mrt_distance": "10 min walk",
         "mrt_lines": [
-          "NS"
+          "NS",
+          "TE"
         ]
       },
       "amenities": {},
@@ -2451,7 +2458,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989216",
+      "last_updated": "2025-11-22T14:55:00.983830",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2603,19 +2610,19 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 300,
+        "max_rounds": 30
       },
       "location": {
         "address": "50 East Coast Road, Roxy Square, Singapore 428769",
         "postal": "428769",
         "zone": "East",
         "nearest_mrt": "Eunos MRT",
-        "mrt_distance": "10 min walk",
+        "mrt_distance": "15 min walk",
         "mrt_lines": [
           "EW"
         ]
@@ -2628,7 +2635,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224255",
+      "last_updated": "2025-11-22T14:55:00.983837",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2808,28 +2815,36 @@
       "name": "Holiday Inn Express - Suites Singapore Novena",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 888,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 888,
+        "weekend_price": 888
       },
-      "capacity": 200,
+      "capacity": {
+        "max_capacity": 160,
+        "max_rounds": 16
+      },
       "location": {
         "address": "201 Balestier Road, Singapore 329926",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "Novena",
-        "mrt_distance": "0.8 km"
+        "nearest_mrt": "Novena MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "NS"
+        ]
       },
       "amenities": {},
       "contact": {
         "phone": "+65 6355 9988",
-        "email": "contact@hiexsnovena.com",
+        "email": "sales@hiexsnovena.com",
         "website": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/singapore/sinov/hoteldetail"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:55:00.983844",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2911,10 +2926,12 @@
       "name": "Hotel Fort Canning",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1580,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 1480,
+        "weekend_price": 1680
       },
       "capacity": {
         "min_tables": 0,
@@ -2925,23 +2942,23 @@
         "address": "11 Canning Walk, Singapore 178881",
         "postal": "178881",
         "zone": "Central",
-        "nearest_mrt": "Dhoby Ghaut MRT",
-        "mrt_distance": "5 min walk",
+        "nearest_mrt": "Clarke Quay MRT / Dhoby Ghaut MRT",
+        "mrt_distance": "10 min walk",
         "mrt_lines": [
-          "NS",
           "NE",
+          "NS",
           "CC"
         ]
       },
       "amenities": {},
       "contact": {
         "phone": "+65 6559 6783",
-        "email": "weddings@hfcsingapore.com",
+        "email": "enquiries@hfcsingapore.com",
         "website": "https://hfcsingapore.com"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:02:10.224241",
+      "last_updated": "2025-11-22T14:55:00.983849",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2952,29 +2969,34 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 400,
+        "max_rounds": 40
       },
       "location": {
         "address": "175A Chin Swee Road, Singapore 169879",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "Outram Park",
-        "mrt_distance": "0.8 km"
+        "nearest_mrt": "Outram Park MRT",
+        "mrt_distance": "8 min walk",
+        "mrt_lines": [
+          "EW",
+          "NE",
+          "TE"
+        ]
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6827 8288",
+        "phone": "+65 6827 8228",
         "email": "jason.tan@hotelre.com.sg",
         "website": "https://hotelre.com.sg/"
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:55:00.983855",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3007,20 +3029,27 @@
     {
       "id": "venue-ifly-singapore-sky-garden",
       "name": "iFly Singapore Sky Garden",
-      "venue_type": "outdoor_venue",
+      "venue_type": "event_space",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1880,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": 150,
+      "capacity": {
+        "max_capacity": 150,
+        "max_rounds": 15
+      },
       "location": {
         "address": "43 Siloso Beach Walk, iFly Singapore, Singapore 099010",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "Beach Station (Sentosa)",
-        "mrt_distance": "0.1 km"
+        "nearest_mrt": "HarbourFront MRT",
+        "mrt_distance": "15 min (MRT + Sentosa Express)",
+        "mrt_lines": [
+          "NE",
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -3030,26 +3059,32 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:55:00.983861",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-imperial-treasure--chinese-swimming-club",
-      "name": "Imperial Treasure @ Chinese Swimming Club",
+      "name": "Fu Lin Men @ Chinese Swimming Club",
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
-      "capacity": 180,
+      "capacity": {
+        "max_capacity": 180,
+        "max_rounds": 18
+      },
       "location": {
         "address": "Chinese Swimming Club, 21 Amber Road, Singapore 439950",
         "postal": "",
         "zone": "East",
-        "nearest_mrt": "Katong Park",
-        "mrt_distance": "1.0 km"
+        "nearest_mrt": "Tanjong Katong MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "TE"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -3058,7 +3093,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T14:55:00.983866",
       "data_source": "BlissfulBrides",
       "notes": "Actually Fu Lin Men at Chinese Swimming Club, not Imperial Treasure"
     },
