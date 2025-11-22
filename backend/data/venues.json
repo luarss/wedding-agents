@@ -1039,7 +1039,7 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": "",
+        "zone": "Central",
         "nearest_mrt": "Dakota MRT / Mountbatten MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -1051,7 +1051,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650663",
+      "last_updated": "2025-11-22T15:08:04.647683",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1777,7 +1777,7 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": "",
+        "zone": "East",
         "nearest_mrt": "Expo MRT / Tanah Merah MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -1788,7 +1788,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650717",
+      "last_updated": "2025-11-22T15:08:04.647727",
       "data_source": "BlissfulBrides"
     },
     {
@@ -3163,7 +3163,7 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": "",
+        "zone": "East",
         "nearest_mrt": "Expo MRT / Tanah Merah MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -3174,7 +3174,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650724",
+      "last_updated": "2025-11-22T15:08:04.647787",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4317,13 +4317,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841755",
+      "last_updated": "2025-11-22T15:08:04.647814",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4442,13 +4442,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841768",
+      "last_updated": "2025-11-22T15:08:04.647822",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4471,13 +4471,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841771",
+      "last_updated": "2025-11-22T15:08:04.647825",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4784,13 +4784,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841788",
+      "last_updated": "2025-11-22T15:08:04.647835",
       "data_source": "BlissfulBrides"
     },
     {
@@ -4838,13 +4838,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841795",
+      "last_updated": "2025-11-22T15:08:04.647848",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5347,13 +5347,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841834",
+      "last_updated": "2025-11-22T15:08:04.647879",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5374,13 +5374,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841837",
+      "last_updated": "2025-11-22T15:08:04.647881",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5428,13 +5428,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841849",
+      "last_updated": "2025-11-22T15:08:04.647889",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5455,13 +5455,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841856",
+      "last_updated": "2025-11-22T15:08:04.647893",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5577,7 +5577,7 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": "",
+        "zone": "Central",
         "nearest_mrt": "Dakota MRT / Mountbatten MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -5589,7 +5589,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650694",
+      "last_updated": "2025-11-22T15:08:04.647904",
       "data_source": "BlissfulBrides"
     },
     {
@@ -5789,7 +5789,7 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": "",
+        "zone": "Central",
         "nearest_mrt": "Dakota MRT / Mountbatten MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -5801,7 +5801,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650707",
+      "last_updated": "2025-11-22T15:08:04.647917",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6225,13 +6225,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841911",
+      "last_updated": "2025-11-22T15:08:04.647948",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6288,7 +6288,7 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": "",
+        "zone": "East",
         "nearest_mrt": "Expo MRT / Tanah Merah MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -6299,7 +6299,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650739",
+      "last_updated": "2025-11-22T15:08:04.647954",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6347,7 +6347,7 @@
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": "",
+        "zone": "East",
         "nearest_mrt": "Expo MRT / Tanah Merah MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -6358,7 +6358,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650750",
+      "last_updated": "2025-11-22T15:08:04.647963",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6379,7 +6379,7 @@
       "location": {
         "address": "9 Kent Ridge Drive, Singapore 119241",
         "postal": "",
-        "zone": "",
+        "zone": "Central",
         "nearest_mrt": "Kent Ridge MRT",
         "mrt_distance": "10 min walk",
         "mrt_lines": [
@@ -6390,7 +6390,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650895",
+      "last_updated": "2025-11-22T15:08:04.647966",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6465,13 +6465,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841937",
+      "last_updated": "2025-11-22T15:08:04.647982",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6519,13 +6519,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841944",
+      "last_updated": "2025-11-22T15:08:04.647991",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6667,13 +6667,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841965",
+      "last_updated": "2025-11-22T15:08:04.648004",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6721,13 +6721,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.841974",
+      "last_updated": "2025-11-22T15:08:04.648013",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6951,7 +6951,7 @@
       "location": {
         "address": "80 Raffles Place, #60-01 UOB Plaza 1, Singapore 048624",
         "postal": "",
-        "zone": "",
+        "zone": "Central",
         "nearest_mrt": "Raffles Place MRT",
         "mrt_distance": "Direct access",
         "mrt_lines": [
@@ -6963,7 +6963,7 @@
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:03:17.650908",
+      "last_updated": "2025-11-22T15:08:04.648031",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7233,13 +7233,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842012",
+      "last_updated": "2025-11-22T15:08:04.648053",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7260,13 +7260,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842017",
+      "last_updated": "2025-11-22T15:08:04.648055",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7287,13 +7287,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842022",
+      "last_updated": "2025-11-22T15:08:04.648058",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7376,13 +7376,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842030",
+      "last_updated": "2025-11-22T15:08:04.648062",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7403,13 +7403,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842034",
+      "last_updated": "2025-11-22T15:08:04.648066",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7457,13 +7457,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842042",
+      "last_updated": "2025-11-22T15:08:04.648071",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7584,13 +7584,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842053",
+      "last_updated": "2025-11-22T15:08:04.648079",
       "data_source": "BlissfulBrides"
     },
     {
@@ -7719,13 +7719,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.266666666666667,
       "review_count": 120,
-      "last_updated": "2025-11-18T15:45:26.262079",
+      "last_updated": "2025-11-22T15:08:04.648099",
       "data_source": "Bridely"
     },
     {
@@ -8164,13 +8164,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 3.6999999999999997,
       "review_count": 74,
-      "last_updated": "2025-11-22T15:05:54.842114",
+      "last_updated": "2025-11-22T15:08:04.648171",
       "data_source": "Bridely"
     },
     {
@@ -8400,13 +8400,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.833333333333333,
       "review_count": 7,
-      "last_updated": "2025-11-22T15:05:54.842139",
+      "last_updated": "2025-11-22T15:08:04.648203",
       "data_source": "Bridely"
     },
     {
@@ -8508,13 +8508,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.666666666666667,
       "review_count": 9,
-      "last_updated": "2025-11-18T15:45:26.263542",
+      "last_updated": "2025-11-22T15:08:04.648221",
       "data_source": "Bridely"
     },
     {
@@ -8643,13 +8643,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842168",
+      "last_updated": "2025-11-22T15:08:04.648246",
       "data_source": "Bridely"
     },
     {
@@ -8670,13 +8670,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842173",
+      "last_updated": "2025-11-22T15:08:04.648252",
       "data_source": "Bridely"
     },
     {
@@ -9085,13 +9085,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.6000000000000005,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842227",
+      "last_updated": "2025-11-22T15:08:04.648333",
       "data_source": "Bridely"
     },
     {
@@ -9220,13 +9220,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 2,
-      "last_updated": "2025-11-22T15:05:54.842248",
+      "last_updated": "2025-11-22T15:08:04.648354",
       "data_source": "Bridely"
     },
     {
@@ -9473,13 +9473,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 3,
-      "last_updated": "2025-11-22T15:05:54.842291",
+      "last_updated": "2025-11-22T15:08:04.648391",
       "data_source": "Bridely"
     },
     {
@@ -9500,13 +9500,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.066666666666666,
       "review_count": 15,
-      "last_updated": "2025-11-18T15:45:26.264710",
+      "last_updated": "2025-11-22T15:08:04.648394",
       "data_source": "Bridely"
     },
     {
@@ -9527,13 +9527,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264754",
+      "last_updated": "2025-11-22T15:08:04.648396",
       "data_source": "Bridely"
     },
     {
@@ -9581,13 +9581,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842302",
+      "last_updated": "2025-11-22T15:08:04.648402",
       "data_source": "Bridely"
     },
     {
@@ -9879,13 +9879,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842355",
+      "last_updated": "2025-11-22T15:08:04.648450",
       "data_source": "Bridely"
     },
     {
@@ -9960,13 +9960,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842370",
+      "last_updated": "2025-11-22T15:08:04.648461",
       "data_source": "Bridely"
     },
     {
@@ -10041,13 +10041,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842380",
+      "last_updated": "2025-11-22T15:08:04.648477",
       "data_source": "Bridely"
     },
     {
@@ -10095,13 +10095,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.3,
       "review_count": 8,
-      "last_updated": "2025-11-22T15:05:54.842385",
+      "last_updated": "2025-11-22T15:08:04.648485",
       "data_source": "Bridely"
     },
     {
@@ -10122,13 +10122,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 4.3999999999999995,
       "review_count": 5,
-      "last_updated": "2025-11-22T15:05:54.842387",
+      "last_updated": "2025-11-22T15:08:04.648487",
       "data_source": "Bridely"
     },
     {
@@ -10689,13 +10689,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 2.6666666666666665,
       "review_count": 4,
-      "last_updated": "2025-11-22T15:05:54.842473",
+      "last_updated": "2025-11-22T15:08:04.648601",
       "data_source": "Bridely"
     },
     {
@@ -10854,13 +10854,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-22T15:05:54.842494",
+      "last_updated": "2025-11-22T15:08:04.648622",
       "data_source": "Bridely"
     },
     {
@@ -11614,13 +11614,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842585",
+      "last_updated": "2025-11-22T15:08:04.648756",
       "data_source": "Bridely"
     },
     {
@@ -11695,13 +11695,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:26.266059",
+      "last_updated": "2025-11-22T15:08:04.648771",
       "data_source": "Bridely"
     },
     {
@@ -11884,13 +11884,13 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-22T15:05:54.842626",
+      "last_updated": "2025-11-22T15:08:04.648799",
       "data_source": "Bridely"
     }
   ]
