@@ -5653,28 +5653,30 @@
     {
       "id": "venue-serangoon-gardens-country-club",
       "name": "Serangoon Gardens Country Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 500,
         "max_rounds": 0
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "email": "functionrooms@sgcc.com.sg"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340676",
+      "last_updated": "2025-11-22T14:22:17.912704",
       "data_source": "BlissfulBrides"
     },
     {
@@ -6633,12 +6635,12 @@
     {
       "id": "venue-the-westin-singapore",
       "name": "The Westin Singapore",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6646,43 +6648,50 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "12 Marina View, Asia Square Tower 2",
+        "postal": "018961",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6922 6892",
+        "email": "weddings.singapore@westin.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341096",
+      "last_updated": "2025-11-22T14:22:17.912704",
       "data_source": "BlissfulBrides"
     },
     {
       "id": "venue-the-westin-singapore---grand-ballroom",
       "name": "The Westin Singapore - Grand Ballroom",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 400,
         "max_rounds": 0
       },
       "location": {
         "address": "12 Marina View, Asia Square Tower 2, Singapore 018961",
-        "postal": "",
-        "zone": ""
+        "postal": "018961",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6922 6892",
+        "email": "weddings.singapore@westin.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341116",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "The Westin Singapore"
     },
     {
       "id": "venue-the-westin-singapore--cook--brew",
@@ -6768,12 +6777,12 @@
     {
       "id": "venue-tung-lok-heen",
       "name": "Tung Lok Heen",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6781,26 +6790,27 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "Resorts World Sentosa, Hotel Michael, Lobby Level, 26 Sentosa Gateway",
+        "postal": "098138",
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341176",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tung-lok-seafood-orchard-central",
       "name": "Tung Lok Seafood (Orchard Central)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6808,26 +6818,27 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "Orchard Central #11-05, 181 Orchard Road",
+        "postal": "238896",
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341191",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tung-lok-seafood-upper-jurong",
       "name": "Tung Lok Seafood (Upper Jurong)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6837,24 +6848,25 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341200",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tung-lok-signatures-orchard-parade",
       "name": "Tung Lok Signatures (Orchard Parade)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6864,24 +6876,25 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341213",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tung-lok-signatures-the-central",
       "name": "Tung Lok Signatures (The Central)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6889,26 +6902,27 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "23 Merchant Road, Lobby Level",
+        "postal": "058268",
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341223",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tung-lok-signatures-vivo",
       "name": "Tung Lok Signatures (Vivo)",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -6918,14 +6932,15 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.341232",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:22:17.912704",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "TungLok Group"
     },
     {
       "id": "venue-tunglok-heen",
@@ -7678,7 +7693,7 @@
     {
       "id": "venue-jw-marriott-hotel-singapore-south-beach",
       "name": "JW Marriott Hotel Singapore South Beach",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 261,
         "min_spend": 0,
@@ -7693,13 +7708,16 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6818 1900",
+        "email": "[email protected]"
+      },
       "rating": 4.2,
       "review_count": 63,
-      "last_updated": "2025-11-18T15:45:26.262392",
+      "last_updated": "2025-11-22T14:22:17.912704",
       "data_source": "Bridely"
     },
     {
@@ -10536,12 +10554,12 @@
     {
       "id": "venue-safra-yishun-country-club",
       "name": "SAFRA Yishun Country Club",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -10549,15 +10567,18 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "60 Yishun Avenue 4",
+        "postal": "769027",
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6852 8200",
+        "email": "ysclub@safra.sg"
+      },
       "rating": 0.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.265539",
+      "last_updated": "2025-11-22T14:22:17.912704",
       "data_source": "Bridely"
     },
     {
