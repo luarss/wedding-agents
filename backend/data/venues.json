@@ -996,29 +996,30 @@
     {
       "id": "venue-albatross--birdie",
       "name": "Albatross & Birdie",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 80,
         "max_rounds": 0
       },
       "location": {
         "address": "11 Laguna Golf Green, Singapore 488047",
-        "postal": "",
-        "zone": ""
+        "postal": "488047",
+        "zone": "North"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338315",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Dusit Thani Laguna Singapore"
     },
     {
       "id": "venue-alfresco",
@@ -1805,29 +1806,30 @@
     {
       "id": "venue-cube",
       "name": "Cube",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 180,
         "max_rounds": 0
       },
       "location": {
         "address": "1 Netheravon Road, Singapore 508502",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338794",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Resorts World Sentosa, Equarius Hotel"
     },
     {
       "id": "venue-dien-hồng-ballroom",
@@ -1897,12 +1899,12 @@
     {
       "id": "venue-el-chido",
       "name": "El Chido",
-      "venue_type": "",
+      "venue_type": "unique",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -1911,15 +1913,18 @@
       },
       "location": {
         "address": "1 Hill Street, Singapore 179949",
-        "postal": "",
-        "zone": ""
+        "postal": "179949",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6019 7888"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338833",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Pullman Singapore Hill Street"
     },
     {
       "id": "venue-emerald-suite",
@@ -2374,12 +2379,12 @@
     {
       "id": "venue-galangal",
       "name": "Galangal",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -2389,14 +2394,15 @@
       "location": {
         "address": "25 Marine Parade Singapore 449536",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339041",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Village Hotel Katong"
     },
     {
       "id": "venue-goodwood-park-hotel",
@@ -3253,29 +3259,33 @@
     {
       "id": "venue-kent-ridge-guild-house",
       "name": "Kent Ridge Guild House",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 300,
         "max_rounds": 0
       },
       "location": {
         "address": "9 Kent Ridge Drive, Singapore 119241",
-        "postal": "",
-        "zone": ""
+        "postal": "119241",
+        "zone": "West"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6586 3771",
+        "email": "[email protected]"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339438",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "NUSS"
     },
     {
       "id": "venue-laguna-ballroom",
@@ -3551,29 +3561,32 @@
     {
       "id": "venue-madison",
       "name": "Madison",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 130,
         "max_rounds": 0
       },
       "location": {
         "address": "1 Hill Street, Singapore 179949",
-        "postal": "",
-        "zone": ""
+        "postal": "179949",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6019 7888"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339547",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:10:59.303185",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Pullman Singapore Hill Street"
     },
     {
       "id": "venue-mandalay-guild-house",
