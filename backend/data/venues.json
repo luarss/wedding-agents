@@ -1056,32 +1056,32 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 260,
+        "max_rounds": 26
       },
       "location": {
         "address": "16 Ah Hood Road, Singapore 329982",
         "postal": "329982",
         "zone": "East",
         "nearest_mrt": "Novena MRT",
-        "mrt_distance": "Free shuttle",
+        "mrt_distance": "3 min walk",
         "mrt_lines": [
           "NS"
         ]
       },
       "amenities": {},
       "contact": {
-        "phone": "+65 6808 6888",
+        "phone": "+65 6808 6845",
         "email": "events@aloftsingapore.com",
         "website": "https://www.marriott.com/en-us/hotels/sinnv-aloft-singapore-novena"
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:52:29.494061",
+      "last_updated": "2025-11-22T14:49:57.622542",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1155,12 +1155,12 @@
     {
       "id": "venue-ballroom",
       "name": "Ballroom",
-      "venue_type": "banquet_hall",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -1171,8 +1171,11 @@
         "address": "86 East Coast Road, #02-01/02, Katong Square, Singapore 428788",
         "postal": "",
         "zone": "East",
-        "nearest_mrt": "Paya Lebar",
-        "mrt_distance": "2.5 km"
+        "nearest_mrt": "Dakota MRT",
+        "mrt_distance": "10 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -1182,7 +1185,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:35:44.718563",
+      "last_updated": "2025-11-22T14:49:57.622535",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1277,19 +1280,23 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 80,
+        "max_rounds": 8
       },
       "location": {
         "address": "333 North Bridge Road, #07-11/12 Odeon 333, Singapore 188721",
         "postal": "",
         "zone": "Central",
-        "nearest_mrt": "City Hall",
-        "mrt_distance": "0.3 km"
+        "nearest_mrt": "City Hall MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "NS",
+          "EW"
+        ]
       },
       "amenities": {},
       "contact": {
@@ -1299,7 +1306,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:44:06.085243",
+      "last_updated": "2025-11-22T14:49:57.622539",
       "data_source": "BlissfulBrides",
       "notes": "The Black Pearl - Cantonese fine dining restaurant"
     },
@@ -1538,14 +1545,14 @@
       "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
-        "min_spend": 0,
+        "min_spend": 999,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 10,
+        "max_capacity": 400,
+        "max_rounds": 40
       },
       "location": {
         "address": "190 Keng Lee Road, #01-03, Singapore 308409",
@@ -1565,7 +1572,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T16:18:36.721763",
+      "last_updated": "2025-11-22T14:49:57.622528",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1600,24 +1607,27 @@
       "name": "Concorde Hotel Singapore",
       "venue_type": "hotel",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 1500,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 1398,
+        "weekend_price": 1598
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "max_capacity": 440,
+        "max_rounds": 44
       },
       "location": {
         "address": "100 Orchard Road, Singapore 238840",
         "postal": "238840",
         "zone": "Central",
-        "nearest_mrt": "Somerset MRT",
-        "mrt_distance": "3 min walk",
+        "nearest_mrt": "Orchard MRT / Somerset MRT",
+        "mrt_distance": "8 min walk",
         "mrt_lines": [
-          "NS"
+          "NS",
+          "TE"
         ]
       },
       "amenities": {},
@@ -1628,7 +1638,7 @@
       },
       "rating": 5.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989222",
+      "last_updated": "2025-11-22T14:49:57.622523",
       "data_source": "BlissfulBrides"
     },
     {
@@ -1676,12 +1686,12 @@
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 4,
+        "max_capacity": 500,
+        "max_rounds": 50
       },
       "location": {
         "address": "1 Cuscaden Road, Singapore 249715",
@@ -1690,7 +1700,8 @@
         "nearest_mrt": "Orchard MRT",
         "mrt_distance": "5 min walk",
         "mrt_lines": [
-          "NS"
+          "NS",
+          "TE"
         ]
       },
       "amenities": {},
@@ -1701,7 +1712,7 @@
       },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:58:46.989208",
+      "last_updated": "2025-11-22T14:49:57.622532",
       "data_source": "BlissfulBrides"
     },
     {
@@ -2473,28 +2484,39 @@
     {
       "id": "venue-grand-banquet",
       "name": "Grand Banquet",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
-        "price_per_table": 0,
+        "price_per_table": 900,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus",
+        "weekday_price": 845,
+        "weekend_price": 963
       },
       "capacity": {
-        "min_tables": 0,
-        "max_capacity": 0,
-        "max_rounds": 0
+        "min_tables": 10,
+        "max_capacity": 380,
+        "max_rounds": 38
       },
       "location": {
-        "address": "",
-        "postal": "",
-        "zone": ""
+        "address": "12 Queen Street, #02-01 Hotel Royal @ Queens, Singapore",
+        "postal": "188553",
+        "zone": "Central",
+        "nearest_mrt": "Bras Basah MRT",
+        "mrt_distance": "5 min walk",
+        "mrt_lines": [
+          "CC"
+        ]
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6338 2282",
+        "email": "event@passion-restaurant.com",
+        "website": "https://www.passion-restaurant.com/weddings-solemnisations"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.339089",
+      "last_updated": "2025-11-22T14:49:57.622509",
       "data_source": "BlissfulBrides"
     },
     {
