@@ -1929,29 +1929,32 @@
     {
       "id": "venue-emerald-suite",
       "name": "Emerald Suite",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 200,
         "max_rounds": 0
       },
       "location": {
         "address": "1 Orchid Club Road, Singapore 769162",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6750 2166"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.338845",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Orchid Country Club"
     },
     {
       "id": "venue-fairmont-singapore--swissôtel-the-stamford",
@@ -4832,12 +4835,12 @@
     {
       "id": "venue-qian-xi-bliss-garden",
       "name": "Qian Xi Bliss Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -4847,24 +4850,25 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340289",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-blossom-garden",
       "name": "Qian Xi Blossom Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -4874,78 +4878,81 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340300",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-bountiful-garden",
       "name": "Qian Xi Bountiful Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 700,
         "max_rounds": 0
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340309",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-carpenter-street",
       "name": "Qian Xi Carpenter Street",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 800,
         "max_rounds": 0
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340332",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-eternal-garden",
       "name": "Qian Xi Eternal Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -4955,24 +4962,25 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340347",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-farrer-park",
       "name": "Qian Xi Farrer Park",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -4982,24 +4990,25 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340360",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-hilltop-garden",
       "name": "Qian Xi Hilltop Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -5009,41 +5018,43 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340368",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-joy-garden",
       "name": "Qian Xi Joy Garden",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 1300,
         "max_rounds": 0
       },
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "West"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340377",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-jubilee-garden",
@@ -5075,12 +5086,12 @@
     {
       "id": "venue-qian-xi-paya-lebar",
       "name": "Qian Xi Paya Lebar",
-      "venue_type": "",
+      "venue_type": "restaurant",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "nett"
       },
       "capacity": {
         "min_tables": 0,
@@ -5090,14 +5101,15 @@
       "location": {
         "address": "",
         "postal": "",
-        "zone": ""
+        "zone": "East"
       },
       "amenities": {},
       "contact": {},
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340396",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Qian Xi Restaurant Group"
     },
     {
       "id": "venue-qian-xi-pearl-garden",
@@ -5435,29 +5447,32 @@
     {
       "id": "venue-sapphire-suite",
       "name": "Sapphire Suite",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 340,
         "max_rounds": 0
       },
       "location": {
         "address": "1 Orchid Club Road, Singapore 769162",
         "postal": "",
-        "zone": ""
+        "zone": "North"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6750 2166"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340552",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Orchid Country Club"
     },
     {
       "id": "venue-scorpio-and-taurus",
@@ -5580,12 +5595,12 @@
     {
       "id": "venue-sentosa-pavilion",
       "name": "Sentosa Pavilion",
-      "venue_type": "",
+      "venue_type": "club",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -5594,15 +5609,19 @@
       },
       "location": {
         "address": "27 Bukit Manis Rd, Singapore 099892",
-        "postal": "",
-        "zone": ""
+        "postal": "099892",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6275 0090",
+        "email": "[email protected]"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340611",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Sentosa Golf Club"
     },
     {
       "id": "venue-serai",
@@ -5824,29 +5843,33 @@
     {
       "id": "venue-siloso-ballroom",
       "name": "Siloso Ballroom",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
-        "max_capacity": 0,
+        "max_capacity": 360,
         "max_rounds": 0
       },
       "location": {
         "address": "101 Siloso Road, Sentosa, 098970, Singapore",
-        "postal": "",
-        "zone": ""
+        "postal": "098970",
+        "zone": "Central"
       },
       "amenities": {},
-      "contact": {},
+      "contact": {
+        "phone": "+65 6371 2985",
+        "email": "weddings.sen@shangri-la.com"
+      },
       "rating": 0.0,
       "review_count": 0,
-      "last_updated": "2025-11-18T15:45:15.340745",
-      "data_source": "BlissfulBrides"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "BlissfulBrides",
+      "parent_venue": "Shangri-La Rasa Sentosa"
     },
     {
       "id": "venue-sinfonia-ristorante",
@@ -9594,12 +9617,12 @@
     {
       "id": "venue-dutch-pavilion",
       "name": "Dutch Pavilion",
-      "venue_type": "",
+      "venue_type": "hotel",
       "pricing": {
         "price_per_table": 0,
         "min_spend": 0,
         "min_tables": 0,
-        "pricing_type": ""
+        "pricing_type": "plus_plus"
       },
       "capacity": {
         "min_tables": 0,
@@ -9607,16 +9630,17 @@
         "max_rounds": 0
       },
       "location": {
-        "address": "",
+        "address": "Orange Grove Road",
         "postal": "",
-        "zone": ""
+        "zone": "Central"
       },
       "amenities": {},
       "contact": {},
       "rating": 5.0,
       "review_count": 1,
-      "last_updated": "2025-11-18T15:45:26.264887",
-      "data_source": "Bridely"
+      "last_updated": "2025-11-22T14:17:28.316875",
+      "data_source": "Bridely",
+      "parent_venue": "Shangri-La Singapore"
     },
     {
       "id": "venue-kampong-kembangan-community-club",
